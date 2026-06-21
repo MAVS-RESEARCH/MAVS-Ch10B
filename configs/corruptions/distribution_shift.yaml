@@ -1,0 +1,8 @@
+corruption_family: "distribution_shift"
+target_space: "rows"
+stochastic: false
+description: "Feature-norm shift by deterministic row subset selection while preserving row ids and clean labels."
+parameters:
+  min_retention_fraction: 0.35
+  score_mode: "feature_norm"
+

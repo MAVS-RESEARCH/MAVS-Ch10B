@@ -1,0 +1,144 @@
+{
+  "artifact_inventory_path": "C:\\Users\\Saif malik\\MAVS-Ch10A\\results\\reports\\artifact_inventory.json",
+  "artifact_inventory_sha256": "62e82435c5f04ebf84a19e1ceae45bc3370164f9145c944fc6c20fd40a5d7a14",
+  "checkpoint_hashes": {
+    "adult_income": {
+      "gradient_boosted_trees": "fd2d2a94658c09e12359a383b45c21a17376d2a6dc07e9552f829ba91010dbf2",
+      "mlp": "59b61679a724cb71db2dcb15041f6e7f57b9c7c86d18494400961f116b2e9730",
+      "random_forest": "a8b6f44616086ad2bee97c1e4e085742fe2552af7266ee96eaae2258904c0d33"
+    },
+    "bank_marketing": {
+      "gradient_boosted_trees": "d5348dc33229586af0089d608f6695a9a71d06ff3a468f1824af279611ac2daf",
+      "mlp": "c6ec610946b949be3779ae8c57d13295270ac67ffb2901b82391fff29eb3fc19",
+      "random_forest": "1e9317a06ff130a29838351395d08f313a412865de51a19c5d33dd425f7ace5d"
+    },
+    "breast_cancer_wisconsin": {
+      "gradient_boosted_trees": "13b82b2b1487dcc7e99e81ce3b4d2e2a92cfa5ae1c839afe8c77226f2a7cca8a",
+      "mlp": "bac8e09215ab98f8928c67ddd71f4e2e4e77b88445bc7b1ae1306d070598bd6b",
+      "random_forest": "e763e80483bf169ec6c2c3040bbe9275ad00137ebd58a3921635eb7025465381"
+    },
+    "credit_card_fraud": {
+      "gradient_boosted_trees": "387443a61cd607bd57dc9da44c5216bb56abc8bc656c5f363a69b662c9e052a4",
+      "mlp": "95dac92138873572e9d4306f07ba9c78d8bf6196649ab1659794e0a6422ca77b",
+      "random_forest": "ccbc38b880650d9257c9e2299822f3c6f1fcbf426db1e1d0082fc0b0522248e4"
+    }
+  },
+  "config_hashes": {
+    "configs\\systems\\governance_defaults.yaml": "47a22c55eaeb7f1eaa8b4ba3d86f37d55ccef7447bfafff3115276d0198a93e5",
+    "configs\\systems\\mean_ensemble.yaml": "cc3c135dcde169a3d10ff96c32142423cd1558dd1a89ff572435aa0b8531069e",
+    "configs\\systems\\pure_mavs_gc.yaml": "7b6b32d617263283eb532f55b2e6eb969b396de73327e7ea40d38d3ce1a65516",
+    "configs\\systems\\single_model.yaml": "9f63cacbac88b5aff627cae8a050b29a52df680ee56317b489f7b1d55c84c67e",
+    "configs\\systems\\static_weighted_ensemble.yaml": "4a4eef566424a962b7ee06c0cc221afeafc50c01eac7bce729d789e73aeef842",
+    "configs\\systems\\veto_mavs.yaml": "069b7abc39f476bc9b8453c537f458d2cf3ded1293f3b3616a37211d6b7fc046"
+  },
+  "imported_dataset_ids": [
+    "breast_cancer_wisconsin",
+    "adult_income",
+    "credit_card_fraud",
+    "bank_marketing"
+  ],
+  "imported_specialist_ids": [
+    "random_forest",
+    "gradient_boosted_trees",
+    "mlp"
+  ],
+  "imported_system_ids": [
+    "single_model",
+    "mean_ensemble",
+    "static_weighted_ensemble",
+    "veto_mavs",
+    "pure_mavs_gc"
+  ],
+  "local_artifact_path": "C:\\Users\\Saif malik\\MAVS-Ch10A",
+  "manifest_git_commit": "e713e2f7812a01adc7dde4502453b51e6340725d",
+  "manifest_payload_sha256": "b92f37893808afaf5994cef90e3d3b46f181c2c1c53f8e890ca71f0c5afccf05",
+  "phase": "phase1",
+  "report_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\baseline_import\\ch10a_import_report.md",
+  "report_sha256": "3b09286d98fc06b4731bd7ab6c89ade991844de470132f5fde69e52d8db00831",
+  "reproducibility_manifest_path": "C:\\Users\\Saif malik\\MAVS-Ch10A\\results\\reports\\reproducibility_manifest.json",
+  "reproducibility_manifest_sha256": "aa899fd256ff804ddb02425e1d01e6f8c75485659bec48da1273a3334e90adda",
+  "schema_version": "1.0",
+  "source_git_commit": "3f8ce15dac24eaefcd1379279c30f1ded5be9a0b",
+  "source_repo_url": "https://github.com/MAVS-RESEARCH/MAVS-Chapter-10A",
+  "split_hashes": {
+    "adult_income": {
+      "audit_benchmark": "3f81bddd1fd5b5559559baf44c77600fcc08617091932efc106be3aa1a3ba23d",
+      "locked_benchmark": "58dd6dc19c7e449bc83add0bbed8fe7f45420c5c725e1bbf1d820a15d2e936b7"
+    },
+    "bank_marketing": {
+      "audit_benchmark": "60cec716522376107b0917c11861eeae0fcf138b89bbffda16a4b8ade3562a7a",
+      "locked_benchmark": "69fb34cb90185d147c25a31e2a669b50bba05dd7bb6507c8c08e8dbc09805cb8"
+    },
+    "breast_cancer_wisconsin": {
+      "audit_benchmark": "9e3b93d165a4acd41ea149560790a789e8d0c2fbe66568e93c77bcdc31cbec10",
+      "locked_benchmark": "df16c6d1115410cbd9ae7ef64c91e7124f7588cd7c3578937be2ce1ea775cb1f"
+    },
+    "credit_card_fraud": {
+      "audit_benchmark": "ef411e816f4d3865781cde435ab9ee9e5244e226343a9fab818e881e8519e116",
+      "locked_benchmark": "0ec4001387aab45538cfde6d0fd9be420f0e9bd284199eb23fd2301c3b2d9662"
+    }
+  },
+  "validation": {
+    "checkpoint_hashes": {
+      "adult_income": {
+        "gradient_boosted_trees": "fd2d2a94658c09e12359a383b45c21a17376d2a6dc07e9552f829ba91010dbf2",
+        "mlp": "59b61679a724cb71db2dcb15041f6e7f57b9c7c86d18494400961f116b2e9730",
+        "random_forest": "a8b6f44616086ad2bee97c1e4e085742fe2552af7266ee96eaae2258904c0d33"
+      },
+      "bank_marketing": {
+        "gradient_boosted_trees": "d5348dc33229586af0089d608f6695a9a71d06ff3a468f1824af279611ac2daf",
+        "mlp": "c6ec610946b949be3779ae8c57d13295270ac67ffb2901b82391fff29eb3fc19",
+        "random_forest": "1e9317a06ff130a29838351395d08f313a412865de51a19c5d33dd425f7ace5d"
+      },
+      "breast_cancer_wisconsin": {
+        "gradient_boosted_trees": "13b82b2b1487dcc7e99e81ce3b4d2e2a92cfa5ae1c839afe8c77226f2a7cca8a",
+        "mlp": "bac8e09215ab98f8928c67ddd71f4e2e4e77b88445bc7b1ae1306d070598bd6b",
+        "random_forest": "e763e80483bf169ec6c2c3040bbe9275ad00137ebd58a3921635eb7025465381"
+      },
+      "credit_card_fraud": {
+        "gradient_boosted_trees": "387443a61cd607bd57dc9da44c5216bb56abc8bc656c5f363a69b662c9e052a4",
+        "mlp": "95dac92138873572e9d4306f07ba9c78d8bf6196649ab1659794e0a6422ca77b",
+        "random_forest": "ccbc38b880650d9257c9e2299822f3c6f1fcbf426db1e1d0082fc0b0522248e4"
+      }
+    },
+    "config_hashes": {
+      "configs\\systems\\governance_defaults.yaml": "47a22c55eaeb7f1eaa8b4ba3d86f37d55ccef7447bfafff3115276d0198a93e5",
+      "configs\\systems\\mean_ensemble.yaml": "cc3c135dcde169a3d10ff96c32142423cd1558dd1a89ff572435aa0b8531069e",
+      "configs\\systems\\pure_mavs_gc.yaml": "7b6b32d617263283eb532f55b2e6eb969b396de73327e7ea40d38d3ce1a65516",
+      "configs\\systems\\single_model.yaml": "9f63cacbac88b5aff627cae8a050b29a52df680ee56317b489f7b1d55c84c67e",
+      "configs\\systems\\static_weighted_ensemble.yaml": "4a4eef566424a962b7ee06c0cc221afeafc50c01eac7bce729d789e73aeef842",
+      "configs\\systems\\veto_mavs.yaml": "069b7abc39f476bc9b8453c537f458d2cf3ded1293f3b3616a37211d6b7fc046"
+    },
+    "current_source_git_commit": "3f8ce15dac24eaefcd1379279c30f1ded5be9a0b",
+    "inventory_checked_artifacts": 357,
+    "inventory_mismatches": [],
+    "inventory_missing": [],
+    "manifest_git_commit": "e713e2f7812a01adc7dde4502453b51e6340725d",
+    "missing_required_files": [],
+    "required_files_checked": 50,
+    "split_hashes": {
+      "adult_income": {
+        "audit_benchmark": "3f81bddd1fd5b5559559baf44c77600fcc08617091932efc106be3aa1a3ba23d",
+        "locked_benchmark": "58dd6dc19c7e449bc83add0bbed8fe7f45420c5c725e1bbf1d820a15d2e936b7"
+      },
+      "bank_marketing": {
+        "audit_benchmark": "60cec716522376107b0917c11861eeae0fcf138b89bbffda16a4b8ade3562a7a",
+        "locked_benchmark": "69fb34cb90185d147c25a31e2a669b50bba05dd7bb6507c8c08e8dbc09805cb8"
+      },
+      "breast_cancer_wisconsin": {
+        "audit_benchmark": "9e3b93d165a4acd41ea149560790a789e8d0c2fbe66568e93c77bcdc31cbec10",
+        "locked_benchmark": "df16c6d1115410cbd9ae7ef64c91e7124f7588cd7c3578937be2ce1ea775cb1f"
+      },
+      "credit_card_fraud": {
+        "audit_benchmark": "ef411e816f4d3865781cde435ab9ee9e5244e226343a9fab818e881e8519e116",
+        "locked_benchmark": "0ec4001387aab45538cfde6d0fd9be420f0e9bd284199eb23fd2301c3b2d9662"
+      }
+    },
+    "trace_records_checked": 113828,
+    "trace_schema_failures": [],
+    "verification_report_status": "pass"
+  },
+  "verification_report_path": "C:\\Users\\Saif malik\\MAVS-Ch10A\\results\\reports\\verification_report.md",
+  "verification_report_sha256": "a7911e752bb2d84b74800fbbcfeb95ec778e99309ce7bcdc83f47dc3b56fa964",
+  "verification_report_status": "pass"
+}

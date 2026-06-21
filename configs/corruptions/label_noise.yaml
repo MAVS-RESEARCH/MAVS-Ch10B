@@ -1,0 +1,7 @@
+corruption_family: "label_noise"
+target_space: "labels"
+stochastic: true
+description: "Observed-label flips for evaluation stress while preserving clean labels."
+parameters:
+  max_flip_fraction: 1.0
+

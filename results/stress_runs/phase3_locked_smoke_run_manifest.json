@@ -1,0 +1,57 @@
+{
+  "aggregate_index_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\stress_runs\\phase3_locked_smoke_aggregate_index.csv",
+  "aggregate_index_sha256": "42c0eec76c019cebb88a29e00d87f5b8f0a14203cbfd8c07eed0c40471776721",
+  "aggregate_row_count": 5,
+  "chapter10a_import_manifest_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\baseline_import\\ch10a_import_manifest.json",
+  "chapter10a_import_manifest_sha256": "d95aa3282c07262162b67bdc462674619ec59f153bea354c4be9223015713e69",
+  "command_line": [
+    "run_locked_corruption_benchmark.py",
+    "--run-id",
+    "phase3_locked_smoke",
+    "--max-definitions",
+    "1"
+  ],
+  "config_hash": "f00e8802e49196381b147bf8cacd03406fd0878dd2bc30ac907e2e9e3866c4f9",
+  "config_path": "configs\\experiments\\locked_corruption_benchmark.yaml",
+  "corruption_grid_manifest_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\corruption_manifests\\corruption_grid_manifest.json",
+  "corruption_grid_manifest_sha256": "bb6e1be969403fb9f7b70c3f88c3949d373af9882ddfa93462221cb5e1d07c87",
+  "corruption_manifest_index_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\corruption_manifests\\corruption_manifest_index.csv",
+  "corruption_manifest_index_sha256": "66b2e473e2fe2413f2dda9ad9d23d58add5e9e56c36ea9d5284053342cd1f09c",
+  "dependency_versions": {
+    "joblib": "1.5.2",
+    "numpy": "2.3.4",
+    "pandas": "2.3.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7",
+    "sklearn": "1.7.1",
+    "yaml": "6.0.2"
+  },
+  "experiment_id": "locked_corruption_benchmark",
+  "git_commit": "20eaf95d8da15f0e58ab39bacb8a66d649346f46",
+  "governance_system_ids": [
+    "veto_mavs",
+    "pure_mavs_gc"
+  ],
+  "governance_trace_artifact_count": 2,
+  "manifest_payload_sha256": "9f48e7726f9c2b5398fe323fc299d4cceb592100844648f0593c2fbeef35e1ec",
+  "phase": "phase3",
+  "prediction_index_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\stress_runs\\phase3_locked_smoke_prediction_index.csv",
+  "prediction_index_sha256": "4d7ed87357f2a8fa4d9f0f767317acb05636e68c3087b2ec34384ac90baee762",
+  "prediction_rows": 285,
+  "run_id": "phase3_locked_smoke",
+  "run_mode": "exploratory",
+  "run_status": "complete",
+  "schema_version": "1.0",
+  "split_label": "locked",
+  "system_ids": [
+    "single_model",
+    "mean_ensemble",
+    "static_weighted_ensemble",
+    "veto_mavs",
+    "pure_mavs_gc"
+  ],
+  "system_run_count": 5,
+  "trace_index_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\stress_runs\\phase3_locked_smoke_trace_index.csv",
+  "trace_index_sha256": "13f1251bd2a68031f4a6662ddc1500bc9e34d1273b25e04a979ef95fdd10e6f0",
+  "trace_rows": 114
+}

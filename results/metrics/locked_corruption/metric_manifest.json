@@ -1,0 +1,24 @@
+{
+  "command_line": [
+    "build_robustness_metrics.py"
+  ],
+  "governance_severity_distribution_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\metrics\\locked_corruption\\governance_severity_distribution.csv",
+  "governance_severity_distribution_sha256": "6f61b6f085f40568a7ad8b032a735b65358476ea63452ffcc09b731a200b51f3",
+  "governance_threshold_distribution_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\metrics\\locked_corruption\\governance_threshold_distribution.csv",
+  "governance_threshold_distribution_sha256": "dd19e4c167f40a96f52d4172bc02d044e19daf5482baa332d6a352bf736d6f8d",
+  "manifest_payload_sha256": "2c61d6d7deeeacfdfeafd886cc6d39ee70ca0852f55c895560d5833f30935ce1",
+  "metric_rows": 7200,
+  "metric_rows_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\metrics\\locked_corruption\\metric_rows.csv",
+  "metric_rows_sha256": "c6e1b8a598ddf4d84f7f8b23287b91d9568d41ae025d9226ed18ff36e86b0e26",
+  "phase": "phase4",
+  "schema_version": "1.0",
+  "severity_rows": 2880,
+  "source_prediction_index": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\stress_runs\\phase3_locked_full_v1_prediction_index.csv",
+  "source_prediction_index_sha256": "ee8a12c7a669877b4ffdefbbfdf016eec525348d309e82de5fef5f57a634bce4",
+  "source_trace_index": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\stress_runs\\phase3_locked_full_v1_trace_index.csv",
+  "source_trace_index_sha256": "9565b0e6f9164ac2c9262b5f0d61d7495b53e2f3c2575c95c777a194b81acef0",
+  "split_label": "locked",
+  "system_summary_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\metrics\\locked_corruption\\system_summary.csv",
+  "system_summary_sha256": "7eb4a93365575ea3a50d97d5ff7cb97adc5d72d1e47805aa7b102b28c5953fcf",
+  "threshold_rows": 2880
+}

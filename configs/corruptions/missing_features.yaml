@@ -1,0 +1,8 @@
+corruption_family: "missing_features"
+target_space: "features"
+stochastic: true
+description: "Cell-level processed-feature masking with deterministic fill value."
+parameters:
+  max_missing_fraction: 1.0
+  fill_value: 0.0
+

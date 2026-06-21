@@ -1,0 +1,27 @@
+schema_version: "1.0"
+phase: "phase3"
+experiment_id: "locked_corruption_benchmark"
+run_id: "phase3_locked_full_v1"
+run_mode: "exploratory"
+split_label: "locked"
+ch10a_source_config: "configs/ch10a_import/source.yaml"
+corruption_grid_config: "configs/corruptions/corruption_grid.yaml"
+expected_ch10a_import_manifest_sha256: "d95aa3282c07262162b67bdc462674619ec59f153bea354c4be9223015713e69"
+systems:
+  - "single_model"
+  - "mean_ensemble"
+  - "static_weighted_ensemble"
+  - "veto_mavs"
+  - "pure_mavs_gc"
+governance_systems:
+  - "veto_mavs"
+  - "pure_mavs_gc"
+output:
+  stress_runs_dir: "results/stress_runs"
+  corruption_traces_dir: "results/corruption_traces"
+  predictions_subdir: "predictions"
+  applied_manifests_subdir: "applied_manifests"
+  traces_subdir: "traces"
+resume_existing: false
+write_compressed_traces: true
+final_mode_requires_clean_corruption_configs: true

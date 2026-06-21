@@ -1,0 +1,8 @@
+corruption_family: "random_feature_deletion"
+target_space: "features"
+stochastic: true
+description: "Column-level processed-feature deletion with deterministic fill value."
+parameters:
+  max_deletion_fraction: 1.0
+  fill_value: 0.0
+

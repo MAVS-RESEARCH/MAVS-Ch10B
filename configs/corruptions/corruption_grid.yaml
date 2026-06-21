@@ -1,0 +1,43 @@
+schema_version: "1.0"
+phase: "phase2"
+datasets:
+  - "breast_cancer_wisconsin"
+  - "adult_income"
+  - "credit_card_fraud"
+  - "bank_marketing"
+benchmark_splits:
+  locked: "locked_benchmark"
+  audit: "audit_benchmark"
+corruption_families:
+  - "feature_noise"
+  - "missing_features"
+  - "random_feature_deletion"
+  - "label_noise"
+  - "confidence_distortion"
+  - "adversarial_confidence_inflation"
+  - "distribution_shift"
+  - "synthetic_sensor_failure"
+  - "specialist_failure"
+levels:
+  - 0.0
+  - 0.05
+  - 0.10
+  - 0.20
+  - 0.40
+  - 0.60
+  - 0.80
+  - 1.0
+primary_seeds:
+  - 1001
+  - 1002
+  - 1003
+audit_seeds:
+  - 2001
+  - 2002
+  - 2003
+shadow_verification_seeds:
+  - 9001
+  - 9002
+include_shadow_verification: true
+manifest_output_dir: "results/corruption_manifests"
+

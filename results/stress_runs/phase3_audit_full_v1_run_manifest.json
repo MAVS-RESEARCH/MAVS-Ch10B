@@ -1,0 +1,53 @@
+{
+  "aggregate_index_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\stress_runs\\phase3_audit_full_v1_aggregate_index.csv",
+  "aggregate_index_sha256": "9fcdc179a6af2a3e25db8e8cb1cbbab9e1eb1575f1c7de73f65263d22c3df056",
+  "aggregate_row_count": 2880,
+  "chapter10a_import_manifest_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\baseline_import\\ch10a_import_manifest.json",
+  "chapter10a_import_manifest_sha256": "d95aa3282c07262162b67bdc462674619ec59f153bea354c4be9223015713e69",
+  "command_line": [
+    "run_audit_corruption_benchmark.py"
+  ],
+  "config_hash": "a0dbc1788c3d736689ffef3822766137c07d45ba6288a97347aebf1a59b13fcd",
+  "config_path": "configs\\experiments\\audit_corruption_benchmark.yaml",
+  "corruption_grid_manifest_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\corruption_manifests\\corruption_grid_manifest.json",
+  "corruption_grid_manifest_sha256": "bb6e1be969403fb9f7b70c3f88c3949d373af9882ddfa93462221cb5e1d07c87",
+  "corruption_manifest_index_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\corruption_manifests\\corruption_manifest_index.csv",
+  "corruption_manifest_index_sha256": "66b2e473e2fe2413f2dda9ad9d23d58add5e9e56c36ea9d5284053342cd1f09c",
+  "dependency_versions": {
+    "joblib": "1.5.2",
+    "numpy": "2.3.4",
+    "pandas": "2.3.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7",
+    "sklearn": "1.7.1",
+    "yaml": "6.0.2"
+  },
+  "experiment_id": "audit_corruption_benchmark",
+  "git_commit": "20eaf95d8da15f0e58ab39bacb8a66d649346f46",
+  "governance_system_ids": [
+    "veto_mavs",
+    "pure_mavs_gc"
+  ],
+  "governance_trace_artifact_count": 2880,
+  "manifest_payload_sha256": "608d08e8cbdddb70345fc208c28f8da6d49f54bf4867b47e112e5a8f401f8d0b",
+  "phase": "phase3",
+  "prediction_index_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\stress_runs\\phase3_audit_full_v1_prediction_index.csv",
+  "prediction_index_sha256": "72d5163268fedac421946bb2aa8949a280f417ba687c62af49a25522d403174c",
+  "prediction_rows": 33177100,
+  "run_id": "phase3_audit_full_v1",
+  "run_mode": "exploratory",
+  "run_status": "complete",
+  "schema_version": "1.0",
+  "split_label": "audit",
+  "system_ids": [
+    "single_model",
+    "mean_ensemble",
+    "static_weighted_ensemble",
+    "veto_mavs",
+    "pure_mavs_gc"
+  ],
+  "system_run_count": 7200,
+  "trace_index_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\stress_runs\\phase3_audit_full_v1_trace_index.csv",
+  "trace_index_sha256": "f9a4aac2bf81661f157648c7e4100311d2b3b3f325a67e6a5c7be80ad3aac2cd",
+  "trace_rows": 13270840
+}

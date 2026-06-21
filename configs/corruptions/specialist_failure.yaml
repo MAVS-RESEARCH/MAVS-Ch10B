@@ -1,0 +1,8 @@
+corruption_family: "specialist_failure"
+target_space: "scores"
+stochastic: false
+description: "Specialist output channel failure while retaining specialist trace representation."
+parameters:
+  failure_mode: "constant_uncertainty"
+  uncertainty_probability: 0.5
+

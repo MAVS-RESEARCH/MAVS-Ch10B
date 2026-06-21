@@ -1,0 +1,8 @@
+corruption_family: "synthetic_sensor_failure"
+target_space: "features"
+stochastic: false
+description: "Feature-group sensor failure using deterministic contiguous feature groups."
+parameters:
+  max_groups: 5
+  fill_value: 0.0
+

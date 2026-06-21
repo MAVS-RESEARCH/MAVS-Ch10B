@@ -1,0 +1,9 @@
+corruption_family: "feature_noise"
+target_space: "features"
+stochastic: true
+description: "Additive processed-feature noise scaled by train-side feature statistics when available."
+parameters:
+  max_std_multiplier: 1.0
+  mode: "additive_gaussian"
+  finite_clip: 1000000.0
+

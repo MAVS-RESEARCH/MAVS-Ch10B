@@ -1,0 +1,9 @@
+corruption_family: "adversarial_confidence_inflation"
+target_space: "scores"
+stochastic: true
+description: "Label-aware inflation of wrong specialist confidence for adversarial stress."
+parameters:
+  max_inflation_strength: 0.95
+  max_eligible_fraction: 1.0
+  epsilon: 1.0e-6
+

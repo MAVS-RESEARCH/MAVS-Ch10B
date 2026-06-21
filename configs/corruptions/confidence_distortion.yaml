@@ -1,0 +1,8 @@
+corruption_family: "confidence_distortion"
+target_space: "scores"
+stochastic: false
+description: "Temperature-style probability compression toward uncertainty."
+parameters:
+  max_temperature: 5.0
+  epsilon: 1.0e-6
+

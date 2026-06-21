@@ -1,0 +1,56 @@
+{
+  "audit_seeds": [
+    2001,
+    2002,
+    2003
+  ],
+  "benchmark_splits": {
+    "audit": "audit_benchmark",
+    "locked": "locked_benchmark"
+  },
+  "corruption_families": [
+    "feature_noise",
+    "missing_features",
+    "random_feature_deletion",
+    "label_noise",
+    "confidence_distortion",
+    "adversarial_confidence_inflation",
+    "distribution_shift",
+    "synthetic_sensor_failure",
+    "specialist_failure"
+  ],
+  "datasets": [
+    "breast_cancer_wisconsin",
+    "adult_income",
+    "credit_card_fraud",
+    "bank_marketing"
+  ],
+  "definition_count": 2880,
+  "grid_config_hash": "180656e6e6b368307204bdaf9a84b4c5deb71986acb3ada739fde5ea63aaee1a",
+  "index_csv_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\corruption_manifests\\corruption_manifest_index.csv",
+  "index_csv_sha256": "66b2e473e2fe2413f2dda9ad9d23d58add5e9e56c36ea9d5284053342cd1f09c",
+  "index_json_path": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\corruption_manifests\\corruption_manifest_index.json",
+  "index_json_sha256": "4444e5ed3066fb7d18bcac1de4739f5c4108ec57c3b253a109745d3a4e262803",
+  "levels": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "manifest_payload_sha256": "2e18454a30dc9c83b9c74af3bf432b93ea6434a88205b107238447f2677f0523",
+  "phase": "phase2",
+  "primary_seeds": [
+    1001,
+    1002,
+    1003
+  ],
+  "schema_version": "1.0",
+  "shadow_verification_seeds": [
+    9001,
+    9002
+  ]
+}

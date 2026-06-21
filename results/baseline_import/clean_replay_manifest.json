@@ -1,0 +1,46 @@
+{
+  "artifacts": {
+    "clean_replay_comparison": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\baseline_import\\clean_replay_comparison.csv",
+    "clean_replay_comparison_sha256": "22c16841a143fda79ad59cabb82dfc4bcd5d4fb3ccd1015efcb13d0d1b9ec9e2",
+    "clean_replay_compatibility_report": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\baseline_import\\clean_replay_compatibility_report.md",
+    "clean_replay_compatibility_report_sha256": "e3f48e1c57b27617b61ea719d19972f0214ac2967082a86c38a85b4d73324720",
+    "clean_replay_metrics": "C:\\Users\\Saif malik\\MAVS-Ch10B\\results\\baseline_import\\clean_replay_metrics.csv",
+    "clean_replay_metrics_sha256": "24710564c34e94e6cb50e5c6806a8c9de3b987bdd36e15c144b57514a6930dea"
+  },
+  "ch10a_current_git_commit": "3f8ce15dac24eaefcd1379279c30f1ded5be9a0b",
+  "ch10a_root": "C:\\Users\\Saif malik\\MAVS-Ch10A",
+  "ch10b_git_commit": "20eaf95d8da15f0e58ab39bacb8a66d649346f46",
+  "comparison_failures": 0,
+  "comparison_rows": 360,
+  "datasets": [
+    "breast_cancer_wisconsin",
+    "adult_income",
+    "credit_card_fraud",
+    "bank_marketing"
+  ],
+  "dependency_versions": {
+    "joblib": "1.5.2",
+    "numpy": "2.3.4",
+    "pandas": "2.3.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7",
+    "sklearn": "1.7.1",
+    "yaml": "6.0.2"
+  },
+  "manifest_payload_sha256": "06c11d88b7cbcee37bc5e87d40d773f840d5a427da76532cb5a0882b63324f9c",
+  "metric_rows": 40,
+  "phase": "phase1",
+  "schema_version": "1.0",
+  "splits": {
+    "audit": "audit_benchmark",
+    "locked": "locked_benchmark"
+  },
+  "systems": [
+    "single_model",
+    "mean_ensemble",
+    "static_weighted_ensemble",
+    "veto_mavs",
+    "pure_mavs_gc"
+  ],
+  "tolerance": 1e-12
+}

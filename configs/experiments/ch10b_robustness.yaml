@@ -1,0 +1,23 @@
+experiment_id: "ch10b_robustness_phase1"
+phase: "phase1"
+no_retraining: true
+datasets:
+  - "breast_cancer_wisconsin"
+  - "adult_income"
+  - "credit_card_fraud"
+  - "bank_marketing"
+specialists:
+  - "random_forest"
+  - "gradient_boosted_trees"
+  - "mlp"
+systems:
+  - "single_model"
+  - "mean_ensemble"
+  - "static_weighted_ensemble"
+  - "veto_mavs"
+  - "pure_mavs_gc"
+benchmark_splits:
+  locked: "locked_benchmark"
+  audit: "audit_benchmark"
+baseline_tolerance: 1.0e-12
+

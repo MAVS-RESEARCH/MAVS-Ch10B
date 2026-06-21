@@ -1,0 +1,13 @@
+source_repo_url: "https://github.com/MAVS-RESEARCH/MAVS-Chapter-10A"
+local_artifact_path: "C:\\Users\\Saif malik\\MAVS-Ch10A"
+fallback_candidates:
+  - "../MAVS-Ch10A"
+  - "C:\\Users\\Saif malik\\MAVS-Ch10A"
+artifact_inventory_path: "results/reports/artifact_inventory.json"
+reproducibility_manifest_path: "results/reports/reproducibility_manifest.json"
+verification_report_path: "results/reports/verification_report.md"
+baseline_tolerance: 1.0e-12
+require_verification_pass: true
+verify_artifact_inventory_hashes: true
+verify_governance_trace_schema: true
+
