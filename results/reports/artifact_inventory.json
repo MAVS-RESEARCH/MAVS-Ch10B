@@ -1,0 +1,3677 @@
+{
+  "artifacts": [
+    {
+      "bytes": 557,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T17:25:06.200898+00:00",
+      "path": "configs/ch10a_import/source.yaml",
+      "sha256": "6482aa478e79bf4f9f1293c85f9aff0ed7f08a3fcf0e1b7bb305fb981918b010"
+    },
+    {
+      "bytes": 277,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.726959+00:00",
+      "path": "configs/corruptions/adversarial_confidence_inflation.yaml",
+      "sha256": "1d24d7492d568163431d0eef70ed54f368f48eea70aa36e3d76c2e33740b6528"
+    },
+    {
+      "bytes": 215,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.724962+00:00",
+      "path": "configs/corruptions/confidence_distortion.yaml",
+      "sha256": "d7ff39d9b9a0d3f263508c1f242ea6d31a654001bc6e3fe8ba5e66e06343bf32"
+    },
+    {
+      "bytes": 768,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.735958+00:00",
+      "path": "configs/corruptions/corruption_grid.yaml",
+      "sha256": "2128571460510471a818eefdcce637cdda699a5a1da49e3922686f8dd0532356"
+    },
+    {
+      "bytes": 267,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.728959+00:00",
+      "path": "configs/corruptions/distribution_shift.yaml",
+      "sha256": "cb5d9d60cc04acfcce0cb03a5a4c19680464e5e66bd3e59c51859066c24b4d3d"
+    },
+    {
+      "bytes": 273,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.698895+00:00",
+      "path": "configs/corruptions/feature_noise.yaml",
+      "sha256": "afbad1d4fd801dd833e54f33aaf104ce5c75c2e4fabd012ed5320372f9c2bfa5"
+    },
+    {
+      "bytes": 200,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.722945+00:00",
+      "path": "configs/corruptions/label_noise.yaml",
+      "sha256": "289c3cb6dfd1e2cba00ff44fefef5f410f8d5b97793726b5728ffa066dc2dfe0"
+    },
+    {
+      "bytes": 222,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.706921+00:00",
+      "path": "configs/corruptions/missing_features.yaml",
+      "sha256": "b9b089e0eb399c7b9112d0595d9be5492efc08ac13325f990f995a246d8c3022"
+    },
+    {
+      "bytes": 233,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.719748+00:00",
+      "path": "configs/corruptions/random_feature_deletion.yaml",
+      "sha256": "3d34b5163edbc1e635d9704f943f85141e5986255f76d17aa1fc9ff084a2788d"
+    },
+    {
+      "bytes": 262,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.733969+00:00",
+      "path": "configs/corruptions/specialist_failure.yaml",
+      "sha256": "8cf8dcf98116c9645779379597beea962fb3de6ef47e18cb5b952ee72b42f7be"
+    },
+    {
+      "bytes": 227,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T18:03:42.730960+00:00",
+      "path": "configs/corruptions/synthetic_sensor_failure.yaml",
+      "sha256": "5bbe8e7a7cd5f5d89fcc7b91aa8c222f9746b5f689b30e0710cf86bb4549e0f0"
+    },
+    {
+      "bytes": 872,
+      "category": "configs",
+      "modified_at_utc": "2026-06-21T09:16:09.699059+00:00",
+      "path": "configs/experiments/audit_corruption_benchmark.yaml",
+      "sha256": "a71ddb487f565961f8a6cef952cbe575b222ef438d72bd45fe4e3f532634b6db"
+    },
+    {
+      "bytes": 470,
+      "category": "configs",
+      "modified_at_utc": "2026-06-20T17:25:06.203924+00:00",
+      "path": "configs/experiments/ch10b_robustness.yaml",
+      "sha256": "7ffb55aa3f16a9358c5a8f845287e6a63389965d6d08219cc0742742627ea293"
+    },
+    {
+      "bytes": 875,
+      "category": "configs",
+      "modified_at_utc": "2026-06-21T09:16:09.688325+00:00",
+      "path": "configs/experiments/locked_corruption_benchmark.yaml",
+      "sha256": "055eb2d4b19e0d1a8eade836fdeb8696b6fabec4ef462dbd53f5668415cff50f"
+    },
+    {
+      "bytes": 1510,
+      "category": "configs",
+      "modified_at_utc": "2026-06-21T18:00:21.492144+00:00",
+      "path": "configs/reports/robustness_report.yaml",
+      "sha256": "2f638e607f4d49621f4c52a168b14f853b97a6716aab0c1ba00b75045b7f9aaf"
+    },
+    {
+      "bytes": 1490,
+      "category": "corruption_manifests",
+      "modified_at_utc": "2026-06-20T18:07:08.835518+00:00",
+      "path": "results/corruption_manifests/corruption_grid_manifest.json",
+      "sha256": "bb6e1be969403fb9f7b70c3f88c3949d373af9882ddfa93462221cb5e1d07c87"
+    },
+    {
+      "bytes": 1770038,
+      "category": "corruption_manifests",
+      "modified_at_utc": "2026-06-20T18:07:08.737167+00:00",
+      "path": "results/corruption_manifests/corruption_manifest_index.csv",
+      "sha256": "66b2e473e2fe2413f2dda9ad9d23d58add5e9e56c36ea9d5284053342cd1f09c"
+    },
+    {
+      "bytes": 3106289,
+      "category": "corruption_manifests",
+      "modified_at_utc": "2026-06-20T18:07:08.783198+00:00",
+      "path": "results/corruption_manifests/corruption_manifest_index.json",
+      "sha256": "4444e5ed3066fb7d18bcac1de4739f5c4108ec57c3b253a109745d3a4e262803"
+    },
+    {
+      "bytes": 1091,
+      "category": "documentation",
+      "modified_at_utc": "2026-06-20T16:49:05.594611+00:00",
+      "path": "LICENSE",
+      "sha256": "a8e0411f2abd5a39e51db7cc20b45565d534d09da326e4dc7533a4d1e4d2042d"
+    },
+    {
+      "bytes": 127407,
+      "category": "documentation",
+      "modified_at_utc": "2026-06-21T18:50:20.555419+00:00",
+      "path": "Path.md",
+      "sha256": "ab465a662d05e1eedaf4013d03bce3e1a77ee21d8a7f68a085e8a557eb153b3a"
+    },
+    {
+      "bytes": 1668,
+      "category": "documentation",
+      "modified_at_utc": "2026-06-20T17:25:06.195807+00:00",
+      "path": "README.md",
+      "sha256": "512b752a88aa093af2122c25069475403082045413a412c9cdc0564ea7d084ae"
+    },
+    {
+      "bytes": 39708,
+      "category": "documentation",
+      "modified_at_utc": "2026-06-20T16:56:24.952274+00:00",
+      "path": "WorkPlan.md",
+      "sha256": "5e4269437a650e8cf5003c5ad3a17a837614f1cae3e71604e3acaf5abfccfe05"
+    },
+    {
+      "bytes": 605,
+      "category": "documentation",
+      "modified_at_utc": "2026-06-20T17:25:06.198407+00:00",
+      "path": "pyproject.toml",
+      "sha256": "3cde9b02fabd024e7ae973a287b9a204001b3319e30c6c76b9c562a30134579f"
+    },
+    {
+      "bytes": 98509,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T18:06:43.727443+00:00",
+      "path": "results/figures/failure_rate_heatmap.png",
+      "sha256": "d22132b5eeb2ee269e376da927f51ca853ab799cf76b82f03cd67eb194d4d1fc"
+    },
+    {
+      "bytes": 110379,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T18:06:42.548059+00:00",
+      "path": "results/figures/governance_severity_distribution.png",
+      "sha256": "b41fe3ee079f4a983b1f4b1a440e26cce7470a9b8c45e46b8b90a833cb848975"
+    },
+    {
+      "bytes": 129153,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T18:06:43.454486+00:00",
+      "path": "results/figures/rejection_rate_by_corruption.png",
+      "sha256": "1214a0aec294267d8439dab2e3d445db7238a458d3e7baa8d896d67293f4139e"
+    },
+    {
+      "bytes": 78353,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T18:06:43.263799+00:00",
+      "path": "results/figures/robustness_area_by_system.png",
+      "sha256": "f67ef92292f53168df0c3084c5fb2d00fac944bd3e50c78eff677dc63231f5d3"
+    },
+    {
+      "bytes": 39689,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:51.109929+00:00",
+      "path": "results/figures/robustness_curves/adult_income__mean_ensemble__adversarial_confidence_inflation.png",
+      "sha256": "0e0d5762afc02fce24180203e846872352560a50aa368215cd62db380605c0bc"
+    },
+    {
+      "bytes": 29934,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:51.318767+00:00",
+      "path": "results/figures/robustness_curves/adult_income__mean_ensemble__confidence_distortion.png",
+      "sha256": "c8df2e5881107c84f9805ee8bd9478232438edb82c55e558fbc6369efeb76179"
+    },
+    {
+      "bytes": 37940,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:51.527432+00:00",
+      "path": "results/figures/robustness_curves/adult_income__mean_ensemble__distribution_shift.png",
+      "sha256": "5b41f992a39e15f7505b5271f8794209336ede653ff27bc17eee1f30e049d55b"
+    },
+    {
+      "bytes": 38437,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:51.713309+00:00",
+      "path": "results/figures/robustness_curves/adult_income__mean_ensemble__feature_noise.png",
+      "sha256": "707bf5e7bdc9f6d0aeac2ad01930a9192e818a2ee6a1db662ff546ad2cf12bd6"
+    },
+    {
+      "bytes": 28171,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:51.923595+00:00",
+      "path": "results/figures/robustness_curves/adult_income__mean_ensemble__label_noise.png",
+      "sha256": "723c5b7e0816f8ba65d66c4086091d5395caf4a207007e3a3b3c571f1250a61e"
+    },
+    {
+      "bytes": 41561,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:52.115803+00:00",
+      "path": "results/figures/robustness_curves/adult_income__mean_ensemble__missing_features.png",
+      "sha256": "dea2d9ca89b84d132846ce681311267db51304f763614b33a67eb99d08333989"
+    },
+    {
+      "bytes": 44048,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:52.302547+00:00",
+      "path": "results/figures/robustness_curves/adult_income__mean_ensemble__random_feature_deletion.png",
+      "sha256": "e35500772aa7dfeb199940e029fad4e3a68f26ee366b62b856ba384e6a5ceb50"
+    },
+    {
+      "bytes": 43306,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:52.487941+00:00",
+      "path": "results/figures/robustness_curves/adult_income__mean_ensemble__specialist_failure.png",
+      "sha256": "fb08590cf6a6b871a55e08c6681bb51f4966114789bf961aa9fdaf30564283cd"
+    },
+    {
+      "bytes": 35271,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:52.668029+00:00",
+      "path": "results/figures/robustness_curves/adult_income__mean_ensemble__synthetic_sensor_failure.png",
+      "sha256": "afb9e55d8176495e2333c2b53d67ea0f0c6a3b8daa45b11b2fd33f119e1cc4ba"
+    },
+    {
+      "bytes": 39634,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:52.844736+00:00",
+      "path": "results/figures/robustness_curves/adult_income__pure_mavs_gc__adversarial_confidence_inflation.png",
+      "sha256": "d6d007fa7d614ff635031f5029e52889ffecf2be59be97cc3506a32f7d936926"
+    },
+    {
+      "bytes": 38912,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:53.034858+00:00",
+      "path": "results/figures/robustness_curves/adult_income__pure_mavs_gc__confidence_distortion.png",
+      "sha256": "bdb5cafa7a12c388bb93edfb815b641fc2c37725e55bf33b71093df0fd630682"
+    },
+    {
+      "bytes": 37325,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:53.230556+00:00",
+      "path": "results/figures/robustness_curves/adult_income__pure_mavs_gc__distribution_shift.png",
+      "sha256": "25669584573dcc5870e818811ebccc9bf03d520b04c4c16892bf0ec3165455ba"
+    },
+    {
+      "bytes": 37917,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:53.400794+00:00",
+      "path": "results/figures/robustness_curves/adult_income__pure_mavs_gc__feature_noise.png",
+      "sha256": "eaedc6753baaa45884f860326530894c9c1a888574b290201ab0132b1fed6a0f"
+    },
+    {
+      "bytes": 28551,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:53.615257+00:00",
+      "path": "results/figures/robustness_curves/adult_income__pure_mavs_gc__label_noise.png",
+      "sha256": "5869a903c0d1b9ada8232cf18b0e0e1cb79aca250a5eab8754f7f094f2bae8e3"
+    },
+    {
+      "bytes": 40492,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:53.974296+00:00",
+      "path": "results/figures/robustness_curves/adult_income__pure_mavs_gc__missing_features.png",
+      "sha256": "0e2dc4463b69e54483623ac886ea7983e7f1406787764c452dd5bf9975277e1a"
+    },
+    {
+      "bytes": 43458,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:54.189459+00:00",
+      "path": "results/figures/robustness_curves/adult_income__pure_mavs_gc__random_feature_deletion.png",
+      "sha256": "475d04a80af97fef9fa40da449c14f16ec0a0371c4118c8334661338c746d3a0"
+    },
+    {
+      "bytes": 37481,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:54.419233+00:00",
+      "path": "results/figures/robustness_curves/adult_income__pure_mavs_gc__specialist_failure.png",
+      "sha256": "5b3f1b75f564e592924b68a25cad52efc2628aefd883638d89c6687d57e69ded"
+    },
+    {
+      "bytes": 34975,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:54.657732+00:00",
+      "path": "results/figures/robustness_curves/adult_income__pure_mavs_gc__synthetic_sensor_failure.png",
+      "sha256": "32f8b23800277b0c994bc746f43bedc6cc321be95bb265f82cf2477c9c018580"
+    },
+    {
+      "bytes": 29930,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:54.884593+00:00",
+      "path": "results/figures/robustness_curves/adult_income__single_model__adversarial_confidence_inflation.png",
+      "sha256": "a91fd80c61970227eea9413cbe19c52f3956da449a85adb961ab09008fb5a880"
+    },
+    {
+      "bytes": 29181,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:55.102160+00:00",
+      "path": "results/figures/robustness_curves/adult_income__single_model__confidence_distortion.png",
+      "sha256": "d4d8f6a6a463b00fd7e8c1a175fca08a80306da8aefba7af64344ef9651dd1c6"
+    },
+    {
+      "bytes": 38533,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:55.320617+00:00",
+      "path": "results/figures/robustness_curves/adult_income__single_model__distribution_shift.png",
+      "sha256": "a63eae29a6a0c8dafab5bb8f5f2db3e050808bc5c63602606ab50c3e2029f482"
+    },
+    {
+      "bytes": 38051,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:55.533337+00:00",
+      "path": "results/figures/robustness_curves/adult_income__single_model__feature_noise.png",
+      "sha256": "cf684616f086effdebaad632c60a2e464da526cc2b4601938ebbbf02adebdafe"
+    },
+    {
+      "bytes": 27934,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:55.767845+00:00",
+      "path": "results/figures/robustness_curves/adult_income__single_model__label_noise.png",
+      "sha256": "04e7b20242192dec98b1f190629aa47766cea2ba938bd56d880eac5c79e89713"
+    },
+    {
+      "bytes": 41120,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:56.173136+00:00",
+      "path": "results/figures/robustness_curves/adult_income__single_model__missing_features.png",
+      "sha256": "27390df07c09b0ab34cc2a23623148a00d58e3c90178b17656d8af6430f8b5ec"
+    },
+    {
+      "bytes": 44402,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:56.881490+00:00",
+      "path": "results/figures/robustness_curves/adult_income__single_model__random_feature_deletion.png",
+      "sha256": "15cdeaa151d0b7c63f80bbe64c4aada5825d634a4d1988f45f3b62bf805491e4"
+    },
+    {
+      "bytes": 41249,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:57.356748+00:00",
+      "path": "results/figures/robustness_curves/adult_income__single_model__specialist_failure.png",
+      "sha256": "73ff3a2927894a30df42179eedd8077945a64f66aaa8538089b85577f4871d2f"
+    },
+    {
+      "bytes": 36470,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:57.653132+00:00",
+      "path": "results/figures/robustness_curves/adult_income__single_model__synthetic_sensor_failure.png",
+      "sha256": "80d5ea01ded411ef29200df7299cb6cf0acacfbe0399bcaf81c2c6bf25e83713"
+    },
+    {
+      "bytes": 39571,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:58.069742+00:00",
+      "path": "results/figures/robustness_curves/adult_income__static_weighted_ensemble__adversarial_confidence_inflation.png",
+      "sha256": "f290e550331792da0d92f36257feb35fab41ae42a61b8eb469f195a0c173b9e2"
+    },
+    {
+      "bytes": 29946,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:58.409413+00:00",
+      "path": "results/figures/robustness_curves/adult_income__static_weighted_ensemble__confidence_distortion.png",
+      "sha256": "6457bde872d6dd475ddb2c5c3ef04ef04da52e0468b62738d3cb339f1d9d9fd2"
+    },
+    {
+      "bytes": 39331,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:58.816931+00:00",
+      "path": "results/figures/robustness_curves/adult_income__static_weighted_ensemble__distribution_shift.png",
+      "sha256": "edfd0327a2890562a55b571bd20897e96db3ca7e0ec2052cf9372b47b62c5090"
+    },
+    {
+      "bytes": 39419,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:59.235074+00:00",
+      "path": "results/figures/robustness_curves/adult_income__static_weighted_ensemble__feature_noise.png",
+      "sha256": "7862388df0a5e62ce252a0645d636efac7d1b7f151205c68e4b382d2c6727f68"
+    },
+    {
+      "bytes": 29320,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:59.566637+00:00",
+      "path": "results/figures/robustness_curves/adult_income__static_weighted_ensemble__label_noise.png",
+      "sha256": "5293ef849fddf705ebf7647fae1eecee14920dfa3b8f68dfc1484436c9595fb7"
+    },
+    {
+      "bytes": 42611,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:55:59.919674+00:00",
+      "path": "results/figures/robustness_curves/adult_income__static_weighted_ensemble__missing_features.png",
+      "sha256": "8cd8b54fb41761cacedebb12ef94a2274086fc16720577338bb2c1c9488449e3"
+    },
+    {
+      "bytes": 45198,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:00.138744+00:00",
+      "path": "results/figures/robustness_curves/adult_income__static_weighted_ensemble__random_feature_deletion.png",
+      "sha256": "8d3056cccdb290beb27018a65c799f575b5c29b1a5a85749be161e57dfc94810"
+    },
+    {
+      "bytes": 44402,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:00.324144+00:00",
+      "path": "results/figures/robustness_curves/adult_income__static_weighted_ensemble__specialist_failure.png",
+      "sha256": "26e0240d0a1b24780e0ef7a6920944e2cd78c2363adb0df13bd3da99585f014c"
+    },
+    {
+      "bytes": 35878,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:00.602593+00:00",
+      "path": "results/figures/robustness_curves/adult_income__static_weighted_ensemble__synthetic_sensor_failure.png",
+      "sha256": "da2486800314f3ba112d08ef12c38f01eee0d51df95448542ac42d78a3f1cb5b"
+    },
+    {
+      "bytes": 39765,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:00.914690+00:00",
+      "path": "results/figures/robustness_curves/adult_income__veto_mavs__adversarial_confidence_inflation.png",
+      "sha256": "1f6885852560fa424d9bc216a7754d92b9172e5601751cd83d35393c8f92b9d5"
+    },
+    {
+      "bytes": 29456,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:01.255658+00:00",
+      "path": "results/figures/robustness_curves/adult_income__veto_mavs__confidence_distortion.png",
+      "sha256": "4824db64a6670087e8b15865a2ad2f004254b2176360a551f52388a1c89adbb7"
+    },
+    {
+      "bytes": 37437,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:01.875936+00:00",
+      "path": "results/figures/robustness_curves/adult_income__veto_mavs__distribution_shift.png",
+      "sha256": "fa89dc13ca18e8efa4315137ed6b1d141fe858662220f9836307856fa68269f4"
+    },
+    {
+      "bytes": 38123,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:02.186996+00:00",
+      "path": "results/figures/robustness_curves/adult_income__veto_mavs__feature_noise.png",
+      "sha256": "56defc60edaa2debfbe65ffe1ccb33d06e7e641f25afe830821ac87fdd4c5176"
+    },
+    {
+      "bytes": 28198,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:02.466943+00:00",
+      "path": "results/figures/robustness_curves/adult_income__veto_mavs__label_noise.png",
+      "sha256": "9a36b8062cec303e0ab5a290e573a39acea0369f9b920a0ffa07dce86eb7f322"
+    },
+    {
+      "bytes": 41147,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:02.709629+00:00",
+      "path": "results/figures/robustness_curves/adult_income__veto_mavs__missing_features.png",
+      "sha256": "1889e8a9d016d78ed91ca717fd96980490e8928b6218c714cc70958cd0771fb8"
+    },
+    {
+      "bytes": 43488,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:02.962541+00:00",
+      "path": "results/figures/robustness_curves/adult_income__veto_mavs__random_feature_deletion.png",
+      "sha256": "9051f25c09c520aa75cb3d6109c6e042a94ee805af8e27f19db89da577a24c0e"
+    },
+    {
+      "bytes": 43018,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:03.243015+00:00",
+      "path": "results/figures/robustness_curves/adult_income__veto_mavs__specialist_failure.png",
+      "sha256": "5fd645f2784dd49dd8725c85c8d907f3a73026f37a31ed620d44560766103763"
+    },
+    {
+      "bytes": 35582,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:03.527303+00:00",
+      "path": "results/figures/robustness_curves/adult_income__veto_mavs__synthetic_sensor_failure.png",
+      "sha256": "da120ec589a712d6ec59f6e9852f9e42d33233d98b9936813cce72f9b4fafb0f"
+    },
+    {
+      "bytes": 38753,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:03.766625+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__mean_ensemble__adversarial_confidence_inflation.png",
+      "sha256": "e8525c9c8ca50e4b5d3e004cf8f23144feed07460f746e0349dbddc1be723675"
+    },
+    {
+      "bytes": 29269,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:03.972017+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__mean_ensemble__confidence_distortion.png",
+      "sha256": "9e515e51c342aa9d8aafff92f9a54991edb6b8fabc2f4dc500267a6e344a2340"
+    },
+    {
+      "bytes": 40337,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:04.218698+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__mean_ensemble__distribution_shift.png",
+      "sha256": "a3fbad1fc6d2d5946e0701e2ad420acd25aa11be551d7c34e5160f6ab660e3bf"
+    },
+    {
+      "bytes": 38071,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:04.445286+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__mean_ensemble__feature_noise.png",
+      "sha256": "ff15de42e0284608ad3134105958d1d7c57421167c20285acda3ed28ece438b0"
+    },
+    {
+      "bytes": 27834,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:04.694700+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__mean_ensemble__label_noise.png",
+      "sha256": "d8451a561b28888a83ea02676460dbfb24b9761de2c787f89e5450a1e6f9e3be"
+    },
+    {
+      "bytes": 37081,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:04.985808+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__mean_ensemble__missing_features.png",
+      "sha256": "0acc3d3d73163302e4a7f93f3310f1a9acaea3dde0f659dce30be75b458e9f23"
+    },
+    {
+      "bytes": 40591,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:05.246962+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__mean_ensemble__random_feature_deletion.png",
+      "sha256": "4487ce2e218687acc714e0cea50e25083bd2d1428c4c85a87b57ed68eaef2609"
+    },
+    {
+      "bytes": 43208,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:05.508492+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__mean_ensemble__specialist_failure.png",
+      "sha256": "8cbba37861a35c03104ff162e76c61defc5afbc3f4085465cdf55537bbf90ed5"
+    },
+    {
+      "bytes": 37145,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:05.749536+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__mean_ensemble__synthetic_sensor_failure.png",
+      "sha256": "e305ee3762eefb4732f4bfd06ee6344b0bb51f97aec8b4b1dd56c50c5ac0b2d9"
+    },
+    {
+      "bytes": 38869,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:05.978720+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__pure_mavs_gc__adversarial_confidence_inflation.png",
+      "sha256": "95fb5ad0903920a5b4dca5c5ab56ba7f3cc1f6d4ca6830c4a2a6a751978b6988"
+    },
+    {
+      "bytes": 36873,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:06.180323+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__pure_mavs_gc__confidence_distortion.png",
+      "sha256": "aaf239728adf9eb31253492a41700ea486c550ad0fb656bc183a8c28b49f15ea"
+    },
+    {
+      "bytes": 39414,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:06.393503+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__pure_mavs_gc__distribution_shift.png",
+      "sha256": "c967aec5884f1c3882440108131a04718de8bc8f22f3193f6ae5aff0ded804d1"
+    },
+    {
+      "bytes": 37397,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:06.709498+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__pure_mavs_gc__feature_noise.png",
+      "sha256": "75b1cdb599a07ed201c38bf6cc6255ba82159f9a2b935fab61927c95f321f961"
+    },
+    {
+      "bytes": 28335,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:06.941377+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__pure_mavs_gc__label_noise.png",
+      "sha256": "3728e2a85504f448c6f0e71c8c2f742dcee5d07f346f9ee15085fec701ef20f4"
+    },
+    {
+      "bytes": 37385,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:07.159015+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__pure_mavs_gc__missing_features.png",
+      "sha256": "533f538e1d13a755ce346afe046941b0814041edf4742eb50bd0b1792f9c7fde"
+    },
+    {
+      "bytes": 39519,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:07.376862+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__pure_mavs_gc__random_feature_deletion.png",
+      "sha256": "53507099cd4caf8c96867a8f60bd828fb2abda14f59b82c3a2a22a3e3febae09"
+    },
+    {
+      "bytes": 35113,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:07.601583+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__pure_mavs_gc__specialist_failure.png",
+      "sha256": "f991837ca32a9e03bc0be92abd24883033a22b6dd4a8c6075d76b4c17e7a9e9a"
+    },
+    {
+      "bytes": 36740,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:07.844805+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__pure_mavs_gc__synthetic_sensor_failure.png",
+      "sha256": "ec12802a76a18dfac6372dcbc5807f98e4a9fd3378ce8cd9135ed1dab33a1122"
+    },
+    {
+      "bytes": 29315,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:08.114589+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__single_model__adversarial_confidence_inflation.png",
+      "sha256": "61071da01bb9501dd5b7c672fc4374dcab25902ff5b8f014e025ba53fd2310c9"
+    },
+    {
+      "bytes": 28571,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:08.370481+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__single_model__confidence_distortion.png",
+      "sha256": "319372f2363cafa22b4347ba9f531705d53b980e1d34146e45d16421a4f2c7a8"
+    },
+    {
+      "bytes": 39938,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:08.738672+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__single_model__distribution_shift.png",
+      "sha256": "832df6ed37d6f9dd319ec9408f97c746074d8c6d0a39cbca1b8a1f87f8daa047"
+    },
+    {
+      "bytes": 37365,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:09.005108+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__single_model__feature_noise.png",
+      "sha256": "35a8fe42917bca29d1349d9fcdbb3e52eaeb18b369cb67fbc6f37914709c71e0"
+    },
+    {
+      "bytes": 27366,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:09.220021+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__single_model__label_noise.png",
+      "sha256": "140f19fe9eefd5d5c52b286788678e7115cef874a3fea7e0cc806d731ae2667d"
+    },
+    {
+      "bytes": 37270,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:09.426661+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__single_model__missing_features.png",
+      "sha256": "89cd85d2065bb570d4c75a66e1e13cf215b782aee80cbf57011a1e3db9091765"
+    },
+    {
+      "bytes": 40157,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:09.718025+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__single_model__random_feature_deletion.png",
+      "sha256": "8f7af11880218b244641f7e607cf6b94d3b3032e6c395c3c1714bf26dfc401aa"
+    },
+    {
+      "bytes": 39787,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:10.035690+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__single_model__specialist_failure.png",
+      "sha256": "57b802824d4698eb389d450397d1dfd17f3f27090c4548496583aa870f809065"
+    },
+    {
+      "bytes": 36803,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:10.268001+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__single_model__synthetic_sensor_failure.png",
+      "sha256": "739559b086b88b99164d351fe3c042aed6fdb3cefc259913212a592104e94301"
+    },
+    {
+      "bytes": 37818,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:10.519955+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__static_weighted_ensemble__adversarial_confidence_inflation.png",
+      "sha256": "5e6c74d0c0995fdc1bd52e313fc717d64fbf17c348f374c4fd11b45031868001"
+    },
+    {
+      "bytes": 30904,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:10.718773+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__static_weighted_ensemble__confidence_distortion.png",
+      "sha256": "6a9bba0f2d31dea606373bb003fb1bd273a15f69336aac4de7fa069d5fb92b8c"
+    },
+    {
+      "bytes": 40277,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:10.959286+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__static_weighted_ensemble__distribution_shift.png",
+      "sha256": "a0256e9aa6b75f7e931d03b6169e8d641ffd1bd736ba74b1e82b0fc8d0eddb28"
+    },
+    {
+      "bytes": 38852,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:11.195366+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__static_weighted_ensemble__feature_noise.png",
+      "sha256": "0e1c04f7b21a13356399487e667394cd9e46318a339faf1a4e3ae3f7e99fe9bb"
+    },
+    {
+      "bytes": 29045,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:11.407876+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__static_weighted_ensemble__label_noise.png",
+      "sha256": "508f8f4910739ff41276ed8a1b55c5caa657bc40946c2f99325efe79bccdcf65"
+    },
+    {
+      "bytes": 38418,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:11.680218+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__static_weighted_ensemble__missing_features.png",
+      "sha256": "2be80018a8ae9ce38bde35b5cc1932ca23ecdbfd508a0d268b1bb636aa9a13fa"
+    },
+    {
+      "bytes": 41458,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:11.933211+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__static_weighted_ensemble__random_feature_deletion.png",
+      "sha256": "7c13cb0a07f6d911e2bab23bdaf012a61992797717fc22d14bf91ce11f913e02"
+    },
+    {
+      "bytes": 43901,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:12.187010+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__static_weighted_ensemble__specialist_failure.png",
+      "sha256": "c4d4f2acd36229e329c141d007fb4db16ead3183298e40124355360eb604669d"
+    },
+    {
+      "bytes": 38072,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:12.449268+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__static_weighted_ensemble__synthetic_sensor_failure.png",
+      "sha256": "87567d375e690feadab5e5487665efc4a81e2ae3994baa357bb9ad32b4bf596c"
+    },
+    {
+      "bytes": 38768,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:12.775840+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__veto_mavs__adversarial_confidence_inflation.png",
+      "sha256": "8864efdb491ccb06d025c89b8f272e532e74bd7ef5f5ec3da78c7c2e746811d5"
+    },
+    {
+      "bytes": 28857,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:12.988690+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__veto_mavs__confidence_distortion.png",
+      "sha256": "778581615bd7d851fc2679ab55d40d4aaa170e1414c77546f6eb21f11b1396a5"
+    },
+    {
+      "bytes": 39822,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:13.205740+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__veto_mavs__distribution_shift.png",
+      "sha256": "bb018f60caa070dd64731e1e273fad0a87ec7d3bf45a0e7da53612d46faa18df"
+    },
+    {
+      "bytes": 37988,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:13.435627+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__veto_mavs__feature_noise.png",
+      "sha256": "3e8ec52e809631d9d8fd1d4399479d18081e8a06e5b379af5f6e7a30bfad6eb5"
+    },
+    {
+      "bytes": 28214,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:13.669301+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__veto_mavs__label_noise.png",
+      "sha256": "ee3e486c7cb1a47987f5f0f625c1bbc65c5f8eaa79bd0cd4a890e847368e3182"
+    },
+    {
+      "bytes": 37342,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:13.904925+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__veto_mavs__missing_features.png",
+      "sha256": "54084fbfdf5c91fef73f44fdbfb788bbeaf1ce6d224bc4a3c6935af1d859e43b"
+    },
+    {
+      "bytes": 40563,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:14.114950+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__veto_mavs__random_feature_deletion.png",
+      "sha256": "87e4c619a6d1ce1235050d029157a9e1340accb1264cbb2ecd1d2a595c282ede"
+    },
+    {
+      "bytes": 43087,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:14.330164+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__veto_mavs__specialist_failure.png",
+      "sha256": "873098d3d1dff8e70edc02ed68fc74414faaa2a65054c2f76a2f55021d7e8dbf"
+    },
+    {
+      "bytes": 37669,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:14.548316+00:00",
+      "path": "results/figures/robustness_curves/bank_marketing__veto_mavs__synthetic_sensor_failure.png",
+      "sha256": "da97ff6af59787ff6fb677a57c022a21a63e4ccd282921c283f20b4bb095f586"
+    },
+    {
+      "bytes": 31067,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:14.761873+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__mean_ensemble__adversarial_confidence_inflation.png",
+      "sha256": "92cd91721bb3efbfb770f0a595ab666ef6048a683d28daa111ec7a3e3d2a5638"
+    },
+    {
+      "bytes": 30132,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:14.959630+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__mean_ensemble__confidence_distortion.png",
+      "sha256": "5877064a85a23c1cb2d9e3fd35c93d6bd93909019e6d9bcf458c15e938c793ae"
+    },
+    {
+      "bytes": 35126,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:15.137600+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__mean_ensemble__distribution_shift.png",
+      "sha256": "53c8d68d9e100f4c3e5a6a31f211183ef299d74b59a6e0e8dfb91a32b4aaa014"
+    },
+    {
+      "bytes": 43232,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:15.340427+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__mean_ensemble__feature_noise.png",
+      "sha256": "d4ff22ae0e462a114ac93981f053c476fb5f98ce20e4078d9f6db692cf0f7e76"
+    },
+    {
+      "bytes": 29507,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:15.534766+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__mean_ensemble__label_noise.png",
+      "sha256": "7a5e0678fc22b998f6a9adf4613563eb496688854e499521a56b417e4143b6da"
+    },
+    {
+      "bytes": 47307,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:15.716545+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__mean_ensemble__missing_features.png",
+      "sha256": "a0a0b55d8e740892547c6e91eb67732e35d1ce617255c343b23d0555bf2263dd"
+    },
+    {
+      "bytes": 47751,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:15.945747+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__mean_ensemble__random_feature_deletion.png",
+      "sha256": "631061d8cef0de42b5e6416fc739a7434a64ed3a083241a58616560c6a141d7a"
+    },
+    {
+      "bytes": 46627,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:16.144964+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__mean_ensemble__specialist_failure.png",
+      "sha256": "f5480b9fb29efa21d13af3c252ab9188f88e9f17773f28e8a12a38042606c8ad"
+    },
+    {
+      "bytes": 45677,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:16.350396+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__mean_ensemble__synthetic_sensor_failure.png",
+      "sha256": "24e459fb2aed85efbbc7b1934ffe018f4a6dd585b96fa888ab55856ca1b77c9f"
+    },
+    {
+      "bytes": 32729,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:16.570811+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__adversarial_confidence_inflation.png",
+      "sha256": "0365c09ab275593f57a4feca07f2f8ba5160c799891bcc8cf6aa80ac99c4b924"
+    },
+    {
+      "bytes": 32250,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:16.771727+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__confidence_distortion.png",
+      "sha256": "23c2295ebae0545e1da579512983bf63d736a99122ccd901d6ad30f9e2ff598c"
+    },
+    {
+      "bytes": 35254,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:16.987026+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__distribution_shift.png",
+      "sha256": "21deb742525c5b616f3fac00d5ce38a31e4947110fe92fe761e44529ccb1b528"
+    },
+    {
+      "bytes": 41333,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:17.165790+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__feature_noise.png",
+      "sha256": "284822be44767ccaa5e46a756c6597aff3f0935904471784e42a5ed2d4a89bed"
+    },
+    {
+      "bytes": 29785,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:17.477502+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__label_noise.png",
+      "sha256": "c390cf386861747ee94a2fa6e2d8d42011edb83a10d4e53828c6cb5c69dd97fd"
+    },
+    {
+      "bytes": 46475,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:17.755013+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__missing_features.png",
+      "sha256": "4ca12c7e9038cf4d624cb6708e59778f96cc2b798c4dae9e8d4cebb9707e262b"
+    },
+    {
+      "bytes": 46057,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:17.971721+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__random_feature_deletion.png",
+      "sha256": "ec113e9d82e35b55cfc471f91ab22848959d8729e367ca8990d24131f68500fc"
+    },
+    {
+      "bytes": 37784,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:18.218733+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__specialist_failure.png",
+      "sha256": "36cb01d4c493547e7bdeef6fac5b335a8276bbe0595da3694f1338213d4d766c"
+    },
+    {
+      "bytes": 45474,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:18.547280+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__synthetic_sensor_failure.png",
+      "sha256": "8e4d20290154a7c8c553469734f8ba1eaf833cd611adf0233bddd467dfa37e27"
+    },
+    {
+      "bytes": 30644,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:18.774902+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__single_model__adversarial_confidence_inflation.png",
+      "sha256": "41c709c51a30a69add24e92bcba88fc0594af7f7b4c6118227fb60bbdebb35f2"
+    },
+    {
+      "bytes": 29528,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:19.010676+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__single_model__confidence_distortion.png",
+      "sha256": "8dc153d82e372a423b4f8b97963c95f12eb8595f1129da050c1194a75f618804"
+    },
+    {
+      "bytes": 33409,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:19.240928+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__single_model__distribution_shift.png",
+      "sha256": "609df538c1b3d9aca4ac158de3df0a2fd32522646a025b0fbf32809c196921d0"
+    },
+    {
+      "bytes": 42747,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:19.464836+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__single_model__feature_noise.png",
+      "sha256": "ad3a45e250df191046ea98ccb78a6006188e13995216360d29a43c31b9403b92"
+    },
+    {
+      "bytes": 28535,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:19.679132+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__single_model__label_noise.png",
+      "sha256": "0b9443970c05f13948ffae1310e4ea88a043c5cfaf86d0f90530b1896796ae7b"
+    },
+    {
+      "bytes": 46691,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:19.879122+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__single_model__missing_features.png",
+      "sha256": "5abe7f4588dbc3ffa8cc5e05170136734ca260a5970d818057f049c34aad4ae7"
+    },
+    {
+      "bytes": 49520,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:20.107648+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__single_model__random_feature_deletion.png",
+      "sha256": "a863edc3011c423e44c7c86e7aa03a9b27ba47a44364be8de0ec6a25579434b0"
+    },
+    {
+      "bytes": 42725,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:20.333256+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__single_model__specialist_failure.png",
+      "sha256": "f8d5dc37612279830bcab578af69505f5a2a5883fd0713106fc98bb22a420685"
+    },
+    {
+      "bytes": 50113,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:20.571590+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__single_model__synthetic_sensor_failure.png",
+      "sha256": "3f0dd5b3b533d67a1c181e632b7270e97d5bbc16e7205f5398527665149bf0b5"
+    },
+    {
+      "bytes": 31777,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:20.805399+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__adversarial_confidence_inflation.png",
+      "sha256": "5b417923ab033df1124e4e33f0995624966978bda3be6e49e00d1b6286962982"
+    },
+    {
+      "bytes": 30630,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:21.025400+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__confidence_distortion.png",
+      "sha256": "7ff58f223d78d39db188e2e5366c8255625c9688deb3fc97fefe077a9f4911af"
+    },
+    {
+      "bytes": 35082,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:21.236916+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__distribution_shift.png",
+      "sha256": "4765adecd5e681d6c35f3e5560dbd518bed5ab6aae0990d5cb175e8cf3ffbb24"
+    },
+    {
+      "bytes": 44131,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:21.467074+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__feature_noise.png",
+      "sha256": "cfa1c3623c21bc069ea1b5b99645d87aa166e6b1fdb7efa7544a630d97b7c906"
+    },
+    {
+      "bytes": 30057,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:21.676754+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__label_noise.png",
+      "sha256": "2aa11eecc355045c8159e1983b017352e719a4e7e2c355568245cea41cd0a8da"
+    },
+    {
+      "bytes": 47221,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:21.920389+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__missing_features.png",
+      "sha256": "f653a537d38c4f718d4662eec57869bc6c4019a5f628d4f89ee04eb5f2057175"
+    },
+    {
+      "bytes": 50202,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:22.123662+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__random_feature_deletion.png",
+      "sha256": "88667a2478877843d7901a0af3a75bfa387868297047795b9b63e7016774272e"
+    },
+    {
+      "bytes": 44442,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:22.350006+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__specialist_failure.png",
+      "sha256": "5d1b7dcbf9dedcd8846708b6ad39bac799d4651f209868fea2c0a8782f72fb0b"
+    },
+    {
+      "bytes": 51167,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:22.581135+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__synthetic_sensor_failure.png",
+      "sha256": "c1845ec4c3ae28977a503a7db493927a565425500938d3b114c3b5b3b497cc62"
+    },
+    {
+      "bytes": 31101,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:22.788846+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__veto_mavs__adversarial_confidence_inflation.png",
+      "sha256": "38a8eb90be239043b9a0b5909a824d168b58db965fb10f96da044377f172b737"
+    },
+    {
+      "bytes": 29815,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:23.018377+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__veto_mavs__confidence_distortion.png",
+      "sha256": "26338add910291bd9a1efee74cd65694e0008ee38697f7b4d68f0be07119f967"
+    },
+    {
+      "bytes": 35072,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:23.193893+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__veto_mavs__distribution_shift.png",
+      "sha256": "232ee79bc41840ba12999dabf6cda18dafba331277a5d19e2f137b7f929d8b02"
+    },
+    {
+      "bytes": 43204,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:23.394563+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__veto_mavs__feature_noise.png",
+      "sha256": "1167296fae8f7a6393e5ffe9eebd56b3f579f9dcc7fb4de4d6bfc78838fe9fd8"
+    },
+    {
+      "bytes": 29247,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:23.598410+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__veto_mavs__label_noise.png",
+      "sha256": "97ec4131971d2c996a0eb1c3eec3481ae962dd2a70e1dbb0e8514749d1c9cb52"
+    },
+    {
+      "bytes": 47326,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:23.811807+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__veto_mavs__missing_features.png",
+      "sha256": "34e5d6c59353dd68939027cbf94746e70e5796f21483327e78c7e0b8758bd06a"
+    },
+    {
+      "bytes": 47544,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:24.053758+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__veto_mavs__random_feature_deletion.png",
+      "sha256": "9cf38f11107df09a497de408c79cf48d991a4a72a95c615b4c66a18a260fe261"
+    },
+    {
+      "bytes": 46671,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:24.281559+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__veto_mavs__specialist_failure.png",
+      "sha256": "f246265c22478bb29736101f5ea9af627a0286eda86b5f5fb768628eee61f913"
+    },
+    {
+      "bytes": 45802,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:24.530704+00:00",
+      "path": "results/figures/robustness_curves/breast_cancer_wisconsin__veto_mavs__synthetic_sensor_failure.png",
+      "sha256": "e47fa057511cfacf90ca0824c009facffdcc22a23e0a31c8c79dda2d93e98a38"
+    },
+    {
+      "bytes": 29116,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:24.751469+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__mean_ensemble__adversarial_confidence_inflation.png",
+      "sha256": "9c5c3fd0127ca24dddb64203199f4bf0f5c883a98f083462fbad2352be621fbc"
+    },
+    {
+      "bytes": 28189,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:24.965243+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__mean_ensemble__confidence_distortion.png",
+      "sha256": "95eb2ec9f3c3eb4d8393c81a43c74f17808814646fb98f4cc99a6c7e6421493e"
+    },
+    {
+      "bytes": 30533,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:25.170739+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__mean_ensemble__distribution_shift.png",
+      "sha256": "b46ff67140f869b6c92e866e78511abc9e1a178557497304e4ed0589b6f7a58e"
+    },
+    {
+      "bytes": 29822,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:25.525403+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__mean_ensemble__feature_noise.png",
+      "sha256": "73d3a5de359b7d94441810d85a234669d3b4d15e9dd5dda620803757956c2435"
+    },
+    {
+      "bytes": 27388,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:25.743910+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__mean_ensemble__label_noise.png",
+      "sha256": "90b578aaa6a3765b08ecf4116407c33bcfe109d66b9769c44fec5cf8db9b94c4"
+    },
+    {
+      "bytes": 30688,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:25.953926+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__mean_ensemble__missing_features.png",
+      "sha256": "39f1c517c4ff9a5f10963ce9ff966ec4d54ae2681a5150fe8c5efee9fac93759"
+    },
+    {
+      "bytes": 30494,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:26.168904+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__mean_ensemble__random_feature_deletion.png",
+      "sha256": "75e93d969260a9d92390a1cc353b7bcccedd31a9c3d0f5f413fa0f622d28eb21"
+    },
+    {
+      "bytes": 40790,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:26.395217+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__mean_ensemble__specialist_failure.png",
+      "sha256": "c549a8a00fbfcfa0626d0e9f9d5b066d757bd1bce9bd9175aea2f4ff46b0a765"
+    },
+    {
+      "bytes": 29625,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:26.616956+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__mean_ensemble__synthetic_sensor_failure.png",
+      "sha256": "00ce8b0dc8012915fc50e306cdabeae7b52a6cd53ce6db7d222da55e58caec13"
+    },
+    {
+      "bytes": 28936,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:26.853626+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__pure_mavs_gc__adversarial_confidence_inflation.png",
+      "sha256": "caf849a12edec1f899f258290ba9322f1df8822b5c741f4f623c640cd0522e82"
+    },
+    {
+      "bytes": 28206,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:27.058721+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__pure_mavs_gc__confidence_distortion.png",
+      "sha256": "bbdbb25942fd18e1f39570dd6aef1049c0c05d6ea5e667e20e44096f0225b4c7"
+    },
+    {
+      "bytes": 29916,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:27.250463+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__pure_mavs_gc__distribution_shift.png",
+      "sha256": "1f07d462de79cf760243a6ffa1b08d8282d6b50c4786e032928aed147fd31124"
+    },
+    {
+      "bytes": 28856,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:27.440758+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__pure_mavs_gc__feature_noise.png",
+      "sha256": "0787d0c3903430d2453b5b667f304cf8e58065c346760e253ef070a7079e5db0"
+    },
+    {
+      "bytes": 27436,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:27.664923+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__pure_mavs_gc__label_noise.png",
+      "sha256": "c354f541255b4a14191ba71df287cb6f7c7c0fa7c50fe2a283f1f25bda433080"
+    },
+    {
+      "bytes": 30106,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:27.877131+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__pure_mavs_gc__missing_features.png",
+      "sha256": "b25b7ffbc47320f922ff6625a020177223ae19d3c290936355fb6925590a4f3e"
+    },
+    {
+      "bytes": 30073,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:28.110208+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__pure_mavs_gc__random_feature_deletion.png",
+      "sha256": "35f06601fe697407ecacc0e78125861b994ce60424f4bf052935eaac6a370e64"
+    },
+    {
+      "bytes": 29660,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:28.330491+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__pure_mavs_gc__specialist_failure.png",
+      "sha256": "a85fd3427765a92e85ead636b13667b3e13bea2b90b4cd770c30b67dbe389c55"
+    },
+    {
+      "bytes": 29860,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:28.557327+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__pure_mavs_gc__synthetic_sensor_failure.png",
+      "sha256": "a29a0e4c89e7355bbc71d8631a2be57ad9ca9c73b3bd13471bcd527babc2651c"
+    },
+    {
+      "bytes": 29233,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:28.801296+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__single_model__adversarial_confidence_inflation.png",
+      "sha256": "586aa75599aed67f324dc460971f992b889be6aef93e2f22b1144907ac5cf508"
+    },
+    {
+      "bytes": 28112,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:29.043229+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__single_model__confidence_distortion.png",
+      "sha256": "07fc1bead6335a7b62ea6686b69aff0d8943cd5beb057248b84a119fd2cc98ee"
+    },
+    {
+      "bytes": 30185,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:29.282596+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__single_model__distribution_shift.png",
+      "sha256": "4ea79c419ec7f2209d961e1ea50342e210e636a3f9ee47c34c3523fc36c3c9b5"
+    },
+    {
+      "bytes": 29412,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:29.504127+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__single_model__feature_noise.png",
+      "sha256": "8e2622a6b3a6b9efd25b45a9c6a4341abb5573726cc51fbd2bf6700c799080f2"
+    },
+    {
+      "bytes": 27248,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:29.707970+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__single_model__label_noise.png",
+      "sha256": "0081b1bf645e0b9e4b7d93d7f27f3c809bb4c6d6ae7ba95e0a7c416420b75171"
+    },
+    {
+      "bytes": 30215,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:29.903632+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__single_model__missing_features.png",
+      "sha256": "0fc6043fad3466d6e2649026a29ad74e30ef451829aac117a545cd8e0effa264"
+    },
+    {
+      "bytes": 30267,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:30.124778+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__single_model__random_feature_deletion.png",
+      "sha256": "e13b3cc1e8a4d44a781e37510d5fe2fdbba4dd250878b163154b1e8b58479e9a"
+    },
+    {
+      "bytes": 40190,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:30.351111+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__single_model__specialist_failure.png",
+      "sha256": "87c884df058764d29c123bcb0a72977231f98ae5fff59676721b92d0aa11a04b"
+    },
+    {
+      "bytes": 30162,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:30.569472+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__single_model__synthetic_sensor_failure.png",
+      "sha256": "0ad9713e30d118c37f41e6c1e7b774125c99d108f5ce6251b87d5b8d7f71d3ae"
+    },
+    {
+      "bytes": 30187,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:30.775087+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__static_weighted_ensemble__adversarial_confidence_inflation.png",
+      "sha256": "fe576600de298b518bd0ff2369364d9902f48729989d6cdc2404bcff9653aee0"
+    },
+    {
+      "bytes": 29129,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:30.980532+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__static_weighted_ensemble__confidence_distortion.png",
+      "sha256": "8ecbd6623d7cb849078b74d7452405f8ca176a739928ee1438b28950bb3f797f"
+    },
+    {
+      "bytes": 31528,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:31.209906+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__static_weighted_ensemble__distribution_shift.png",
+      "sha256": "8771fb2f717fb9b78a158ea7e6d20910c3148b1fb23cb15339648fe4967e8f19"
+    },
+    {
+      "bytes": 30850,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:31.414774+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__static_weighted_ensemble__feature_noise.png",
+      "sha256": "4ad91959dadc7e260ed3771d049b1045162af3286da9f6fb9e9138dcaff1b0a5"
+    },
+    {
+      "bytes": 28418,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:31.708930+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__static_weighted_ensemble__label_noise.png",
+      "sha256": "e92395eb4cf3f9c523dd80221e8e655aa3190220af3597af969222889f5f1bb0"
+    },
+    {
+      "bytes": 31396,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:31.955210+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__static_weighted_ensemble__missing_features.png",
+      "sha256": "08486299e1abb0b59defa1ae7e8bbbb094b6c61eb916e8372254b77f29855e55"
+    },
+    {
+      "bytes": 31744,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:32.155203+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__static_weighted_ensemble__random_feature_deletion.png",
+      "sha256": "a97747afd00af3f92236ad2b7a0901fc91be0784cc752b88e059a3e7d3f6393b"
+    },
+    {
+      "bytes": 41806,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:32.395457+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__static_weighted_ensemble__specialist_failure.png",
+      "sha256": "a147d90e9ded23bf89007b7c58dc999252322872e0b2415db57871bc68d994ea"
+    },
+    {
+      "bytes": 30813,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:32.612180+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__static_weighted_ensemble__synthetic_sensor_failure.png",
+      "sha256": "1fa733ba27ab1bc77fe179e69d33e98bce484fa0e30a7e76110531fce05a8166"
+    },
+    {
+      "bytes": 29031,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:32.818266+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__veto_mavs__adversarial_confidence_inflation.png",
+      "sha256": "32d59743a510c08998416165a924a67d7c6cef44fd48fa0da60b13a38b45c149"
+    },
+    {
+      "bytes": 27956,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:33.023784+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__veto_mavs__confidence_distortion.png",
+      "sha256": "c7948edd1f8c1b5cac78f989dc9fe18046a5221bbfd3bb488de21019d1574cec"
+    },
+    {
+      "bytes": 30160,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:33.228425+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__veto_mavs__distribution_shift.png",
+      "sha256": "1de291e60230ef078627489f4dd32860dcb43f7f4438244c37960783adbe98c5"
+    },
+    {
+      "bytes": 29454,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:33.455779+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__veto_mavs__feature_noise.png",
+      "sha256": "65194bb043606b100bc48951a6056e8f50c02f3a8aa804bc1f1b3e3fa5bf00a2"
+    },
+    {
+      "bytes": 27561,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:33.657142+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__veto_mavs__label_noise.png",
+      "sha256": "a5ba8666477349bef549845593b9f7edfef0babae36277d18784ba83a183945c"
+    },
+    {
+      "bytes": 30468,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:33.882762+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__veto_mavs__missing_features.png",
+      "sha256": "3419ca0f4a31ec47ebdeea586f71cbeed9fd2d47ea0c6df47a25b4011659afad"
+    },
+    {
+      "bytes": 30487,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:34.099062+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__veto_mavs__random_feature_deletion.png",
+      "sha256": "eb141edc1caaee407fbc0e851f3a95d1232d7fa49c9d68a3f3d7cef3edd70a30"
+    },
+    {
+      "bytes": 40513,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:34.334957+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__veto_mavs__specialist_failure.png",
+      "sha256": "b54dec904edf5f181bd52377c351d4df05eb37cc9b3f340a349353a504596d83"
+    },
+    {
+      "bytes": 29718,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T10:56:34.556820+00:00",
+      "path": "results/figures/robustness_curves/credit_card_fraud__veto_mavs__synthetic_sensor_failure.png",
+      "sha256": "932e2969a90aaf2cbb2f4615d0fb18332a4325904e692c0b4bb1ead8ba05a190"
+    },
+    {
+      "bytes": 107870,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T18:06:42.781090+00:00",
+      "path": "results/figures/threshold_distribution.png",
+      "sha256": "438908ed9cfb9fdaa9c7b2dd8091d9eedc4ee9d043b8026dbe639a5499a8f84e"
+    },
+    {
+      "bytes": 116661,
+      "category": "figures",
+      "modified_at_utc": "2026-06-21T18:06:43.054253+00:00",
+      "path": "results/figures/unsafe_acceptance_by_corruption.png",
+      "sha256": "3fb02385f81474e7f0febfcb41be36442d4efcceba6b7daa6342f4874c3ef7b4"
+    },
+    {
+      "bytes": 8067,
+      "category": "import_manifests",
+      "modified_at_utc": "2026-06-20T17:25:36.780455+00:00",
+      "path": "results/baseline_import/ch10a_import_manifest.json",
+      "sha256": "d95aa3282c07262162b67bdc462674619ec59f153bea354c4be9223015713e69"
+    },
+    {
+      "bytes": 574,
+      "category": "import_manifests",
+      "modified_at_utc": "2026-06-20T17:25:36.763882+00:00",
+      "path": "results/baseline_import/ch10a_import_report.md",
+      "sha256": "3b09286d98fc06b4731bd7ab6c89ade991844de470132f5fde69e52d8db00831"
+    },
+    {
+      "bytes": 43614,
+      "category": "import_manifests",
+      "modified_at_utc": "2026-06-20T17:25:55.049736+00:00",
+      "path": "results/baseline_import/clean_replay_comparison.csv",
+      "sha256": "22c16841a143fda79ad59cabb82dfc4bcd5d4fb3ccd1015efcb13d0d1b9ec9e2"
+    },
+    {
+      "bytes": 177,
+      "category": "import_manifests",
+      "modified_at_utc": "2026-06-20T17:25:55.051738+00:00",
+      "path": "results/baseline_import/clean_replay_compatibility_report.md",
+      "sha256": "e3f48e1c57b27617b61ea719d19972f0214ac2967082a86c38a85b4d73324720"
+    },
+    {
+      "bytes": 1756,
+      "category": "import_manifests",
+      "modified_at_utc": "2026-06-20T17:25:55.259014+00:00",
+      "path": "results/baseline_import/clean_replay_manifest.json",
+      "sha256": "455d71537dc53fa7075256928af57b80bf2ac02a115b53dcae46d3040421835f"
+    },
+    {
+      "bytes": 10305,
+      "category": "import_manifests",
+      "modified_at_utc": "2026-06-20T17:25:55.042965+00:00",
+      "path": "results/baseline_import/clean_replay_metrics.csv",
+      "sha256": "24710564c34e94e6cb50e5c6806a8c9de3b987bdd36e15c144b57514a6930dea"
+    },
+    {
+      "bytes": 12466041,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:56:41.564297+00:00",
+      "path": "results/metrics/audit_corruption/governance_delta_table.csv",
+      "sha256": "518214a57ad1c7068a5763fcc1f84fb1acca56e6dc0ecea35a4c59ba4f3a3616"
+    },
+    {
+      "bytes": 2828089,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:40.086943+00:00",
+      "path": "results/metrics/audit_corruption/governance_severity_distribution.csv",
+      "sha256": "4de44ba47d7a2a400cac92e09c51e6bec82912da7665485da1384d128aae8092"
+    },
+    {
+      "bytes": 2456327,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:40.193658+00:00",
+      "path": "results/metrics/audit_corruption/governance_threshold_distribution.csv",
+      "sha256": "b47e2f87c8b70c437912831982bf51206f1c518c60a771ef4e787fdd3b013dee"
+    },
+    {
+      "bytes": 1740,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:40.258922+00:00",
+      "path": "results/metrics/audit_corruption/metric_manifest.json",
+      "sha256": "5acadca7565472ab7ad5bb503eb36723ed59534a221036d8347021a04be7cfb0"
+    },
+    {
+      "bytes": 8462941,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:39.434974+00:00",
+      "path": "results/metrics/audit_corruption/metric_rows.csv",
+      "sha256": "a8466327b36897270708bb8cf032cb5c3c3e69ea626dae0c81efb852031b1342"
+    },
+    {
+      "bytes": 2560136,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:56:45.600679+00:00",
+      "path": "results/metrics/audit_corruption/paired_bootstrap_cis.csv",
+      "sha256": "be082284e45f89e59d9219a5035cdb9f58f36ee22a0dd936661b82527ac78f99"
+    },
+    {
+      "bytes": 475615,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:56:45.865413+00:00",
+      "path": "results/metrics/audit_corruption/seed_level_variance.csv",
+      "sha256": "9c731858233488301bb5d741f0954c413bc1222dcfb918a1a4b10ebc972f8df6"
+    },
+    {
+      "bytes": 99057,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:39.994987+00:00",
+      "path": "results/metrics/audit_corruption/system_summary.csv",
+      "sha256": "41bacdc9e7920d5ed94fc8fbf297f765cf2eaf761b6ff28c8f63ebc133e40e28"
+    },
+    {
+      "bytes": 12802204,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:56:35.925246+00:00",
+      "path": "results/metrics/locked_corruption/governance_delta_table.csv",
+      "sha256": "4b22a2c71453f5c7c9a0ae2e3ccdbe9a6d7e19467ab8480e6ee776eb6fb516a7"
+    },
+    {
+      "bytes": 2856901,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:11.434138+00:00",
+      "path": "results/metrics/locked_corruption/governance_severity_distribution.csv",
+      "sha256": "6f61b6f085f40568a7ad8b032a735b65358476ea63452ffcc09b731a200b51f3"
+    },
+    {
+      "bytes": 2484311,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:11.534234+00:00",
+      "path": "results/metrics/locked_corruption/governance_threshold_distribution.csv",
+      "sha256": "dd19e4c167f40a96f52d4172bc02d044e19daf5482baa332d6a352bf736d6f8d"
+    },
+    {
+      "bytes": 1747,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:11.609260+00:00",
+      "path": "results/metrics/locked_corruption/metric_manifest.json",
+      "sha256": "122ac2f11f7c2b0527b065ef54baa385153a1116e5e116fb68312e523629006c"
+    },
+    {
+      "bytes": 8644651,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:11.056729+00:00",
+      "path": "results/metrics/locked_corruption/metric_rows.csv",
+      "sha256": "c6e1b8a598ddf4d84f7f8b23287b91d9568d41ae025d9226ed18ff36e86b0e26"
+    },
+    {
+      "bytes": 2670027,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:56:40.139605+00:00",
+      "path": "results/metrics/locked_corruption/paired_bootstrap_cis.csv",
+      "sha256": "967d33a585789d5740990f3e04d43f83b69c631382c6746e2bbb028d09a46760"
+    },
+    {
+      "bytes": 483458,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:56:40.415335+00:00",
+      "path": "results/metrics/locked_corruption/seed_level_variance.csv",
+      "sha256": "b6bf471568b2e3ebd1a816238903eb14a4b320d27d83d4db272ee411b6769779"
+    },
+    {
+      "bytes": 102560,
+      "category": "metric_tables",
+      "modified_at_utc": "2026-06-21T10:55:11.324113+00:00",
+      "path": "results/metrics/locked_corruption/system_summary.csv",
+      "sha256": "7eb4a93365575ea3a50d97d5ff7cb97adc5d72d1e47805aa7b102b28c5953fcf"
+    },
+    {
+      "bytes": 13270,
+      "category": "reports",
+      "modified_at_utc": "2026-06-21T18:06:43.861766+00:00",
+      "path": "results/reports/corruption_atlas.md",
+      "sha256": "ec0866dad532ab513509d08b437c68e29a1394cb05b158e0fb6f88a41e480bcb"
+    },
+    {
+      "bytes": 11312,
+      "category": "reports",
+      "modified_at_utc": "2026-06-21T18:06:43.934059+00:00",
+      "path": "results/reports/failure_map.md",
+      "sha256": "69d562a6be1cfbc8db03a0e691bd10457a505724f49b17e99dfe329c45a341a3"
+    },
+    {
+      "bytes": 6965,
+      "category": "reports",
+      "modified_at_utc": "2026-06-21T18:06:44.895858+00:00",
+      "path": "results/reports/robustness_report.md",
+      "sha256": "ad36a8c4053e4b6abff3e4149568c5b7bba4e8b0d7c144283a515a55581a8dc7"
+    },
+    {
+      "bytes": 10812,
+      "category": "reports",
+      "modified_at_utc": "2026-06-21T18:06:46.404139+00:00",
+      "path": "results/reports/robustness_reproducibility_manifest.json",
+      "sha256": "ec0d3ac3c2330e1a19293a2ab6c453a420c472de09964a4d0848f49e8c35cae7"
+    },
+    {
+      "bytes": 31940133,
+      "category": "reports",
+      "modified_at_utc": "2026-06-21T18:06:42.277649+00:00",
+      "path": "results/reports/robustness_system_deltas.csv",
+      "sha256": "16c55fe4ebe2fbe3725c3b046ec48256c37f878211c5759b1c8ceacc8509c388"
+    },
+    {
+      "bytes": 40616593,
+      "category": "reports",
+      "modified_at_utc": "2026-06-21T18:06:41.539702+00:00",
+      "path": "results/reports/robustness_tables.csv",
+      "sha256": "bb73c806c7b72099c5817c5fb35a57240b6efd14d93efedd2f2cb5b8a6c28cdc"
+    },
+    {
+      "bytes": 16190,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:50.885727+00:00",
+      "path": "results/robustness_curves/adult_income__mean_ensemble__adversarial_confidence_inflation.csv",
+      "sha256": "3947004d2ff3ef908bfcebf220283d04b09f606ff939b7f93849855621d85d96"
+    },
+    {
+      "bytes": 11734,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:51.127769+00:00",
+      "path": "results/robustness_curves/adult_income__mean_ensemble__confidence_distortion.csv",
+      "sha256": "f7d420241c5e0dcc83c7f454ad933f3bb115ea51b31cde7b24a4c1ff7e1b2293"
+    },
+    {
+      "bytes": 11588,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:51.338499+00:00",
+      "path": "results/robustness_curves/adult_income__mean_ensemble__distribution_shift.csv",
+      "sha256": "7e2aa9428b4b5af6febbac9fcecac12c5fa7a654059d2ea969263f927e420daa"
+    },
+    {
+      "bytes": 16801,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:51.545106+00:00",
+      "path": "results/robustness_curves/adult_income__mean_ensemble__feature_noise.csv",
+      "sha256": "0162379ba271a41b8793647877604fdcac01f2f92645c1467b8d5a06af17f35b"
+    },
+    {
+      "bytes": 12252,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:51.731152+00:00",
+      "path": "results/robustness_curves/adult_income__mean_ensemble__label_noise.csv",
+      "sha256": "bc02bbd9bf55fcbe5a06331ab6825a0a8aaddd401d204aef1b568de420ee2c7a"
+    },
+    {
+      "bytes": 15787,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:51.944634+00:00",
+      "path": "results/robustness_curves/adult_income__mean_ensemble__missing_features.csv",
+      "sha256": "9d557c03b7aadf0d29376c81a2077ac7289975290e6553bb8ef85e0084ae8d78"
+    },
+    {
+      "bytes": 15379,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:52.135932+00:00",
+      "path": "results/robustness_curves/adult_income__mean_ensemble__random_feature_deletion.csv",
+      "sha256": "33c3980f7eb66b8a493129a629ae8288b34b3ea89494d3a4fa7d5dd07ba118e2"
+    },
+    {
+      "bytes": 10882,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:52.320652+00:00",
+      "path": "results/robustness_curves/adult_income__mean_ensemble__specialist_failure.csv",
+      "sha256": "6061ea6b8d11a3ad24b43e98e08aa0c722100c9cd36602ef084e5feca1464b79"
+    },
+    {
+      "bytes": 9770,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:52.503910+00:00",
+      "path": "results/robustness_curves/adult_income__mean_ensemble__synthetic_sensor_failure.csv",
+      "sha256": "5b48324155a2e684aadf1be93dde066432d777c0ba85e2afb583fbae28ac04dc"
+    },
+    {
+      "bytes": 16222,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:52.691102+00:00",
+      "path": "results/robustness_curves/adult_income__pure_mavs_gc__adversarial_confidence_inflation.csv",
+      "sha256": "a73fd348f3ef50dba8c3df0263b26bef4f98608ad62b3baa2e2374dff2febce1"
+    },
+    {
+      "bytes": 11714,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:52.865633+00:00",
+      "path": "results/robustness_curves/adult_income__pure_mavs_gc__confidence_distortion.csv",
+      "sha256": "896a995b574a752b4f204d09c24e2b2778b672ed53389c8599244dac3a35ff43"
+    },
+    {
+      "bytes": 11618,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:53.055310+00:00",
+      "path": "results/robustness_curves/adult_income__pure_mavs_gc__distribution_shift.csv",
+      "sha256": "d15701cbe2d73ba290d145d63ed5f944a9a405b45611ffb22a7258b1022c0a57"
+    },
+    {
+      "bytes": 16831,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:53.250327+00:00",
+      "path": "results/robustness_curves/adult_income__pure_mavs_gc__feature_noise.csv",
+      "sha256": "fe763d581b127f0ba8678ed9ef314e328a25465e5f6455b8f54c184a93f600bf"
+    },
+    {
+      "bytes": 12227,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:53.421989+00:00",
+      "path": "results/robustness_curves/adult_income__pure_mavs_gc__label_noise.csv",
+      "sha256": "f2bfb51541803b3eff34549925cdce67ef4d7d7754e6cedebff25b28aa87ec91"
+    },
+    {
+      "bytes": 15569,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:53.631842+00:00",
+      "path": "results/robustness_curves/adult_income__pure_mavs_gc__missing_features.csv",
+      "sha256": "544d57190fb92db7a98a26667eced3a51394b06181184684d5b2cefe8103bc0e"
+    },
+    {
+      "bytes": 15041,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:53.994448+00:00",
+      "path": "results/robustness_curves/adult_income__pure_mavs_gc__random_feature_deletion.csv",
+      "sha256": "fb8d79153bb21eb935fb1a864893a7e089c17f20bfe0766ef6fcf20baee2e236"
+    },
+    {
+      "bytes": 10516,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:54.211789+00:00",
+      "path": "results/robustness_curves/adult_income__pure_mavs_gc__specialist_failure.csv",
+      "sha256": "768bd7983e4ae6322245d989e94869e9e9f22b3dd36b162f5f9c11f23ea162f2"
+    },
+    {
+      "bytes": 9704,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:54.437802+00:00",
+      "path": "results/robustness_curves/adult_income__pure_mavs_gc__synthetic_sensor_failure.csv",
+      "sha256": "341ca34be904dba2756eb96434d873467bdc447244e24102a78500390e03f440"
+    },
+    {
+      "bytes": 11976,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:54.675402+00:00",
+      "path": "results/robustness_curves/adult_income__single_model__adversarial_confidence_inflation.csv",
+      "sha256": "558d0ec024d823cb3211dca25342ae0fd23f00e2195bd1119bf9ee8c95cf1e8e"
+    },
+    {
+      "bytes": 11624,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:54.904714+00:00",
+      "path": "results/robustness_curves/adult_income__single_model__confidence_distortion.csv",
+      "sha256": "34dd09287af22482c08a79a45aed7daf80724754413a4c9093ee4098df8ecd3e"
+    },
+    {
+      "bytes": 11598,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:55.117739+00:00",
+      "path": "results/robustness_curves/adult_income__single_model__distribution_shift.csv",
+      "sha256": "3d0080f81d5cd99fdaa3f2feba767cf7c2cfea950611bee886ccd2a1b341e910"
+    },
+    {
+      "bytes": 16672,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:55.337657+00:00",
+      "path": "results/robustness_curves/adult_income__single_model__feature_noise.csv",
+      "sha256": "09ec0d23927abcff7bb422a97a42340e3a431c4eed44979feb32b6130a80484d"
+    },
+    {
+      "bytes": 12182,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:55.555396+00:00",
+      "path": "results/robustness_curves/adult_income__single_model__label_noise.csv",
+      "sha256": "a9ec724010b96011956adb92406f9ad3759b25454862c132df2c8d94cd8dfe05"
+    },
+    {
+      "bytes": 15724,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:55.790957+00:00",
+      "path": "results/robustness_curves/adult_income__single_model__missing_features.csv",
+      "sha256": "e47e860f44794f980d898a703f50741433e477ba8dd29d4083fa7458cbd8bace"
+    },
+    {
+      "bytes": 15344,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:56.225996+00:00",
+      "path": "results/robustness_curves/adult_income__single_model__random_feature_deletion.csv",
+      "sha256": "43ea837403d6565ae760e664a5cac24f95cc0cf51b50307a1e03a97fb54dcd6a"
+    },
+    {
+      "bytes": 10264,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:56.907992+00:00",
+      "path": "results/robustness_curves/adult_income__single_model__specialist_failure.csv",
+      "sha256": "264c93fd1174198e4187d80f6306c56f85fac2e46ba1b7e13566889ec90d6b33"
+    },
+    {
+      "bytes": 9682,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:57.382156+00:00",
+      "path": "results/robustness_curves/adult_income__single_model__synthetic_sensor_failure.csv",
+      "sha256": "c30b8b951243a8cf93922c54e07fb70926c8e52c2733187c64016f14d255ec8b"
+    },
+    {
+      "bytes": 17101,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:57.682682+00:00",
+      "path": "results/robustness_curves/adult_income__static_weighted_ensemble__adversarial_confidence_inflation.csv",
+      "sha256": "f0139e77c768bace026236431dbcaf9a5b433dbf9b1b1bea93cdb3a42713435e"
+    },
+    {
+      "bytes": 12040,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:58.106612+00:00",
+      "path": "results/robustness_curves/adult_income__static_weighted_ensemble__confidence_distortion.csv",
+      "sha256": "b85e3e14417d781dec5cd0e26b3b47df5718e378bee24aa165e2547f28402c6a"
+    },
+    {
+      "bytes": 11986,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:58.433502+00:00",
+      "path": "results/robustness_curves/adult_income__static_weighted_ensemble__distribution_shift.csv",
+      "sha256": "0370c8da8b8050bce4c367421a84e4535d065196c741e8301bc44e396ca05ec6"
+    },
+    {
+      "bytes": 17149,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:58.847110+00:00",
+      "path": "results/robustness_curves/adult_income__static_weighted_ensemble__feature_noise.csv",
+      "sha256": "9316d735bafd27f47583c186891e0482c137e0fad7ab4d463ec4cc35cae1a95b"
+    },
+    {
+      "bytes": 12591,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:59.260957+00:00",
+      "path": "results/robustness_curves/adult_income__static_weighted_ensemble__label_noise.csv",
+      "sha256": "93caac8e570e8bec616d57bd04fb6dfa5b56a56005cd1e2c4737bbc4a03c66c1"
+    },
+    {
+      "bytes": 16068,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:59.592668+00:00",
+      "path": "results/robustness_curves/adult_income__static_weighted_ensemble__missing_features.csv",
+      "sha256": "45df2303a868dde1ff693ce855cc05f4d1c31c6fc7827cd54680fc5767f7fcb2"
+    },
+    {
+      "bytes": 15945,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:55:59.943178+00:00",
+      "path": "results/robustness_curves/adult_income__static_weighted_ensemble__random_feature_deletion.csv",
+      "sha256": "7163d4b4d6d487464b1dd081cfca2f1bb2d582c3944a04634aacb3667abe8772"
+    },
+    {
+      "bytes": 11236,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:00.155350+00:00",
+      "path": "results/robustness_curves/adult_income__static_weighted_ensemble__specialist_failure.csv",
+      "sha256": "54401e8995a2fd480c5831bd658d87c0f991d233665a2577b82c6dcce28a7d0a"
+    },
+    {
+      "bytes": 10106,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:00.338715+00:00",
+      "path": "results/robustness_curves/adult_income__static_weighted_ensemble__synthetic_sensor_failure.csv",
+      "sha256": "b84a52c151fc4e922da7228ebbfac5282a26ca090b8bb83b392cb190ee877d9c"
+    },
+    {
+      "bytes": 16062,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:00.627215+00:00",
+      "path": "results/robustness_curves/adult_income__veto_mavs__adversarial_confidence_inflation.csv",
+      "sha256": "284b240f9b378aec148fde2447e8ab3e6acd08d00675a603c84d89616962aea4"
+    },
+    {
+      "bytes": 11606,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:00.932045+00:00",
+      "path": "results/robustness_curves/adult_income__veto_mavs__confidence_distortion.csv",
+      "sha256": "085e7eaf29a1480b222582c3d86032174a1ea71123fbe380ab9123a8ba993de3"
+    },
+    {
+      "bytes": 11460,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:01.275453+00:00",
+      "path": "results/robustness_curves/adult_income__veto_mavs__distribution_shift.csv",
+      "sha256": "2aa0786afc5298c4e570ac5888e443dbdbf0ede754ef4ac0b5c8e821aa437d29"
+    },
+    {
+      "bytes": 16673,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:01.909865+00:00",
+      "path": "results/robustness_curves/adult_income__veto_mavs__feature_noise.csv",
+      "sha256": "e44ac8d58d67892f5d0fdab81b720dced9f33c4a1b9e8e448bc3c5d748634d69"
+    },
+    {
+      "bytes": 12124,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:02.202690+00:00",
+      "path": "results/robustness_curves/adult_income__veto_mavs__label_noise.csv",
+      "sha256": "84cab00ba56ba9adde6e9b33a49f66307cefbe7f1594638d16513669aac6b387"
+    },
+    {
+      "bytes": 15659,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:02.483487+00:00",
+      "path": "results/robustness_curves/adult_income__veto_mavs__missing_features.csv",
+      "sha256": "c66d98568bf7b1b2eb46daba7bbd23ebce018fcd28cad9f61585a29ba4a8b13c"
+    },
+    {
+      "bytes": 15251,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:02.731022+00:00",
+      "path": "results/robustness_curves/adult_income__veto_mavs__random_feature_deletion.csv",
+      "sha256": "c7cdc81f3e182e7f423a999a4f68864d1b0829a2d94dbdbabc3b37e0bfd86798"
+    },
+    {
+      "bytes": 10754,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:02.980999+00:00",
+      "path": "results/robustness_curves/adult_income__veto_mavs__specialist_failure.csv",
+      "sha256": "2bc61f6bb2f18892f7f3b521897ebcfaaf60d813afea2c21b98f4f12eb48391d"
+    },
+    {
+      "bytes": 9642,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:03.263603+00:00",
+      "path": "results/robustness_curves/adult_income__veto_mavs__synthetic_sensor_failure.csv",
+      "sha256": "1ad96c6e6ae2b0805ff929ef684e43717450e3166d9b90cdfeff9df474a03d3b"
+    },
+    {
+      "bytes": 16342,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:03.544990+00:00",
+      "path": "results/robustness_curves/bank_marketing__mean_ensemble__adversarial_confidence_inflation.csv",
+      "sha256": "1569616253f2ef8078a0aaeaabb670555f6f5202edf66f159c2b90b4841c3223"
+    },
+    {
+      "bytes": 11852,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:03.779599+00:00",
+      "path": "results/robustness_curves/bank_marketing__mean_ensemble__confidence_distortion.csv",
+      "sha256": "3584310bebb57d25f417735d892801ac015bfd4a2a2bc99c3fadac92645426e4"
+    },
+    {
+      "bytes": 11486,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:03.991884+00:00",
+      "path": "results/robustness_curves/bank_marketing__mean_ensemble__distribution_shift.csv",
+      "sha256": "d48d44f7b33e57213e67b93a1640fc3a416b9c1f977229e5ab71063808aaaa7c"
+    },
+    {
+      "bytes": 17042,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:04.241026+00:00",
+      "path": "results/robustness_curves/bank_marketing__mean_ensemble__feature_noise.csv",
+      "sha256": "fcc3dc5ce27f3266c82ff8f3bc577c6d69e67025464fa80db05b48b9d18054ff"
+    },
+    {
+      "bytes": 12395,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:04.459940+00:00",
+      "path": "results/robustness_curves/bank_marketing__mean_ensemble__label_noise.csv",
+      "sha256": "eb1c82e1b074375b1dc7127ff04344b82064adab87f0347b08dc40c7b245adc0"
+    },
+    {
+      "bytes": 15732,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:04.714042+00:00",
+      "path": "results/robustness_curves/bank_marketing__mean_ensemble__missing_features.csv",
+      "sha256": "d3180e5dff01f29dcda3435e5bbf58896ee3a439057b898aba5413e28ecd90b0"
+    },
+    {
+      "bytes": 15476,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:05.005815+00:00",
+      "path": "results/robustness_curves/bank_marketing__mean_ensemble__random_feature_deletion.csv",
+      "sha256": "77b35efd1cf9105cd904d2ac95e08040bc0383f8ddb4fd05fca2fa5444378291"
+    },
+    {
+      "bytes": 11040,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:05.263124+00:00",
+      "path": "results/robustness_curves/bank_marketing__mean_ensemble__specialist_failure.csv",
+      "sha256": "f06a56b40a8ee1f48544d9a68f88d1b0af83a0b1d37236b3c2a05094b5771622"
+    },
+    {
+      "bytes": 11372,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:05.527836+00:00",
+      "path": "results/robustness_curves/bank_marketing__mean_ensemble__synthetic_sensor_failure.csv",
+      "sha256": "0d6b81fb4169b706e6cb67021806584ae78e7b80b4e3bdd1718d1282495b83b9"
+    },
+    {
+      "bytes": 16309,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:05.765639+00:00",
+      "path": "results/robustness_curves/bank_marketing__pure_mavs_gc__adversarial_confidence_inflation.csv",
+      "sha256": "d766a702adc8f2bfb3f3fa9405af57200d5e1a8059c2065c47ce96786ef10eb3"
+    },
+    {
+      "bytes": 11794,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:05.992983+00:00",
+      "path": "results/robustness_curves/bank_marketing__pure_mavs_gc__confidence_distortion.csv",
+      "sha256": "d4fa2a35ac825cde2e44f97e02ccad203a5d5f8bdd57292ae603ffddc7cc1a9c"
+    },
+    {
+      "bytes": 11514,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:06.196882+00:00",
+      "path": "results/robustness_curves/bank_marketing__pure_mavs_gc__distribution_shift.csv",
+      "sha256": "a513271297d0d08531ca5ef36247fd8e880803acfa72f995b7e951383b25a3bc"
+    },
+    {
+      "bytes": 16998,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:06.451469+00:00",
+      "path": "results/robustness_curves/bank_marketing__pure_mavs_gc__feature_noise.csv",
+      "sha256": "758fcd22ef5a77de3c16984f3e4c6feb3ff65b926f5f7f30497904c96e3eaf1e"
+    },
+    {
+      "bytes": 12363,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:06.736580+00:00",
+      "path": "results/robustness_curves/bank_marketing__pure_mavs_gc__label_noise.csv",
+      "sha256": "d0ef1ddb8b0116d5675c62f78609e1290097f238ce9130516b75e568e46c7288"
+    },
+    {
+      "bytes": 15833,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:06.954371+00:00",
+      "path": "results/robustness_curves/bank_marketing__pure_mavs_gc__missing_features.csv",
+      "sha256": "48d6dc0532f7b2a9cc87db20dbfce4ecf2fd8e2d0dde3ff1921f1d4bd9f71bfd"
+    },
+    {
+      "bytes": 15250,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:07.175772+00:00",
+      "path": "results/robustness_curves/bank_marketing__pure_mavs_gc__random_feature_deletion.csv",
+      "sha256": "cc63d748301f8bbd34a5c8c633920cdd0321246374416bd64afa97a6aa008a8f"
+    },
+    {
+      "bytes": 10588,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:07.389990+00:00",
+      "path": "results/robustness_curves/bank_marketing__pure_mavs_gc__specialist_failure.csv",
+      "sha256": "0c3608d47db7e5db8931281fef41a3e838d6ede4f0dbb023d845d63229551dfc"
+    },
+    {
+      "bytes": 11154,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:07.615273+00:00",
+      "path": "results/robustness_curves/bank_marketing__pure_mavs_gc__synthetic_sensor_failure.csv",
+      "sha256": "9945c651ef77b7dc9f47391017285acb18be34b924d05149614958bbf7b0ae7b"
+    },
+    {
+      "bytes": 12156,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:07.858858+00:00",
+      "path": "results/robustness_curves/bank_marketing__single_model__adversarial_confidence_inflation.csv",
+      "sha256": "5e1a61c3475d506ada073758c637a5cbc685a2bb695656a4d3e2ac4c8c54ba68"
+    },
+    {
+      "bytes": 11804,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:08.131798+00:00",
+      "path": "results/robustness_curves/bank_marketing__single_model__confidence_distortion.csv",
+      "sha256": "5a4f7be3bac8275216ce8b7283ca2ccf71546abed69dcb2cdcdfcfa73cca5924"
+    },
+    {
+      "bytes": 11502,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:08.386864+00:00",
+      "path": "results/robustness_curves/bank_marketing__single_model__distribution_shift.csv",
+      "sha256": "129cccd8f0b10b9ef42e90987def4f28f0c7353fd7cfa686bcf64c8a19325ac3"
+    },
+    {
+      "bytes": 16993,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:08.756857+00:00",
+      "path": "results/robustness_curves/bank_marketing__single_model__feature_noise.csv",
+      "sha256": "f31b8c52650df90ddcb4117a34cbd8b66ed923a8d225e6cfd626fed5f2e808cb"
+    },
+    {
+      "bytes": 12349,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:09.020274+00:00",
+      "path": "results/robustness_curves/bank_marketing__single_model__label_noise.csv",
+      "sha256": "42efd534c971e17af80168c15f95017db8fb17bdb45e53ec1f8c09d5b2cc22de"
+    },
+    {
+      "bytes": 15638,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:09.232592+00:00",
+      "path": "results/robustness_curves/bank_marketing__single_model__missing_features.csv",
+      "sha256": "c293dbb3dccc1613046f379943ba47f116a26f473064507dd71ccda3c2a10954"
+    },
+    {
+      "bytes": 15301,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:09.440573+00:00",
+      "path": "results/robustness_curves/bank_marketing__single_model__random_feature_deletion.csv",
+      "sha256": "ae53b3e7ce79d80b36613c06db2493dc9544f5aee233e1a47efe7e2a3c6298e8"
+    },
+    {
+      "bytes": 10376,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:09.736613+00:00",
+      "path": "results/robustness_curves/bank_marketing__single_model__specialist_failure.csv",
+      "sha256": "6cf0aa3b50c8651086ed9be55b31a6ef227859d7bfb8b9d60c187609a21111d7"
+    },
+    {
+      "bytes": 11286,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:10.052222+00:00",
+      "path": "results/robustness_curves/bank_marketing__single_model__synthetic_sensor_failure.csv",
+      "sha256": "40caf25d87b141a5b69420ac09606d4a7a30d0761198258af5452ed56abbbdd1"
+    },
+    {
+      "bytes": 16891,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:10.289223+00:00",
+      "path": "results/robustness_curves/bank_marketing__static_weighted_ensemble__adversarial_confidence_inflation.csv",
+      "sha256": "16b7a8c6aaea4e6f49e18c3d38e1a00dcf87a699975c53de477197bd87f0d46b"
+    },
+    {
+      "bytes": 12160,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:10.533500+00:00",
+      "path": "results/robustness_curves/bank_marketing__static_weighted_ensemble__confidence_distortion.csv",
+      "sha256": "b185106f46bc332fa5e7fc04f9872e8308ba7f16f481a9191ee8de7d01814f9d"
+    },
+    {
+      "bytes": 11938,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:10.733252+00:00",
+      "path": "results/robustness_curves/bank_marketing__static_weighted_ensemble__distribution_shift.csv",
+      "sha256": "d71f325f6c79d3547c67c245c29df9c006f7b9643f8e890fced52d3c5564deca"
+    },
+    {
+      "bytes": 17362,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:10.980659+00:00",
+      "path": "results/robustness_curves/bank_marketing__static_weighted_ensemble__feature_noise.csv",
+      "sha256": "98e6b5500d1b8c72aa6d40103c2cc69669ae9f9c155214375991b7a108a82e55"
+    },
+    {
+      "bytes": 12770,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:11.208712+00:00",
+      "path": "results/robustness_curves/bank_marketing__static_weighted_ensemble__label_noise.csv",
+      "sha256": "da5dca8298d0d1165d7b419599e12e3e0d0aff1e9b2302f02123597068041291"
+    },
+    {
+      "bytes": 16031,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:11.423481+00:00",
+      "path": "results/robustness_curves/bank_marketing__static_weighted_ensemble__missing_features.csv",
+      "sha256": "3ae0584edb4de8feffa3901eb7910831959bcbd9a5c03d6ee893780f86a41c9b"
+    },
+    {
+      "bytes": 15819,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:11.697591+00:00",
+      "path": "results/robustness_curves/bank_marketing__static_weighted_ensemble__random_feature_deletion.csv",
+      "sha256": "9bae16692e461556071d931ee5cc6c9563c2a9f49e2b8aeb30cbf1b72b33c380"
+    },
+    {
+      "bytes": 11388,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:11.954207+00:00",
+      "path": "results/robustness_curves/bank_marketing__static_weighted_ensemble__specialist_failure.csv",
+      "sha256": "a530b471793a404c2fc93e2d6a433dffae3e9c4a3e294b937a6bb079b799d41e"
+    },
+    {
+      "bytes": 11700,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:12.208676+00:00",
+      "path": "results/robustness_curves/bank_marketing__static_weighted_ensemble__synthetic_sensor_failure.csv",
+      "sha256": "f63f9fd324b0442f621e57be8748ee9a985ef2cd1f1ec81424a295ca6b9d9746"
+    },
+    {
+      "bytes": 16214,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:12.465336+00:00",
+      "path": "results/robustness_curves/bank_marketing__veto_mavs__adversarial_confidence_inflation.csv",
+      "sha256": "755de10cbcb2acb8ae8cfbb7cf6ba1326b91515385614314522b6be41bfd3d9e"
+    },
+    {
+      "bytes": 11724,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:12.788018+00:00",
+      "path": "results/robustness_curves/bank_marketing__veto_mavs__confidence_distortion.csv",
+      "sha256": "601016b5e6abc5c608505e67e261d30b282e57c908c2a7bfd77ce10ede827ed6"
+    },
+    {
+      "bytes": 11358,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:13.006827+00:00",
+      "path": "results/robustness_curves/bank_marketing__veto_mavs__distribution_shift.csv",
+      "sha256": "c9775f744f01493cb6f24041b805160a9c8721487529720a75a8036acaf197ff"
+    },
+    {
+      "bytes": 16914,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:13.221572+00:00",
+      "path": "results/robustness_curves/bank_marketing__veto_mavs__feature_noise.csv",
+      "sha256": "146664fdac368d1a8cbc2cb72c037dca7ec417e70fcaf5645e3137114b331345"
+    },
+    {
+      "bytes": 12267,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:13.458677+00:00",
+      "path": "results/robustness_curves/bank_marketing__veto_mavs__label_noise.csv",
+      "sha256": "6f2e6456422b454d2a3d5724f47fe7a5f00297b8e72feabbbcfe10bb576cf954"
+    },
+    {
+      "bytes": 15604,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:13.683048+00:00",
+      "path": "results/robustness_curves/bank_marketing__veto_mavs__missing_features.csv",
+      "sha256": "f762e4b185b6979ab7f31dde7c37c0077c91bcf296239320e023341b776f1ce5"
+    },
+    {
+      "bytes": 15348,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:13.918370+00:00",
+      "path": "results/robustness_curves/bank_marketing__veto_mavs__random_feature_deletion.csv",
+      "sha256": "0cb4de33675d07074d71b75fd01a5264a76a43a2530b408a9ae57a3ae7d36f4b"
+    },
+    {
+      "bytes": 10912,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:14.128531+00:00",
+      "path": "results/robustness_curves/bank_marketing__veto_mavs__specialist_failure.csv",
+      "sha256": "5966468728485a039b25545241e94d7c3de6c4956a511ff07654b1ebb7a13842"
+    },
+    {
+      "bytes": 11244,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:14.345345+00:00",
+      "path": "results/robustness_curves/bank_marketing__veto_mavs__synthetic_sensor_failure.csv",
+      "sha256": "73ef2e9c82d8da094494b9fdd289ab7d667238ad33c747499ad9c67b22aa4c70"
+    },
+    {
+      "bytes": 11500,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:14.561854+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__mean_ensemble__adversarial_confidence_inflation.csv",
+      "sha256": "a7ea90862adc5b51dc6488f7efc2b1431bbbf0e0be4d742dc7015af4f0754917"
+    },
+    {
+      "bytes": 11148,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:14.774131+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__mean_ensemble__confidence_distortion.csv",
+      "sha256": "88a2bb58a5ea4539b2cd89f60c6c9657e7a6a332b526591b1e0447142f68a382"
+    },
+    {
+      "bytes": 9530,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:14.971944+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__mean_ensemble__distribution_shift.csv",
+      "sha256": "49cb1e4e8c2ba8d770318df3a7f1210669783926c4ca0275204da76488b3bacd"
+    },
+    {
+      "bytes": 14431,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:15.150332+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__mean_ensemble__feature_noise.csv",
+      "sha256": "fe9618d3800bc48d6de27da40b8431eab8eba70d98c50ce6b0780f7626fdf09e"
+    },
+    {
+      "bytes": 11153,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:15.353821+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__mean_ensemble__label_noise.csv",
+      "sha256": "8eac3374064ac47bad849f625087ff9464beedc4bc19fdad894b61098de6063e"
+    },
+    {
+      "bytes": 13846,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:15.547839+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__mean_ensemble__missing_features.csv",
+      "sha256": "b969f418c65c3c84f4a8a1d515fc9ff8647dadb511919079a8661652b86293b9"
+    },
+    {
+      "bytes": 13409,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:15.728632+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__mean_ensemble__random_feature_deletion.csv",
+      "sha256": "df824d5e92aee9ad972bcdf08b525a3edc62309876cb3a821483e521fe679c83"
+    },
+    {
+      "bytes": 10692,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:15.959837+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__mean_ensemble__specialist_failure.csv",
+      "sha256": "334295662f3e6831a4614dd1057a87f6d853f19f513273eecb4774e660a40fc9"
+    },
+    {
+      "bytes": 10694,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:16.160130+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__mean_ensemble__synthetic_sensor_failure.csv",
+      "sha256": "59c68ffffe32ba683a98a9d1117d0c4f4a95f7564566119b1c170f093d06768d"
+    },
+    {
+      "bytes": 11787,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:16.362891+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__adversarial_confidence_inflation.csv",
+      "sha256": "9521ab3275ae794d98c077c3f550840ccf5100ab3bd045fa5f7c57eaba75ab2f"
+    },
+    {
+      "bytes": 10680,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:16.585183+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__confidence_distortion.csv",
+      "sha256": "7004f406d9ec9b6e31837d6d1c36046973c4295ed2028b6a14b6830fdd97112a"
+    },
+    {
+      "bytes": 9498,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:16.790124+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__distribution_shift.csv",
+      "sha256": "dfa040ed25e33a0e79f6948fca1d9181e8dce7cfb4107a7ac372bed9d6ee945b"
+    },
+    {
+      "bytes": 13712,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:16.999104+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__feature_noise.csv",
+      "sha256": "f148ed5c024dfca940fd7aabe11eb1139a51f77d10348a64d395ea644cf23c44"
+    },
+    {
+      "bytes": 11121,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:17.178481+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__label_noise.csv",
+      "sha256": "44698896b409b3e6f28332ba14da7f4a0bd69ccbf5f2b1347e27067d3cd93d7a"
+    },
+    {
+      "bytes": 13099,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:17.503645+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__missing_features.csv",
+      "sha256": "93330fc2b9e9e86b2e35d02ccf0b360910dfd55fb8dee0753a2f8e479ca3a1b1"
+    },
+    {
+      "bytes": 13664,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:17.774096+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__random_feature_deletion.csv",
+      "sha256": "df815a5b029770803b5c1462e8c404181b530474e9254d7d370f7ab902461bd6"
+    },
+    {
+      "bytes": 10078,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:17.985420+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__specialist_failure.csv",
+      "sha256": "047e0fcae4d658313f0b1792d773b41f1273ee2b998839492f95888bdaf2388c"
+    },
+    {
+      "bytes": 10726,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:18.253433+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__pure_mavs_gc__synthetic_sensor_failure.csv",
+      "sha256": "34b33f890918740906560f2f32b60035d27d0218676552e0ae76aa316216731d"
+    },
+    {
+      "bytes": 11676,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:18.566833+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__single_model__adversarial_confidence_inflation.csv",
+      "sha256": "ac6aca23b1747ad7803564be2fe0304c5e5bcc46060649a2c8d52cebd7a3cba9"
+    },
+    {
+      "bytes": 11324,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:18.789076+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__single_model__confidence_distortion.csv",
+      "sha256": "c8540b61eb1935e23a1a15bf4bfe360ee01a433151a66606838ee8faad721c96"
+    },
+    {
+      "bytes": 8838,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:19.026915+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__single_model__distribution_shift.csv",
+      "sha256": "7ddc7d0ba747b8ac3cf2310b7cd37aea34b1574df1e00051930a102fda67d583"
+    },
+    {
+      "bytes": 14539,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:19.255548+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__single_model__feature_noise.csv",
+      "sha256": "ce144d67e72cf44b2d23bca97c352177d04cc82abf3ce9de8d7a7cfb07830c53"
+    },
+    {
+      "bytes": 11344,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:19.479017+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__single_model__label_noise.csv",
+      "sha256": "940f26f766315108f926b448ef58e4a31d553c727f88d237d3e0416f8687b2fb"
+    },
+    {
+      "bytes": 13799,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:19.693820+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__single_model__missing_features.csv",
+      "sha256": "750c456da89fe9ddb0fdf2249bd39511d8a329a78e2a8094fff0dea8dc3b136f"
+    },
+    {
+      "bytes": 14500,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:19.894734+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__single_model__random_feature_deletion.csv",
+      "sha256": "788792f25c8e98111435625cc7cf14c289856184e505f2baa84541deb512f2e1"
+    },
+    {
+      "bytes": 10704,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:20.124393+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__single_model__specialist_failure.csv",
+      "sha256": "b47b6091a9430a25fc625fb0ef05069bf8f9de900e6e60a91d1d920c15ab3517"
+    },
+    {
+      "bytes": 11214,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:20.346762+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__single_model__synthetic_sensor_failure.csv",
+      "sha256": "b99a994feedde4ae444e58a1ccd86353d9030baaa93f48f7625f27b450161eaf"
+    },
+    {
+      "bytes": 12060,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:20.586053+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__adversarial_confidence_inflation.csv",
+      "sha256": "6ef84835b9c8a14b7bcf0d1cf0ccb0f832288700e8d24193fd181f004072cb28"
+    },
+    {
+      "bytes": 11708,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:20.825862+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__confidence_distortion.csv",
+      "sha256": "1cc285dc56380b8b8f5dd607c5030c5234d300d9b9b8e006e5e28c8de2e67e07"
+    },
+    {
+      "bytes": 9222,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:21.043891+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__distribution_shift.csv",
+      "sha256": "1ab193cc6ba944407a332ae9a3cf769184c819f5e8ab62b5e53f990839e028b4"
+    },
+    {
+      "bytes": 15004,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:21.250513+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__feature_noise.csv",
+      "sha256": "cd5e585edfeca1b4d6258a067f22b06e38f0d40841f9a64a7290fbcbf1275991"
+    },
+    {
+      "bytes": 11728,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:21.480616+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__label_noise.csv",
+      "sha256": "5c9b9f16b9eb67659fa8bc6f613b186acc790d21e5db0935fa9078c9b2bd472d"
+    },
+    {
+      "bytes": 14043,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:21.692309+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__missing_features.csv",
+      "sha256": "f9894b5ee20117901e6015c07e7fcf9bd8022e8a38ceef2a9bd5168de3d53c6c"
+    },
+    {
+      "bytes": 14800,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:21.935968+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__random_feature_deletion.csv",
+      "sha256": "2b56b924e5589e63db9ff6c4a37f3a86c874ce850d30b527d16584fec1776582"
+    },
+    {
+      "bytes": 11088,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:22.146730+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__specialist_failure.csv",
+      "sha256": "1ff197d14b40df963b24d6ba859c0df24d15dab6be84bead14bdf0ec1b168f2c"
+    },
+    {
+      "bytes": 11598,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:22.364431+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__static_weighted_ensemble__synthetic_sensor_failure.csv",
+      "sha256": "593ac7903761f1b80fac50c04d2a8840616e73f3e5bb94b05764ceee852f780e"
+    },
+    {
+      "bytes": 11372,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:22.593634+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__veto_mavs__adversarial_confidence_inflation.csv",
+      "sha256": "486a2711047c72471487ae063f8bda0bcd99956484bbcc045f3bc6130201649c"
+    },
+    {
+      "bytes": 11020,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:22.810447+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__veto_mavs__confidence_distortion.csv",
+      "sha256": "506ae494297c423bd565023b75182a0ac4d5c8dd62272b4aa642cdb32f722555"
+    },
+    {
+      "bytes": 9402,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:23.031124+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__veto_mavs__distribution_shift.csv",
+      "sha256": "d15d5b0088361bc63f5f79cb5f8b61ad9d17810447b527a2b6b0605998d0e2c4"
+    },
+    {
+      "bytes": 14303,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:23.208018+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__veto_mavs__feature_noise.csv",
+      "sha256": "02769a4df25a26e38f6f018586290c3d69a3df1bb58e28e0a2943a6b4d30b03b"
+    },
+    {
+      "bytes": 11025,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:23.413631+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__veto_mavs__label_noise.csv",
+      "sha256": "a2b7fe1013446f4bee46f04cad4bf19a23e88e1fa3da1b6d8a090dd7a187171a"
+    },
+    {
+      "bytes": 13718,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:23.610844+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__veto_mavs__missing_features.csv",
+      "sha256": "aac97611db297306dd8efb94e8f44404d51df5e8298e2669d03498da5d9cbc4c"
+    },
+    {
+      "bytes": 13281,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:23.825063+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__veto_mavs__random_feature_deletion.csv",
+      "sha256": "2a311d98763aa959e5dedaefc5a7d0409ab91a0b719310a387b38fbfc23c788f"
+    },
+    {
+      "bytes": 10564,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:24.071908+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__veto_mavs__specialist_failure.csv",
+      "sha256": "02a213b1efdb45370280811c23b142477052987a90591e685b096dbbfe4454d1"
+    },
+    {
+      "bytes": 10566,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:24.295417+00:00",
+      "path": "results/robustness_curves/breast_cancer_wisconsin__veto_mavs__synthetic_sensor_failure.csv",
+      "sha256": "7667692bc6de3f30236fa440bbc3682b4fbf66b52082286834788017e7d8e17c"
+    },
+    {
+      "bytes": 12060,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:24.545291+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__mean_ensemble__adversarial_confidence_inflation.csv",
+      "sha256": "a27fb44f1662271bafbda0698609247b3feedc09ecd4065f58902b2c0ff928e1"
+    },
+    {
+      "bytes": 11708,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:24.771734+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__mean_ensemble__confidence_distortion.csv",
+      "sha256": "42cabd2eecfcba9f501262331aaead077ca31e7dd40ff2dd4bb2970896d4a65c"
+    },
+    {
+      "bytes": 11664,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:24.979202+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__mean_ensemble__distribution_shift.csv",
+      "sha256": "0d2b1d496c19ccda96d6b14a82e9d99cac4c0b9c6372d60a83077998f7176987"
+    },
+    {
+      "bytes": 15903,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:25.186787+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__mean_ensemble__feature_noise.csv",
+      "sha256": "bb35e4cbafcbeb1743615a25be9fc45ebcd26fa36d231973331255395c4ad115"
+    },
+    {
+      "bytes": 12241,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:25.545456+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__mean_ensemble__label_noise.csv",
+      "sha256": "a93f267be2c02ca3b9634936bf0fc6c5b624d18fb1215cf5729efdeab4c14260"
+    },
+    {
+      "bytes": 14969,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:25.768796+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__mean_ensemble__missing_features.csv",
+      "sha256": "92e8ab4e3ba28456227e6d47d2b51da09ab836e7ea5615d22cf814dbe043b0d8"
+    },
+    {
+      "bytes": 12734,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:25.969381+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__mean_ensemble__random_feature_deletion.csv",
+      "sha256": "3803b8a83d3128ba917cebe04c2b238682321f478dfe90658e44f9bd0762f92c"
+    },
+    {
+      "bytes": 11018,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:26.185573+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__mean_ensemble__specialist_failure.csv",
+      "sha256": "971c24de1722e8f809b665458c89a58e934c34b1df7983f38d1a3e640d1c9ad0"
+    },
+    {
+      "bytes": 9836,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:26.414984+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__mean_ensemble__synthetic_sensor_failure.csv",
+      "sha256": "e042e63be8b3dbde4caa0e87f54144cb9d40a301dd7d545580cb3debbac02a8e"
+    },
+    {
+      "bytes": 11996,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:26.638473+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__pure_mavs_gc__adversarial_confidence_inflation.csv",
+      "sha256": "3eabf8b73486ab358d9143bba11ebc9da2594989bb3557b5be76b968fd962c30"
+    },
+    {
+      "bytes": 11644,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:26.872775+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__pure_mavs_gc__confidence_distortion.csv",
+      "sha256": "e5730a81dd15176650d8a4f5df508686d2d3ad9b1d374256f1db1ba0497fddcf"
+    },
+    {
+      "bytes": 11530,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:27.076228+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__pure_mavs_gc__distribution_shift.csv",
+      "sha256": "239635d72365e2a7907f47d7ad796670c5cbcb236f433034c9c5312533fef665"
+    },
+    {
+      "bytes": 14579,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:27.273554+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__pure_mavs_gc__feature_noise.csv",
+      "sha256": "e540596cccbb1efd6838deb8babe9aeb5f9430061276eff2b24ecf03f82dab04"
+    },
+    {
+      "bytes": 12160,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:27.457705+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__pure_mavs_gc__label_noise.csv",
+      "sha256": "a7efe5262e9b0e3cf475a3e3fde1675b4a49f0952aefdcd4602f8fe55837eb29"
+    },
+    {
+      "bytes": 14365,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:27.685769+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__pure_mavs_gc__missing_features.csv",
+      "sha256": "0a24e2e7be38014a4197534aa41c693e9b1305ba22ea04fbbc36af1268976b15"
+    },
+    {
+      "bytes": 12475,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:27.901020+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__pure_mavs_gc__random_feature_deletion.csv",
+      "sha256": "98f53ef90016444e2cd8f0e94c89d4e1876f11fca14984c2e88a8169f425877e"
+    },
+    {
+      "bytes": 10512,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:28.131786+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__pure_mavs_gc__specialist_failure.csv",
+      "sha256": "a4630cb2bf0aac4b6f8741822aa22f409e334908f6d59b9c4e1c33bfeff7d724"
+    },
+    {
+      "bytes": 9716,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:28.345086+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__pure_mavs_gc__synthetic_sensor_failure.csv",
+      "sha256": "a39c0fd557d4b38ef809229f2eeaeeae035ed2c75af825c297447a44c39b82b4"
+    },
+    {
+      "bytes": 11980,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:28.576842+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__single_model__adversarial_confidence_inflation.csv",
+      "sha256": "d9e94ccdd2cb63b2ff30900484cafae7a0dd2d316f8d6e9a27ce81e0e2f32c7b"
+    },
+    {
+      "bytes": 11628,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:28.821530+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__single_model__confidence_distortion.csv",
+      "sha256": "b204e691d56a91f747318a52c369bbd87fc7ef1c7a5f85ca41e3e661bf1a309d"
+    },
+    {
+      "bytes": 11576,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:29.057010+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__single_model__distribution_shift.csv",
+      "sha256": "b129635b1da2771ae960e1abea38d8c8524e3c2e8b7073a260d5a9375493df47"
+    },
+    {
+      "bytes": 16290,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:29.302638+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__single_model__feature_noise.csv",
+      "sha256": "ca545c746bcd4b25ac83a294bc08c532febfeff49a8df5700ccb860b527343b9"
+    },
+    {
+      "bytes": 12238,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:29.527575+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__single_model__label_noise.csv",
+      "sha256": "f909b4b6d17fb52e88e73911f4925b964c165366d60ca4ec1536d7e704b33944"
+    },
+    {
+      "bytes": 15297,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:29.726688+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__single_model__missing_features.csv",
+      "sha256": "dacae5a76f0f37a976e1379dc57dc540ae1fb62027d86b694935f0e5ec1f2e31"
+    },
+    {
+      "bytes": 13193,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:29.926886+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__single_model__random_feature_deletion.csv",
+      "sha256": "accd81a57725338d0bab953dc00aacf49505d9c76cff95676efaac434d209b10"
+    },
+    {
+      "bytes": 10512,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:30.147822+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__single_model__specialist_failure.csv",
+      "sha256": "a13cefb6d3389973670213e13ed465f930d9ea750e7acf930efa411f544c7662"
+    },
+    {
+      "bytes": 9720,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:30.366730+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__single_model__synthetic_sensor_failure.csv",
+      "sha256": "c06101d300e47e1e3c6e39989708256972d21cb239a1c38b81aace550806d85d"
+    },
+    {
+      "bytes": 12364,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:30.590621+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__static_weighted_ensemble__adversarial_confidence_inflation.csv",
+      "sha256": "3b3d2c9f15ed151eb23a1a335167f44bacb178eb162d39499312b3b39ae1f7a9"
+    },
+    {
+      "bytes": 12012,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:30.793148+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__static_weighted_ensemble__confidence_distortion.csv",
+      "sha256": "8739aef4990b024b0918a1d53c555ab9c042be8ae869a44056f1d6a78975c256"
+    },
+    {
+      "bytes": 11960,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:31.000081+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__static_weighted_ensemble__distribution_shift.csv",
+      "sha256": "b943f19f933c7cbf212916892baea791b98706ec94d9da3c19ef0c80e5aacff4"
+    },
+    {
+      "bytes": 16718,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:31.232436+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__static_weighted_ensemble__feature_noise.csv",
+      "sha256": "832a3ca908a206be74f9977fca808b94281b272ac6ec648d0b27ff1d1481fb4b"
+    },
+    {
+      "bytes": 12622,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:31.436840+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__static_weighted_ensemble__label_noise.csv",
+      "sha256": "28bb63a5aa3c6f528e439c56c46bb9a3b33c2cb2447c163691696bc222e1717f"
+    },
+    {
+      "bytes": 15483,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:31.736817+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__static_weighted_ensemble__missing_features.csv",
+      "sha256": "2670e2f57f2684ea8f3d5a390822e15220f71acaeff1eccdaea9c5daf2161b92"
+    },
+    {
+      "bytes": 13249,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:31.972639+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__static_weighted_ensemble__random_feature_deletion.csv",
+      "sha256": "138870ab2c903ed13d67c281e7caebe55d8bb4cf57075c446985575919cea97a"
+    },
+    {
+      "bytes": 11340,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:32.178018+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__static_weighted_ensemble__specialist_failure.csv",
+      "sha256": "124e7df4182bcea78f95499e804ef5fc086e31737c548e3ab9597f2d3532af8d"
+    },
+    {
+      "bytes": 10104,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:32.415145+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__static_weighted_ensemble__synthetic_sensor_failure.csv",
+      "sha256": "cd56b87c47e4a704882d47e9bca5820a8939c2aa00d4db86eb2d8d5f382e8383"
+    },
+    {
+      "bytes": 11932,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:32.633225+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__veto_mavs__adversarial_confidence_inflation.csv",
+      "sha256": "34e83aa64f7098b29591dad06838082a0eed904ef98e922a3abfa84653d504e5"
+    },
+    {
+      "bytes": 11580,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:32.836841+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__veto_mavs__confidence_distortion.csv",
+      "sha256": "723c146ee5bd9066ad0bbdd80e6848435d46afca8608d9a5cca549746e5ccb07"
+    },
+    {
+      "bytes": 11536,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:33.045222+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__veto_mavs__distribution_shift.csv",
+      "sha256": "197e8a0f79e18d33493fe8c1dd551199ce457dab9b972f743aa6afd9ca179adf"
+    },
+    {
+      "bytes": 15775,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:33.250135+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__veto_mavs__feature_noise.csv",
+      "sha256": "c89d362470105dac726bf2ab27ac0162c65e2e6227617df199d91f28d5478498"
+    },
+    {
+      "bytes": 12113,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:33.473072+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__veto_mavs__label_noise.csv",
+      "sha256": "82d2bad215dcf0b79ef4249ce3a717107b6fd75afa213764c80e1d80e5d20279"
+    },
+    {
+      "bytes": 14841,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:33.674663+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__veto_mavs__missing_features.csv",
+      "sha256": "be3695df71c5610b5198022a77bdff5e77f96dd3b4197629c2f25fa7d55b25ec"
+    },
+    {
+      "bytes": 12606,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:33.903988+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__veto_mavs__random_feature_deletion.csv",
+      "sha256": "07b1975da7e9dff6e3250f5f0127b013ecd421d1ccd4f86337c28b0d549942c2"
+    },
+    {
+      "bytes": 10890,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:34.117294+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__veto_mavs__specialist_failure.csv",
+      "sha256": "0fc93a326ab20122d90b4ec9f97bf256b11a001e9d7cd20b4701eef23153fdf9"
+    },
+    {
+      "bytes": 9708,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:34.357615+00:00",
+      "path": "results/robustness_curves/credit_card_fraud__veto_mavs__synthetic_sensor_failure.csv",
+      "sha256": "ce7a431cc6d50c556bf04cf642916c2815d706d2e5d0114f199db8fcd7bfb461"
+    },
+    {
+      "bytes": 49008,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:45.881418+00:00",
+      "path": "results/robustness_curves/curve_manifest.json",
+      "sha256": "99db1a51b35a3c7fda921249ac874df2b30accdddb0b08cb9a8b3e82d922840e"
+    },
+    {
+      "bytes": 763314,
+      "category": "robustness_curves",
+      "modified_at_utc": "2026-06-21T10:56:34.810133+00:00",
+      "path": "results/robustness_curves/robustness_curve_area.csv",
+      "sha256": "00c9b059275423f8414dc5cba9a945e4bb4cb0b849bfa2caf92a1ed77ba1b521"
+    },
+    {
+      "bytes": 1198,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T18:04:19.099610+00:00",
+      "path": "scripts/build_corruption_atlas.py",
+      "sha256": "6d832d093cfa2acbb5a419bb56dc5a7f68266995544c07c3c663381ccfd427a0"
+    },
+    {
+      "bytes": 1275,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-20T18:03:42.774983+00:00",
+      "path": "scripts/build_corruption_grid.py",
+      "sha256": "3a06169d3f25fdf2ef313b9b9b6ae25cb5c9f43ba6ce39e723d9b4b509dce7d2"
+    },
+    {
+      "bytes": 1210,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T18:04:19.101618+00:00",
+      "path": "scripts/build_failure_map.py",
+      "sha256": "8f8d402828d263e3d4203944c85facf4ac43e253e28773e1cb8e25865ae75127"
+    },
+    {
+      "bytes": 3569,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T10:46:22.002846+00:00",
+      "path": "scripts/build_robustness_curves.py",
+      "sha256": "d469329e38762b290efd3dc396b48137c661e19aa0c26c301232d4f836845638"
+    },
+    {
+      "bytes": 9343,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T10:46:22.001400+00:00",
+      "path": "scripts/build_robustness_metrics.py",
+      "sha256": "95a6c0f23855b30469ffc8ae11984617817438cbf944ba0aa134b3b006d377b5"
+    },
+    {
+      "bytes": 1382,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T18:04:19.104629+00:00",
+      "path": "scripts/build_robustness_report.py",
+      "sha256": "2f69aab2ca07b3911231a8392a7bcd72c08f5d08e87dc94b26ed10fd8ddeaba8"
+    },
+    {
+      "bytes": 1373,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T18:45:13.483176+00:00",
+      "path": "scripts/hash_artifacts.py",
+      "sha256": "e33c9fbad7ce67bc99610083031ac9f9d73030e3f1c2aafe4c9b633a884608cb"
+    },
+    {
+      "bytes": 1289,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-20T17:25:06.230114+00:00",
+      "path": "scripts/import_ch10a_foundation.py",
+      "sha256": "4cba64429950221489b95ef38618689b0585131e9631c28e41709bd1ea52f57b"
+    },
+    {
+      "bytes": 5699,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T18:45:13.486185+00:00",
+      "path": "scripts/reproduce_all.py",
+      "sha256": "ce8e6d7955aa7c905603f262776084838af5cd2434566a260706414044ca02a4"
+    },
+    {
+      "bytes": 1486,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T09:16:09.714710+00:00",
+      "path": "scripts/run_audit_corruption_benchmark.py",
+      "sha256": "78eecd89172dbc8b9b22c751a096eb3f5841306d3a8b58fb0191bee94b5fb661"
+    },
+    {
+      "bytes": 1483,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-20T17:25:06.232113+00:00",
+      "path": "scripts/run_clean_baseline.py",
+      "sha256": "53bb364e2a39cc03fb35bd04623b6c347fc5e704239c342aab9cbc754ba88702"
+    },
+    {
+      "bytes": 1492,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T09:16:09.712683+00:00",
+      "path": "scripts/run_locked_corruption_benchmark.py",
+      "sha256": "c4fb902af9de54b345930518f22a37bd17e70ce983ca3c6b85c4961aaf92c5df"
+    },
+    {
+      "bytes": 1733,
+      "category": "scripts",
+      "modified_at_utc": "2026-06-21T18:45:13.485195+00:00",
+      "path": "scripts/verify_artifacts.py",
+      "sha256": "99965c3c03ea820fae2a5e0ba3fdf9059834807bcf43e0019d2ea5a2988d05cb"
+    },
+    {
+      "bytes": 103,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T17:25:06.214134+00:00",
+      "path": "src/mavs_ch10b/__init__.py",
+      "sha256": "5b856507f146f5328788919b8f395c0da1da32081b3f19f79f286991364d3573"
+    },
+    {
+      "bytes": 65,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T17:25:06.217958+00:00",
+      "path": "src/mavs_ch10b/adapters/__init__.py",
+      "sha256": "4e4b48fa0d497fccc539ba5799cd8bd152b155f1eb0bb85a19c148831aa078e2"
+    },
+    {
+      "bytes": 10479,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T17:25:06.224094+00:00",
+      "path": "src/mavs_ch10b/adapters/baseline_runner.py",
+      "sha256": "f6111a3b315cac6c1257cd1cb11e9fa5c248b350f551261d1e1f690813e57c7c"
+    },
+    {
+      "bytes": 10684,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T17:25:06.220474+00:00",
+      "path": "src/mavs_ch10b/adapters/ch10a_artifacts.py",
+      "sha256": "3b1ed5f6cd8958bad435d50496fde3837d67043715c5ce1baa903dc30360290e"
+    },
+    {
+      "bytes": 3570,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T17:25:06.219463+00:00",
+      "path": "src/mavs_ch10b/adapters/ch10a_source.py",
+      "sha256": "30104b9a4450aba8c832c94749fe1e51297f79ee96f4b8a00f1ac78d5a0efae1"
+    },
+    {
+      "bytes": 3964,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T17:25:06.222805+00:00",
+      "path": "src/mavs_ch10b/adapters/ch10a_systems.py",
+      "sha256": "19fdb2ae11ea435dc0bc8695157c0a9b9121519b33e8d32c9245d460b51eabdb"
+    },
+    {
+      "bytes": 2004,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T17:26:44.911894+00:00",
+      "path": "src/mavs_ch10b/cli.py",
+      "sha256": "71c13d6a91a347300cecc1d689359f1b133e41a09bd50c6b103de08e707302df"
+    },
+    {
+      "bytes": 213,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.741491+00:00",
+      "path": "src/mavs_ch10b/corruptions/__init__.py",
+      "sha256": "dafd46c1bd0b2f0470da1ebab5eb3429ef1f3e99694aeebdbfd5848433d1ee41"
+    },
+    {
+      "bytes": 2185,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.761141+00:00",
+      "path": "src/mavs_ch10b/corruptions/adversarial_confidence_inflation.py",
+      "sha256": "1ea3b1e6fb8171e7cd00d5b0a3c0a12d105057b16aef4e41960ac25d5fa7798e"
+    },
+    {
+      "bytes": 9807,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.744493+00:00",
+      "path": "src/mavs_ch10b/corruptions/base.py",
+      "sha256": "c104fe824ee7fa803f71df386d35a3f8a0ef22227d4ce9ce142e509dde774c14"
+    },
+    {
+      "bytes": 1424,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.758141+00:00",
+      "path": "src/mavs_ch10b/corruptions/confidence_distortion.py",
+      "sha256": "025412c17e77faf0235966ad91304063353aa80113c7d7303992153904785c38"
+    },
+    {
+      "bytes": 1971,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.762670+00:00",
+      "path": "src/mavs_ch10b/corruptions/distribution_shift.py",
+      "sha256": "3d29d06a1674ba95683a4c8005db107e9b279bfbee4e982e9f93f57b97c885e6"
+    },
+    {
+      "bytes": 1348,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.747147+00:00",
+      "path": "src/mavs_ch10b/corruptions/feature_noise.py",
+      "sha256": "ae900b27cd49db045ad121a473f571ca03d7bca7917a2b9e3076789088a0538e"
+    },
+    {
+      "bytes": 7964,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:55.116333+00:00",
+      "path": "src/mavs_ch10b/corruptions/grid.py",
+      "sha256": "e57a0f31ad6b425fd94b1b600db519101b2e3949dc57c00b3024e23e2f59db7c"
+    },
+    {
+      "bytes": 1198,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.755143+00:00",
+      "path": "src/mavs_ch10b/corruptions/label_noise.py",
+      "sha256": "46477fd7753c47241ae1afb05535a863e894c3aff7777461e27232e80c1438cc"
+    },
+    {
+      "bytes": 1853,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.772980+00:00",
+      "path": "src/mavs_ch10b/corruptions/manifest.py",
+      "sha256": "1d4345798f9fcde7e2ca1db0a86fecefc0b530641934687c92da242207259c02"
+    },
+    {
+      "bytes": 1087,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.750137+00:00",
+      "path": "src/mavs_ch10b/corruptions/missing_features.py",
+      "sha256": "b6d52e7fcd9d1f3dfb360c31cdfa7db6df5090ef631b90df8d2b4c15551111e1"
+    },
+    {
+      "bytes": 1366,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.753134+00:00",
+      "path": "src/mavs_ch10b/corruptions/random_feature_deletion.py",
+      "sha256": "23a148e9bfeded042f02899d3dd5f183993ddd80a602414e26b18ab48b89e228"
+    },
+    {
+      "bytes": 3208,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.768979+00:00",
+      "path": "src/mavs_ch10b/corruptions/registry.py",
+      "sha256": "a82399b067b5bb8600e864ee0bc48b74966971db29ef393d3ac9a648b166b841"
+    },
+    {
+      "bytes": 1654,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.767977+00:00",
+      "path": "src/mavs_ch10b/corruptions/specialist_failure.py",
+      "sha256": "f7aa325736ba3f3df044c5f3d9b7e9d49baafee3123714bfdced4dd894072fd4"
+    },
+    {
+      "bytes": 1683,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T18:03:42.764666+00:00",
+      "path": "src/mavs_ch10b/corruptions/synthetic_sensor_failure.py",
+      "sha256": "8c593f1a89d161d1e988f4cc9d479a1547da6b8608785e889cef97eb8592621b"
+    },
+    {
+      "bytes": 38,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T10:46:21.983140+00:00",
+      "path": "src/mavs_ch10b/evaluation/__init__.py",
+      "sha256": "186f43fb0f8419529b0dd65f50d35c6cf88145d2595c318c950d87ed1f3408c6"
+    },
+    {
+      "bytes": 3810,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T10:54:13.612508+00:00",
+      "path": "src/mavs_ch10b/evaluation/aggregation.py",
+      "sha256": "826a782f8997e7e9405d8d7f1281e3b21068f4a391425df6aca1da60e13d6633"
+    },
+    {
+      "bytes": 5154,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T10:46:22.001400+00:00",
+      "path": "src/mavs_ch10b/evaluation/curve_builder.py",
+      "sha256": "430bd98084988447d883fbab29ecd71ca721e9f41cbf464298adf5f89bab3d69"
+    },
+    {
+      "bytes": 8852,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T10:54:07.380421+00:00",
+      "path": "src/mavs_ch10b/evaluation/metrics.py",
+      "sha256": "fe72effdc710279767c7172871519377048ccd92257b4f6a8e26b878b56c9e4e"
+    },
+    {
+      "bytes": 2245,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T10:46:21.997890+00:00",
+      "path": "src/mavs_ch10b/evaluation/robustness_area.py",
+      "sha256": "979cc774b10b3706dd2b35611164c882cb0beb8156d2c0ea28d8143a92b7798c"
+    },
+    {
+      "bytes": 601,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T10:46:21.986582+00:00",
+      "path": "src/mavs_ch10b/evaluation/safety.py",
+      "sha256": "59fb0fdfd14f7953f885be14bedc0aa76a5feae8334680282c394ac02dcf7d59"
+    },
+    {
+      "bytes": 4723,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T10:50:37.828873+00:00",
+      "path": "src/mavs_ch10b/evaluation/statistics.py",
+      "sha256": "5910eb6d37bf2d6c29cf49fb8428b93545bd235c70a7e5be4a0d6491fb30687f"
+    },
+    {
+      "bytes": 57,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:00:21.494804+00:00",
+      "path": "src/mavs_ch10b/reporting/__init__.py",
+      "sha256": "1e9f27a6ee561fe2dbed13a97200697e866440c873894539f6bba9ab47b654dd"
+    },
+    {
+      "bytes": 7897,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:02:15.324725+00:00",
+      "path": "src/mavs_ch10b/reporting/corruption_atlas.py",
+      "sha256": "5e1490ba7624849fb5c2de812c91f6bc52b24b47b48ad41f51e4b782756d0ada"
+    },
+    {
+      "bytes": 7484,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:05:46.799065+00:00",
+      "path": "src/mavs_ch10b/reporting/failure_map.py",
+      "sha256": "1734d69181c1c1eebca5f9257462672499d464fe070ac5645d789bd9c20e3f1f"
+    },
+    {
+      "bytes": 6401,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:01:00.224391+00:00",
+      "path": "src/mavs_ch10b/reporting/figures.py",
+      "sha256": "3e63b52e692fea6d118e56ec4dba4a7561998238ca699d353c74cb66eaa3ef8c"
+    },
+    {
+      "bytes": 4672,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:03:52.318914+00:00",
+      "path": "src/mavs_ch10b/reporting/repro_manifest.py",
+      "sha256": "beacaa47423caa4b214b0c5e5803524aef145f5ed7ddc9a8dcfb76aee6838fd4"
+    },
+    {
+      "bytes": 15127,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:03:52.322143+00:00",
+      "path": "src/mavs_ch10b/reporting/robustness_report.py",
+      "sha256": "64bb549463e553b596567cdb1be2dea7e3183a0ef07846399e1ba4b1b3e00f5b"
+    },
+    {
+      "bytes": 15046,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:00:21.494804+00:00",
+      "path": "src/mavs_ch10b/reporting/tables.py",
+      "sha256": "1883902c44456f8e8ab1ec5ae41366be536669ec023d66977eeec3f0d5f04732"
+    },
+    {
+      "bytes": 40,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T09:16:09.703001+00:00",
+      "path": "src/mavs_ch10b/stress/__init__.py",
+      "sha256": "eed954edaf8e4f08f5a7e10a088d8dbe91880519317e3db93534318bab8a762f"
+    },
+    {
+      "bytes": 6818,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T09:18:02.142277+00:00",
+      "path": "src/mavs_ch10b/stress/cache.py",
+      "sha256": "122bd226a7f458007b9209215d83ea9cbfe2a0237cc32fbb2ded510c6a77cf7b"
+    },
+    {
+      "bytes": 7879,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T09:16:09.710157+00:00",
+      "path": "src/mavs_ch10b/stress/run_manifest.py",
+      "sha256": "db9e81be9915d8a9e4369fb0256cc11132890f5a4a90c350320caebbb348867b"
+    },
+    {
+      "bytes": 9437,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T09:18:18.400324+00:00",
+      "path": "src/mavs_ch10b/stress/run_matrix.py",
+      "sha256": "1fa06482356bf9449d91424d1647d491f584f7aeb77200424a70a770e22f11bd"
+    },
+    {
+      "bytes": 7934,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T09:16:09.705999+00:00",
+      "path": "src/mavs_ch10b/stress/system_executor.py",
+      "sha256": "bc92069aae02f8794464d92614ad4f0feaf4e161b86db390bc9f22ce72a6ff5b"
+    },
+    {
+      "bytes": 10290,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T09:18:02.144862+00:00",
+      "path": "src/mavs_ch10b/stress/trace_writer.py",
+      "sha256": "4d718d251c31647c800b22cffb4ac7583000d9ad40855e5a589cd69d8dd47c73"
+    },
+    {
+      "bytes": 4840,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:45:13.481185+00:00",
+      "path": "src/mavs_ch10b/verification/artifact_inventory.py",
+      "sha256": "287bb6eb5b0893435cf60ac41dd998be9b4fdc7df1130b7dcbacdf816893a79c"
+    },
+    {
+      "bytes": 2375,
+      "category": "source",
+      "modified_at_utc": "2026-06-20T17:25:06.226488+00:00",
+      "path": "src/mavs_ch10b/verification/hash_utils.py",
+      "sha256": "eb3b13e4e71f22a95a99f84259d4268274918c35f219f6b89edc229a3ea1dc66"
+    },
+    {
+      "bytes": 5531,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:45:13.480169+00:00",
+      "path": "src/mavs_ch10b/verification/import_audit.py",
+      "sha256": "1852c7aba6a9526ca9c423b6b04ed8e66df37c0de15dc62650fc2fda6f519198"
+    },
+    {
+      "bytes": 26917,
+      "category": "source",
+      "modified_at_utc": "2026-06-21T18:45:13.482166+00:00",
+      "path": "src/mavs_ch10b/verification/release_gate.py",
+      "sha256": "b77754194734ff78225741bf7a253c00ba0b4a867962005de5f5ced4ef3d3949"
+    },
+    {
+      "bytes": 569077,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T10:22:28.687155+00:00",
+      "path": "results/stress_runs/phase3_audit_full_v1_aggregate_index.csv",
+      "sha256": "9fcdc179a6af2a3e25db8e8cb1cbbab9e1eb1575f1c7de73f65263d22c3df056"
+    },
+    {
+      "bytes": 12513462,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T10:22:28.479680+00:00",
+      "path": "results/stress_runs/phase3_audit_full_v1_prediction_index.csv",
+      "sha256": "72d5163268fedac421946bb2aa8949a280f417ba687c62af49a25522d403174c"
+    },
+    {
+      "bytes": 2602,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T10:22:28.970637+00:00",
+      "path": "results/stress_runs/phase3_audit_full_v1_run_manifest.json",
+      "sha256": "5c52ae245933cc3d90c974faa37e86bdcbf889c06ad181ee8133a8267f8d42e7"
+    },
+    {
+      "bytes": 4237036,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T10:22:28.654878+00:00",
+      "path": "results/stress_runs/phase3_audit_full_v1_trace_index.csv",
+      "sha256": "f9a4aac2bf81661f157648c7e4100311d2b3b3f325a67e6a5c7be80ad3aac2cd"
+    },
+    {
+      "bytes": 582536,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:56:52.709157+00:00",
+      "path": "results/stress_runs/phase3_locked_full_v1_aggregate_index.csv",
+      "sha256": "c490afee985775ec1f5cca73ae67010c0513ef87e9508cf74141eeaa0c6ddab5"
+    },
+    {
+      "bytes": 12615178,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:56:52.586127+00:00",
+      "path": "results/stress_runs/phase3_locked_full_v1_prediction_index.csv",
+      "sha256": "ee8a12c7a669877b4ffdefbbfdf016eec525348d309e82de5fef5f57a634bce4"
+    },
+    {
+      "bytes": 2610,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:56:52.939414+00:00",
+      "path": "results/stress_runs/phase3_locked_full_v1_run_manifest.json",
+      "sha256": "c19f1cf6d380a79701ef7de4a6a84ea4ca834dbc81707594d6bec1d11bb65350"
+    },
+    {
+      "bytes": 4274020,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:56:52.680852+00:00",
+      "path": "results/stress_runs/phase3_locked_full_v1_trace_index.csv",
+      "sha256": "9565b0e6f9164ac2c9262b5f0d61d7495b53e2f3c2575c95c777a194b81acef0"
+    },
+    {
+      "bytes": 1183,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:16:39.184793+00:00",
+      "path": "results/stress_runs/phase3_locked_smoke_aggregate_index.csv",
+      "sha256": "42c0eec76c019cebb88a29e00d87f5b8f0a14203cbfd8c07eed0c40471776721"
+    },
+    {
+      "bytes": 1203,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:18:32.885156+00:00",
+      "path": "results/stress_runs/phase3_locked_smoke_npz_aggregate_index.csv",
+      "sha256": "9bfb4d3d1dfcfb07a8accd0322c14cb6420951556ffd109ab582a7d8ee9d1378"
+    },
+    {
+      "bytes": 9359,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:18:32.879959+00:00",
+      "path": "results/stress_runs/phase3_locked_smoke_npz_prediction_index.csv",
+      "sha256": "41da8fbe6eb8b140e613a652d1ad3670b2242b66108ad489eea047b05e4e3fb5"
+    },
+    {
+      "bytes": 2684,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:18:33.057028+00:00",
+      "path": "results/stress_runs/phase3_locked_smoke_npz_run_manifest.json",
+      "sha256": "5e9e8dc4890040c05ea26f3c14f49cbeed7e303832c942570755b96a510f6738"
+    },
+    {
+      "bytes": 3528,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:18:32.882030+00:00",
+      "path": "results/stress_runs/phase3_locked_smoke_npz_trace_index.csv",
+      "sha256": "d18015f82a027fa6942e97a18492c60d55313511ecc3622467b9e2fc8afa54ea"
+    },
+    {
+      "bytes": 9108,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:16:39.178791+00:00",
+      "path": "results/stress_runs/phase3_locked_smoke_prediction_index.csv",
+      "sha256": "4d7ed87357f2a8fa4d9f0f767317acb05636e68c3087b2ec34384ac90baee762"
+    },
+    {
+      "bytes": 2664,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:16:39.388704+00:00",
+      "path": "results/stress_runs/phase3_locked_smoke_run_manifest.json",
+      "sha256": "4febe13ee3f9ba34b555f4a1a52f521fb11c1a975e74a34c9ebfd1d415d5f037"
+    },
+    {
+      "bytes": 3327,
+      "category": "stress_run_manifests",
+      "modified_at_utc": "2026-06-21T09:16:39.181794+00:00",
+      "path": "results/stress_runs/phase3_locked_smoke_trace_index.csv",
+      "sha256": "13f1251bd2a68031f4a6662ddc1500bc9e34d1273b25e04a979ef95fdd10e6f0"
+    },
+    {
+      "bytes": 42,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T18:03:55.116333+00:00",
+      "path": "tests/__init__.py",
+      "sha256": "9d7d97469537d63f2678e0496add6160e68b74b1f0f6aa387351037d464b1821"
+    },
+    {
+      "bytes": 1073,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T09:16:09.723955+00:00",
+      "path": "tests/test_all_specialists_still_speak_under_corruption.py",
+      "sha256": "af63123a7ba44d6b59dc47b57a737edde320645367f0b3cd8d1af36650d7cae1"
+    },
+    {
+      "bytes": 1087,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T18:45:13.489191+00:00",
+      "path": "tests/test_artifact_inventory_complete.py",
+      "sha256": "ea6af496a4394494f386937255cf79b6e9ee8f602dae1d2b4a0172bb365058a6"
+    },
+    {
+      "bytes": 1255,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T09:16:09.727175+00:00",
+      "path": "tests/test_audit_seed_independence.py",
+      "sha256": "219bf69a97ad06ec8666a167b1b3bce1de0ce33d8915e4802f2565c8801e6ebb"
+    },
+    {
+      "bytes": 924,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T17:25:06.235240+00:00",
+      "path": "tests/test_ch10a_import_contract.py",
+      "sha256": "f26449be8245912d00624d62684d93ad918f59ebc23b5c6c6b2b5211d12d30d2"
+    },
+    {
+      "bytes": 909,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T17:25:06.238613+00:00",
+      "path": "tests/test_clean_baseline_replay.py",
+      "sha256": "41bb8b4eaa207ef39acf6b101727d8a1b66569d0db3b4c1537c20471eb15cd98"
+    },
+    {
+      "bytes": 1509,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T18:06:28.121922+00:00",
+      "path": "tests/test_corruption_atlas_complete.py",
+      "sha256": "20b8d35a76cde2b707911edb75c9805d88b363fdd85eed34d656d10dbebc9773"
+    },
+    {
+      "bytes": 932,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T18:03:42.790378+00:00",
+      "path": "tests/test_corruption_bounds.py",
+      "sha256": "29e4f4feb097e5b8f6452503b87aa8c6fbf94a162c5b857206bd4adac68995b5"
+    },
+    {
+      "bytes": 1844,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T18:03:42.781252+00:00",
+      "path": "tests/test_corruption_determinism.py",
+      "sha256": "2e3536c66f6dbf91264318107afd49878da8cc49e65c9c7e1c65b3caf515b4f5"
+    },
+    {
+      "bytes": 1647,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T18:06:23.917455+00:00",
+      "path": "tests/test_corruption_label_cleanliness.py",
+      "sha256": "ea65a09f20f9ba4b3bd3268043c6848c72a57c11fbe1b652973769f7dcde475d"
+    },
+    {
+      "bytes": 2898,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T18:08:01.990627+00:00",
+      "path": "tests/test_corruption_manifest_schema.py",
+      "sha256": "fc539c380dec52586d1bc9572ad2c9bbcb7a4d13851a2286e3d4a6c7670598b0"
+    },
+    {
+      "bytes": 919,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T18:03:42.777242+00:00",
+      "path": "tests/test_corruption_parameterization.py",
+      "sha256": "8b7133e6c34cb5bbc1ef2c3a0ff94bf9d733b458367f73ea5c9b9abc360fa6ce"
+    },
+    {
+      "bytes": 1855,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T09:18:02.150386+00:00",
+      "path": "tests/test_corruption_trace_alignment.py",
+      "sha256": "f7c739001f9f54cdb8c6a272afbf060732e84937283a407f24a73fe6f40af6f7"
+    },
+    {
+      "bytes": 1757,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T18:48:54.912716+00:00",
+      "path": "tests/test_end_to_end_smoke.py",
+      "sha256": "1cb584560aeb3a07684dadabfb58ac665cb796657d98a0d66a1783290ee73c77"
+    },
+    {
+      "bytes": 1219,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T18:06:28.124544+00:00",
+      "path": "tests/test_failure_map_complete.py",
+      "sha256": "d356b8e24f10318d463d48c1200ea52072e1a0b4e1edf274a9fa0880f0c73b97"
+    },
+    {
+      "bytes": 1226,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T18:45:13.490669+00:00",
+      "path": "tests/test_final_run_guards.py",
+      "sha256": "b244331c591f6e4c9dc5852fd16d54a835c10230f5615f4ea24f34df1dce2ba9"
+    },
+    {
+      "bytes": 1431,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T10:46:22.020036+00:00",
+      "path": "tests/test_metric_trace_alignment.py",
+      "sha256": "1078094bb6df96a4d58062ce3f6d6fc478ae7a56480d29bdc1b1edbeb777c387"
+    },
+    {
+      "bytes": 618,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T17:25:06.236238+00:00",
+      "path": "tests/test_no_retraining_guard.py",
+      "sha256": "b8dd88dc48eabeec08bda57feed9c2a03022e79f6b38c43fc09787f2add68f8e"
+    },
+    {
+      "bytes": 1679,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T18:06:28.120910+00:00",
+      "path": "tests/test_report_claims_reference_artifacts.py",
+      "sha256": "21b15a8c5ab912811dbccdc265c5f0562439e70255ba17e27d47b55111427a5d"
+    },
+    {
+      "bytes": 2425,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T18:06:28.118752+00:00",
+      "path": "tests/test_report_inputs_complete.py",
+      "sha256": "be5345eec739d5714eda875184f8a1db949c26a93a81ffb9111756557d98b563"
+    },
+    {
+      "bytes": 687,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T10:46:22.016919+00:00",
+      "path": "tests/test_robustness_curve_area.py",
+      "sha256": "2a8e9bc2a3d558b5de2c1e3d01aeb129a31ed2c48727333bc76fc2c98638a870"
+    },
+    {
+      "bytes": 1170,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T10:54:18.668992+00:00",
+      "path": "tests/test_robustness_metric_definitions.py",
+      "sha256": "30ffbb2fdb4c5c2d9bf6117003cda7f9c5ade83e40c99e454b0e3cf09bf7c36e"
+    },
+    {
+      "bytes": 2150,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T09:16:09.721071+00:00",
+      "path": "tests/test_stress_matrix_complete.py",
+      "sha256": "d12c73edafa3f3ae137e37e6b2ff6f3c669c2076e885e174a19e78c7988509de"
+    },
+    {
+      "bytes": 804,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T09:16:09.722495+00:00",
+      "path": "tests/test_systems_use_identical_corrupted_inputs.py",
+      "sha256": "6d95782dcd776270a44db908fbe0686fb367158e268e5e1ba3c7d6101c88bc42"
+    },
+    {
+      "bytes": 1045,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T10:46:22.018031+00:00",
+      "path": "tests/test_threshold_distribution_metrics.py",
+      "sha256": "4c862cfd12777ceb5f24b07b54fc6f66b7c5fa460e2a25c1fdbb844af9e17f95"
+    },
+    {
+      "bytes": 494,
+      "category": "tests",
+      "modified_at_utc": "2026-06-20T17:25:06.240633+00:00",
+      "path": "tests/test_trace_schema_compatibility.py",
+      "sha256": "cfc9c59824fcf6ad0cafee67b917f2b7f09c7829eb7ef2dd287787f79b644531"
+    },
+    {
+      "bytes": 709,
+      "category": "tests",
+      "modified_at_utc": "2026-06-21T10:46:22.015325+00:00",
+      "path": "tests/test_unsafe_acceptance_metric.py",
+      "sha256": "698379582a4c53265859a2cc7c9c70240c00add005e4382afb9d2483e86b58b9"
+    }
+  ],
+  "category_counts": {
+    "configs": 15,
+    "corruption_manifests": 3,
+    "documentation": 5,
+    "figures": 186,
+    "import_manifests": 6,
+    "metric_tables": 16,
+    "reports": 6,
+    "robustness_curves": 182,
+    "scripts": 13,
+    "source": 45,
+    "stress_run_manifests": 16,
+    "tests": 27
+  },
+  "dependency_versions": {
+    "joblib": "1.5.2",
+    "numpy": "2.3.4",
+    "pandas": "2.3.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7",
+    "sklearn": "1.7.1",
+    "yaml": "6.0.2"
+  },
+  "generated_at_utc": "2026-06-21T18:51:06.595568+00:00",
+  "git_commit": "e736d0f5b102b8bb0e8dd3036f7ed987fc11b0ad",
+  "phase": "phase6",
+  "schema_version": "1.0",
+  "self_referential_reports_excluded": [
+    "results/reports/artifact_inventory.json",
+    "results/reports/verification_report.md"
+  ],
+  "total_artifacts": 520,
+  "total_bytes": 182489417
+}

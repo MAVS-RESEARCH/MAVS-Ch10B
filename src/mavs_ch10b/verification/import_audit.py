@@ -17,7 +17,6 @@ from mavs_ch10b.verification.hash_utils import console, hash_file, hash_json, wr
 FORBIDDEN_TRAINING_TOKENS: tuple[str, ...] = (
     "train_specialists.py",
     "prepare_datasets.py",
-    "reproduce_all.py",
     "fit_static_weights",
 )
 

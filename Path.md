@@ -1659,3 +1659,169 @@ Next required action:
 - Do not omit negative or neutral results.
 - Every corruption run must record dataset hashes, split hashes, checkpoint hashes, config hashes, corruption manifest hashes, command line, and git commit.
 - Every future implementation update must state whether it followed `WorkPlan.md` or deviated from it.
+
+### Phase 6 - Verification, Reproduction, and Release Readiness Implementation
+
+Date: 2026-06-21
+
+Files created or changed:
+
+- Created `scripts/reproduce_all.py`.
+- Created `scripts/hash_artifacts.py`.
+- Created `scripts/verify_artifacts.py`.
+- Created `src/mavs_ch10b/verification/artifact_inventory.py`.
+- Created `src/mavs_ch10b/verification/release_gate.py`.
+- Created `tests/test_end_to_end_smoke.py`.
+- Created `tests/test_artifact_inventory_complete.py`.
+- Created `tests/test_final_run_guards.py`.
+- Updated `src/mavs_ch10b/verification/import_audit.py` to remove `reproduce_all.py` from the forbidden training token list because Chapter 10B Phase 6 explicitly requires a local reproduction harness.
+- Updated `Path.md` with this Phase 6 implementation record before final artifact hashing so `results/reports/artifact_inventory.json` can hash the completed path trail.
+
+Code produced:
+
+- `scripts/reproduce_all.py` implements the WorkPlan one-command reproduction plan with the following ordered steps:
+  `import_ch10a_foundation`, `run_clean_baseline`, `build_corruption_grid`, `run_locked_corruption_benchmark`, `run_audit_corruption_benchmark`, `build_robustness_metrics`, `build_robustness_curves`, `build_corruption_atlas`, `build_failure_map`, `build_robustness_report`, `hash_artifacts`, and `verify_artifacts`.
+- `scripts/reproduce_all.py --run-mode final` defaults to prepared-checkout verification mode. In that mode it validates and logs all reproduction steps, executes artifact hashing, and executes the verification gate. It exposes `--execution-mode full` for a full rebuild path but does not silently certify the existing exploratory Phase 3 archives as final release stress runs.
+- `scripts/hash_artifacts.py` writes `results/reports/artifact_inventory.json`.
+- `src/mavs_ch10b/verification/artifact_inventory.py` inventories documentation, configs, source, tests, scripts, import manifests, corruption manifests, stress run manifests, metric tables, robustness curves, figures, and reports.
+- `scripts/verify_artifacts.py` writes `results/reports/verification_report.md`.
+- `src/mavs_ch10b/verification/release_gate.py` implements the final verification gate:
+  required files exist, inventory hashes match, Chapter 10A import passed, no retraining artifacts exist, corruption grid is complete, locked/audit stress matrices are complete, final-run anti-overfitting guards are armed, metrics cover the required benchmark space, governance trace indexes contain required fields, report claims reference existing hashed artifacts, and `Path.md` records all phase evidence.
+- `tests/test_end_to_end_smoke.py` verifies the reproduction plan contains every WorkPlan step and that `python scripts/reproduce_all.py --run-mode final` succeeds in prepared-checkout mode.
+- `tests/test_artifact_inventory_complete.py` verifies required inventory categories are nonempty and inventory hashes match current files.
+- `tests/test_final_run_guards.py` verifies that exploratory metadata on a synthetic final run is rejected, current nonfinal exploratory archives are not falsely treated as final runs, locked/audit seed overlap is empty, and the verification report passes.
+
+Models imported, trained, or evaluated:
+
+- No models were trained.
+- No model checkpoints were produced by Phase 6.
+- Phase 6 only verifies the existing Chapter 10A imported foundation and the Phase 1-5 Chapter 10B evidence artifacts.
+
+Anti-overfitting controls implemented:
+
+- Final-run exploratory guard: `final_run_mode_violations()` fails any run whose run id or metadata identifies it as final while `run_mode != "final"`.
+- Config immutability guard: final run manifests must match the canonical parsed experiment config hash generated from the current config file.
+- Chapter 10A import immutability guard: the current Phase 1 import manifest hash must match the expected hashes in run manifests and experiment configs.
+- Seed independence guard: locked primary seeds and audit seeds must have no overlap.
+- No-training guard: Phase 6 scans result artifacts for model checkpoint suffixes and scans manifest command lines for forbidden training commands.
+- Report support guard: Phase 5 report claims and manifest input/output records must reference existing artifacts with matching SHA256 hashes.
+
+Console log statements added with comments:
+
+- `scripts/hash_artifacts.py`
+  - Comment line `22`: `# Phase 6 console.log: records artifact hashing script dispatch.`
+  - Code line `23`: `console.log("phase6.script.hash_dispatch", repo_root=str(repo_root), output=str(output_path))`
+  - Comment line `25`: `# Phase 6 console.log: records artifact hashing script completion.`
+  - Code line `26`: `console.log("phase6.script.hash_complete", output=str(output_path), sha256=inventory["artifact_inventory_sha256"], total_artifacts=inventory["total_artifacts"])`
+- `scripts/verify_artifacts.py`
+  - Comment line `25`: `# Phase 6 console.log: records verification script dispatch.`
+  - Code line `26`: `console.log("phase6.script.verify_dispatch", repo_root=str(repo_root), run_mode=args.run_mode, inventory=str(inventory_path), report=str(report_path))`
+  - Comment line `34`: `# Phase 6 console.log: records verification script completion.`
+  - Code line `35`: `console.log("phase6.script.verify_complete", overall_status=report["overall_status"], report=str(report_path))`
+- `scripts/reproduce_all.py`
+  - Comment line `59`: `# Phase 6 console.log: records reproduction harness dispatch.`
+  - Code line `60`: `console.log("phase6.script.reproduce_dispatch", repo_root=str(repo_root), run_mode=args.run_mode, execution_mode=args.execution_mode, plan_only=args.plan_only, steps=len(plan))`
+  - Comment line `70`: `# Phase 6 console.log: records reproduction harness plan-only completion.`
+  - Code line `71`: `console.log("phase6.script.reproduce_plan_complete", steps=len(plan))`
+  - Comment line `75`: `# Phase 6 console.log: records prepared-checkout reproduction step validation without heavy execution.`
+  - Code line `76`: `console.log("phase6.script.reproduce_step_verified_existing", step_index=index, step_id=step.step_id, description=step.description, command=list(step.command))`
+  - Comment line `84`: `# Phase 6 console.log: records reproduction step execution start.`
+  - Code line `85`: `console.log("phase6.script.reproduce_step_start", step_index=index, step_id=step.step_id, description=step.description, command=list(step.command))`
+  - Comment line `99`: `# Phase 6 console.log: records reproduction step execution completion.`
+  - Code line `100`: `console.log("phase6.script.reproduce_step_complete", step_index=index, step_id=step.step_id, returncode=completed.returncode)`
+  - Comment line `102`: `# Phase 6 console.log: records reproduction harness failure.`
+  - Code line `103`: `console.log("phase6.script.reproduce_failed", failed_step=step.step_id, returncode=completed.returncode)`
+  - Comment line `105`: `# Phase 6 console.log: records reproduction harness successful completion.`
+  - Code line `106`: `console.log("phase6.script.reproduce_complete", run_mode=args.run_mode, execution_mode=args.execution_mode, steps=len(plan))`
+- `src/mavs_ch10b/verification/artifact_inventory.py`
+  - Comment line `40`: `# Phase 6 console.log: records artifact inventory category scan start.`
+  - Code line `41`: `console.log("phase6.inventory.scan_start", repo_root=str(resolved_root), categories=len(CATEGORY_PATTERNS))`
+  - Comment line `44`: `# Phase 6 console.log: records one artifact inventory category scan.`
+  - Code line `45`: `console.log("phase6.inventory.category_scanned", category=category, candidates=len(category_paths))`
+  - Comment line `67`: `# Phase 6 console.log: records artifact inventory construction completion.`
+  - Code line `68`: `console.log("phase6.inventory.built", total_artifacts=inventory["total_artifacts"], total_bytes=inventory["total_bytes"], category_counts=category_counts)`
+  - Comment line `82`: `# Phase 6 console.log: records artifact inventory persistence.`
+  - Code line `83`: `console.log("phase6.inventory.written", path=str(output_path), sha256=inventory["artifact_inventory_sha256"], total_artifacts=inventory["total_artifacts"])`
+- `src/mavs_ch10b/verification/release_gate.py`
+  - Comment line `97`: `# Phase 6 console.log: records final verification gate completion.`
+  - Code line `98`: `console.log("phase6.verify.complete", report_path=str(report_path), overall_status=overall_status, checks=len(checks), failures=[check.name for check in checks if check.status != "pass"])`
+  - Comment line `125`: `# Phase 6 console.log: records required-file gate evaluation.`
+  - Code line `126`: `console.log("phase6.verify.required_files_checked", missing=missing, verification_report_state=report_state)`
+  - Comment line `148`: `# Phase 6 console.log: records artifact-inventory hash gate evaluation.`
+  - Code line `149`: `console.log("phase6.verify.inventory_hashes_checked", artifacts=len(inventory.get("artifacts", [])), missing=len(missing), mismatches=len(mismatches))`
+  - Comment line `162`: `# Phase 6 console.log: records artifact-inventory completeness gate evaluation.`
+  - Code line `163`: `console.log("phase6.verify.inventory_completeness_checked", category_counts=counts, missing_categories=missing_categories)`
+  - Comment line `186`: `# Phase 6 console.log: records Chapter 10A import gate evaluation.`
+  - Code line `187`: `console.log("phase6.verify.ch10a_import_checked", status=manifest.get("verification_report_status"), datasets=sorted(imported_datasets), systems=sorted(imported_systems))`
+  - Comment line `216`: `# Phase 6 console.log: records no-retraining artifact gate evaluation.`
+  - Code line `217`: `console.log("phase6.verify.no_retraining_checked", generated_models=len(generated_models), forbidden_commands=len(forbidden_commands), forbidden_tokens=list(FORBIDDEN_TRAINING_TOKENS))`
+  - Comment line `243`: `# Phase 6 console.log: records corruption-grid gate evaluation.`
+  - Code line `244`: `console.log("phase6.verify.corruption_grid_checked", definitions=manifest.get("definition_count"), primary_seeds=sorted(primary), audit_seeds=sorted(audit), seed_overlap=sorted(primary.intersection(audit)))`
+  - Comment line `296`: `# Phase 6 console.log: records stress-matrix gate evaluation.`
+  - Code line `297`: `console.log("phase6.verify.stress_matrix_checked", failures=failures, runs=list(evidence))`
+  - Comment line `314`: `# Phase 6 console.log: records anti-overfitting final-run guard evaluation.`
+  - Code line `315`: `console.log("phase6.verify.final_guards_checked", exploratory_final_violations=exploratory_final_violations, seed_overlap=seed_overlap, import_hash_changes=import_hash_changes, config_changes=config_changes, training_artifacts=training_artifacts)`
+  - Comment line `366`: `# Phase 6 console.log: records metric coverage gate evaluation.`
+  - Code line `367`: `console.log("phase6.verify.metrics_coverage_checked", failures=failures)`
+  - Comment line `406`: `# Phase 6 console.log: records governance trace-index gate evaluation.`
+  - Code line `407`: `console.log("phase6.verify.trace_indexes_checked", failures=failures)`
+  - Comment line `431`: `# Phase 6 console.log: records report reference gate evaluation.`
+  - Code line `432`: `console.log("phase6.verify.report_references_checked", checked=checked, failures=failures[:20])`
+  - Comment line `447`: `# Phase 6 console.log: records Path.md evidence gate evaluation.`
+  - Code line `448`: `console.log("phase6.verify.path_evidence_checked", missing=missing, console_mentions=console_mentions)`
+  - Comment line `504`: `# Phase 6 console.log: records verification report persistence.`
+  - Code line `505`: `console.log("phase6.verify.report_written", path=str(report_path), sha256=hash_file(report_path), overall_status=report["overall_status"])`
+
+Commands run before final verification:
+
+- `git add -A; git commit -m "Implement MAVS Chapter 10B Phase 5 reporting"; git push origin main`
+  - Result: pushed pre-Phase 6 repository state to GitHub as requested before starting Phase 6 implementation.
+  - Commit: `e736d0f`.
+- `python -m compileall scripts src tests`
+  - Result: passed.
+
+WorkPlan compliance before final verification:
+
+- The required Phase 6 files have been created.
+- The reproduction plan covers every WorkPlan step.
+- The artifact inventory categories match the WorkPlan list.
+- The verification gate implements every WorkPlan verification bullet.
+- Anti-overfitting controls are implemented without retraining.
+- Current Phase 3 full stress archives remain labeled `exploratory`; Phase 6 does not convert those archives into final release evidence. Instead, it verifies their integrity and fails synthetic or future final runs that carry exploratory metadata.
+
+Final command evidence:
+
+- Final command evidence is generated after this entry so the artifact inventory hashes the completed `Path.md` Phase 6 implementation record.
+- First exact command run: `python scripts/reproduce_all.py --run-mode final`
+  - Result: passed.
+  - Inventory produced: `results/reports/artifact_inventory.json`.
+  - Inventory artifact count: `520`.
+  - Inventory SHA256 from console output: `a1122922372c359eb24cfbb41a7a5caceed47c13bc196bfcf119d6037e9acf36`.
+  - Verification report produced: `results/reports/verification_report.md`.
+  - Verification overall status: `pass`.
+  - Verification report SHA256 from console output: `4ecc5a594d2ee37f87eabd753fb1a1bd5e0b6fbb94a90c0b7bc4cdae4913ae87`.
+- First full test-suite run: `pytest`
+  - Result: failed with `1 failed, 48 passed`.
+  - Failing test: `tests/test_end_to_end_smoke.py::test_phase6_reproduce_plan_contains_all_workplan_steps`.
+  - Cause: the test parsed the first `[` in stdout, which came from the no-training guard console log payload rather than the plan JSON array.
+  - Fix implemented: changed the test to parse the pretty-printed plan array by locating lines whose stripped content is exactly `[` and `]`.
+- Required refresh after this entry:
+  - Rerun `python scripts/reproduce_all.py --run-mode final` so `artifact_inventory.json` hashes the parser fix and this Path update.
+  - Rerun `pytest`.
+- Refresh command after parser fix: `python scripts/reproduce_all.py --run-mode final`
+  - Result: passed.
+  - Inventory artifact count: `520`.
+  - Inventory SHA256 from console output: `d86b8bc17dc96cbb231d485c3b8dd2dd5a263c320351aa7926346acdcebc35a2`.
+  - Verification report SHA256 from console output: `074c9520baf63872a1afe66119dda192806a7b8d30d7652fb4817aa78ab6a520`.
+  - Verification checks: `12`.
+  - Verification failures: `[]`.
+  - Verification overall status: `pass`.
+- Full test-suite run after parser fix: `pytest`
+  - Result: passed.
+  - Tests collected: `49`.
+  - Tests passed: `49`.
+
+Final refresh requirement after this evidence entry:
+
+- Rerun `python scripts/reproduce_all.py --run-mode final` so the final inventory hashes this completed Phase 6 evidence block.
+- Rerun `pytest` so artifact inventory tests, final-run guard tests, and smoke tests all pass against the final `Path.md` state.
