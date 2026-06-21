@@ -1,0 +1,33 @@
+schema_version: "1.0"
+phase: "phase5"
+title: "MAVS Chapter 10B Robustness Report"
+source_documents:
+  - "MAVS Chapter 10B.pdf"
+  - "Mavs.pdf"
+  - "Mavs Research Bible - Chapter 10.pdf"
+  - "MAVS Research Bible - Chapter 10A Completion Report.pdf"
+research_questions:
+  - "Does governance create graceful degradation?"
+  - "Does governance suppress unsafe acceptance?"
+  - "When does MAVS fail?"
+required_outputs:
+  reports:
+    robustness_report: "results/reports/robustness_report.md"
+    corruption_atlas: "results/reports/corruption_atlas.md"
+    failure_map: "results/reports/failure_map.md"
+  tables:
+    robustness_tables: "results/reports/robustness_tables.csv"
+    robustness_system_deltas: "results/reports/robustness_system_deltas.csv"
+  manifest: "results/reports/robustness_reproducibility_manifest.json"
+  figures:
+    governance_severity_distribution: "results/figures/governance_severity_distribution.png"
+    threshold_distribution: "results/figures/threshold_distribution.png"
+    unsafe_acceptance_by_corruption: "results/figures/unsafe_acceptance_by_corruption.png"
+    robustness_area_by_system: "results/figures/robustness_area_by_system.png"
+    rejection_rate_by_corruption: "results/figures/rejection_rate_by_corruption.png"
+    failure_rate_heatmap: "results/figures/failure_rate_heatmap.png"
+claim_policy:
+  require_artifact_paths: true
+  require_hashes: true
+  retain_negative_evidence: true
+  prohibit_universal_superiority_claims_without_multidataset_multicorruption_support: true

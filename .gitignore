@@ -61,7 +61,20 @@ results/robustness_curves/*
 
 !results/figures/
 results/figures/*
+!results/figures/governance_severity_distribution.png
+!results/figures/threshold_distribution.png
+!results/figures/unsafe_acceptance_by_corruption.png
+!results/figures/robustness_area_by_system.png
+!results/figures/rejection_rate_by_corruption.png
+!results/figures/failure_rate_heatmap.png
 !results/figures/robustness_curves/
 results/figures/robustness_curves/*
 !results/figures/robustness_curves/.gitkeep
 !results/figures/robustness_curves/*.png
+
+!results/reports/
+results/reports/*
+!results/reports/.gitkeep
+!results/reports/*.md
+!results/reports/*.csv
+!results/reports/*.json

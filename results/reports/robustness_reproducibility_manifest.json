@@ -1,0 +1,283 @@
+{
+  "anti_overfitting_controls": {
+    "claims_require_artifact_support": true,
+    "corruption_seed_protocol_reported": true,
+    "locked_and_audit_reported_separately": true,
+    "no_training_performed_in_phase5": true,
+    "universal_superiority_claim_allowed": false
+  },
+  "claim_support": [
+    {
+      "artifacts": [
+        {
+          "path": "results/metrics/locked_corruption/metric_rows.csv",
+          "sha256": "c6e1b8a598ddf4d84f7f8b23287b91d9568d41ae025d9226ed18ff36e86b0e26"
+        },
+        {
+          "path": "results/metrics/audit_corruption/metric_rows.csv",
+          "sha256": "a8466327b36897270708bb8cf032cb5c3c3e69ea626dae0c81efb852031b1342"
+        },
+        {
+          "path": "results/reports/robustness_tables.csv",
+          "sha256": "bb73c806c7b72099c5817c5fb35a57240b6efd14d93efedd2f2cb5b8a6c28cdc"
+        }
+      ],
+      "id": "CLAIM-P5-001",
+      "text": "The Phase 5 report analyzes exploratory locked and audit stress runs, not final release-mode runs."
+    },
+    {
+      "artifacts": [
+        {
+          "path": "results/reports/robustness_system_deltas.csv",
+          "sha256": "16c55fe4ebe2fbe3725c3b046ec48256c37f878211c5759b1c8ceacc8509c388"
+        },
+        {
+          "path": "results/reports/robustness_tables.csv",
+          "sha256": "bb73c806c7b72099c5817c5fb35a57240b6efd14d93efedd2f2cb5b8a6c28cdc"
+        },
+        {
+          "path": "results/figures/unsafe_acceptance_by_corruption.png",
+          "sha256": "3fb02385f81474e7f0febfcb41be36442d4efcceba6b7daa6342f4874c3ef7b4"
+        }
+      ],
+      "id": "CLAIM-P5-002",
+      "text": "Pure MAVS-GC suppresses unsafe acceptance relative to Veto MAVS on average, with mean unsafe delta -0.036608."
+    },
+    {
+      "artifacts": [
+        {
+          "path": "results/reports/robustness_system_deltas.csv",
+          "sha256": "16c55fe4ebe2fbe3725c3b046ec48256c37f878211c5759b1c8ceacc8509c388"
+        },
+        {
+          "path": "results/reports/failure_map.md",
+          "sha256": "69d562a6be1cfbc8db03a0e691bd10457a505724f49b17e99dfe329c45a341a3"
+        }
+      ],
+      "id": "CLAIM-P5-003",
+      "text": "Pure MAVS-GC increases rejection relative to Veto MAVS on average, with mean rejection delta 0.043603."
+    },
+    {
+      "artifacts": [
+        {
+          "path": "results/reports/robustness_system_deltas.csv",
+          "sha256": "16c55fe4ebe2fbe3725c3b046ec48256c37f878211c5759b1c8ceacc8509c388"
+        },
+        {
+          "path": "results/reports/failure_map.md",
+          "sha256": "69d562a6be1cfbc8db03a0e691bd10457a505724f49b17e99dfe329c45a341a3"
+        }
+      ],
+      "id": "CLAIM-P5-004",
+      "text": "Veto MAVS does not change the mean ensemble decision stream in the current artifacts; average accuracy delta is 0.000000."
+    },
+    {
+      "artifacts": [
+        {
+          "path": "results/reports/robustness_tables.csv",
+          "sha256": "bb73c806c7b72099c5817c5fb35a57240b6efd14d93efedd2f2cb5b8a6c28cdc"
+        },
+        {
+          "path": "results/reports/corruption_atlas.md",
+          "sha256": "ec0866dad532ab513509d08b437c68e29a1394cb05b158e0fb6f88a41e480bcb"
+        },
+        {
+          "path": "results/reports/failure_map.md",
+          "sha256": "69d562a6be1cfbc8db03a0e691bd10457a505724f49b17e99dfe329c45a341a3"
+        }
+      ],
+      "id": "CLAIM-P5-005",
+      "text": "The most damaging corruption family by mean accuracy is specialist_failure with mean accuracy 0.745068."
+    },
+    {
+      "artifacts": [
+        {
+          "path": "results/reports/robustness_tables.csv",
+          "sha256": "bb73c806c7b72099c5817c5fb35a57240b6efd14d93efedd2f2cb5b8a6c28cdc"
+        },
+        {
+          "path": "results/reports/robustness_system_deltas.csv",
+          "sha256": "16c55fe4ebe2fbe3725c3b046ec48256c37f878211c5759b1c8ceacc8509c388"
+        },
+        {
+          "path": "results/reports/failure_map.md",
+          "sha256": "69d562a6be1cfbc8db03a0e691bd10457a505724f49b17e99dfe329c45a341a3"
+        }
+      ],
+      "id": "CLAIM-P5-006",
+      "text": "Pure MAVS-GC has the lowest overall unsafe acceptance mean among systems, 0.016737, but this is paired with high rejection."
+    },
+    {
+      "artifacts": [
+        {
+          "path": "results/reports/robustness_tables.csv",
+          "sha256": "bb73c806c7b72099c5817c5fb35a57240b6efd14d93efedd2f2cb5b8a6c28cdc"
+        },
+        {
+          "path": "results/metrics/locked_corruption/metric_rows.csv",
+          "sha256": "c6e1b8a598ddf4d84f7f8b23287b91d9568d41ae025d9226ed18ff36e86b0e26"
+        },
+        {
+          "path": "results/metrics/audit_corruption/metric_rows.csv",
+          "sha256": "a8466327b36897270708bb8cf032cb5c3c3e69ea626dae0c81efb852031b1342"
+        }
+      ],
+      "id": "CLAIM-P5-007",
+      "text": "Technical failure rate is zero in the generated metric rows; observed failures are decision-quality and rejection-behavior failures."
+    },
+    {
+      "artifacts": [
+        {
+          "path": "results/figures/governance_severity_distribution.png",
+          "sha256": "b41fe3ee079f4a983b1f4b1a440e26cce7470a9b8c45e46b8b90a833cb848975"
+        },
+        {
+          "path": "results/metrics/locked_corruption/governance_severity_distribution.csv",
+          "sha256": "6f61b6f085f40568a7ad8b032a735b65358476ea63452ffcc09b731a200b51f3"
+        },
+        {
+          "path": "results/metrics/audit_corruption/governance_threshold_distribution.csv",
+          "sha256": "b47e2f87c8b70c437912831982bf51206f1c518c60a771ef4e787fdd3b013dee"
+        }
+      ],
+      "id": "CLAIM-P5-008",
+      "text": "Governance severity and threshold behavior are reported as trace-derived evidence, not as proof of safety by themselves."
+    }
+  ],
+  "config_path": "configs/reports/robustness_report.yaml",
+  "config_sha256": "2f638e607f4d49621f4c52a168b14f853b97a6716aab0c1ba00b75045b7f9aaf",
+  "dependency_versions": {
+    "joblib": "1.5.2",
+    "numpy": "2.3.4",
+    "pandas": "2.3.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7",
+    "sklearn": "1.7.1",
+    "yaml": "6.0.2"
+  },
+  "generated_at_utc": "2026-06-21T18:06:45.415384+00:00",
+  "git_commit": "7764513d39c5ed92ee7ff9ea939a881fae2ec9ca",
+  "inputs": [
+    {
+      "path": "configs/reports/robustness_report.yaml",
+      "role": "config",
+      "sha256": "2f638e607f4d49621f4c52a168b14f853b97a6716aab0c1ba00b75045b7f9aaf"
+    },
+    {
+      "path": "WorkPlan.md",
+      "role": "report_or_documentation",
+      "sha256": "5e4269437a650e8cf5003c5ad3a17a837614f1cae3e71604e3acaf5abfccfe05"
+    },
+    {
+      "path": "results/baseline_import/ch10a_import_manifest.json",
+      "role": "manifest",
+      "sha256": "d95aa3282c07262162b67bdc462674619ec59f153bea354c4be9223015713e69"
+    },
+    {
+      "path": "results/baseline_import/clean_replay_manifest.json",
+      "role": "manifest",
+      "sha256": "455d71537dc53fa7075256928af57b80bf2ac02a115b53dcae46d3040421835f"
+    },
+    {
+      "path": "results/corruption_manifests/corruption_grid_manifest.json",
+      "role": "manifest",
+      "sha256": "bb6e1be969403fb9f7b70c3f88c3949d373af9882ddfa93462221cb5e1d07c87"
+    },
+    {
+      "path": "results/stress_runs/phase3_locked_full_v1_run_manifest.json",
+      "role": "manifest",
+      "sha256": "c19f1cf6d380a79701ef7de4a6a84ea4ca834dbc81707594d6bec1d11bb65350"
+    },
+    {
+      "path": "results/stress_runs/phase3_audit_full_v1_run_manifest.json",
+      "role": "manifest",
+      "sha256": "5c52ae245933cc3d90c974faa37e86bdcbf889c06ad181ee8133a8267f8d42e7"
+    },
+    {
+      "path": "results/metrics/locked_corruption/metric_manifest.json",
+      "role": "manifest",
+      "sha256": "122ac2f11f7c2b0527b065ef54baa385153a1116e5e116fb68312e523629006c"
+    },
+    {
+      "path": "results/metrics/audit_corruption/metric_manifest.json",
+      "role": "manifest",
+      "sha256": "5acadca7565472ab7ad5bb503eb36723ed59534a221036d8347021a04be7cfb0"
+    },
+    {
+      "path": "results/robustness_curves/curve_manifest.json",
+      "role": "manifest",
+      "sha256": "99db1a51b35a3c7fda921249ac874df2b30accdddb0b08cb9a8b3e82d922840e"
+    }
+  ],
+  "manifest_payload_sha256": "0544e788b0f35589424aeef90adc939881ca3e4ff32ee3da13884e15cac92e04",
+  "outputs": [
+    {
+      "path": "results/reports/robustness_report.md",
+      "role": "report_or_documentation",
+      "sha256": "ad36a8c4053e4b6abff3e4149568c5b7bba4e8b0d7c144283a515a55581a8dc7"
+    },
+    {
+      "path": "results/reports/corruption_atlas.md",
+      "role": "report_or_documentation",
+      "sha256": "ec0866dad532ab513509d08b437c68e29a1394cb05b158e0fb6f88a41e480bcb"
+    },
+    {
+      "path": "results/reports/failure_map.md",
+      "role": "report_or_documentation",
+      "sha256": "69d562a6be1cfbc8db03a0e691bd10457a505724f49b17e99dfe329c45a341a3"
+    },
+    {
+      "path": "results/reports/robustness_tables.csv",
+      "role": "table",
+      "sha256": "bb73c806c7b72099c5817c5fb35a57240b6efd14d93efedd2f2cb5b8a6c28cdc"
+    },
+    {
+      "path": "results/reports/robustness_system_deltas.csv",
+      "role": "table",
+      "sha256": "16c55fe4ebe2fbe3725c3b046ec48256c37f878211c5759b1c8ceacc8509c388"
+    },
+    {
+      "path": "results/figures/governance_severity_distribution.png",
+      "role": "figure",
+      "sha256": "b41fe3ee079f4a983b1f4b1a440e26cce7470a9b8c45e46b8b90a833cb848975"
+    },
+    {
+      "path": "results/figures/threshold_distribution.png",
+      "role": "figure",
+      "sha256": "438908ed9cfb9fdaa9c7b2dd8091d9eedc4ee9d043b8026dbe639a5499a8f84e"
+    },
+    {
+      "path": "results/figures/unsafe_acceptance_by_corruption.png",
+      "role": "figure",
+      "sha256": "3fb02385f81474e7f0febfcb41be36442d4efcceba6b7daa6342f4874c3ef7b4"
+    },
+    {
+      "path": "results/figures/robustness_area_by_system.png",
+      "role": "figure",
+      "sha256": "f67ef92292f53168df0c3084c5fb2d00fac944bd3e50c78eff677dc63231f5d3"
+    },
+    {
+      "path": "results/figures/rejection_rate_by_corruption.png",
+      "role": "figure",
+      "sha256": "1214a0aec294267d8439dab2e3d445db7238a458d3e7baa8d896d67293f4139e"
+    },
+    {
+      "path": "results/figures/failure_rate_heatmap.png",
+      "role": "figure",
+      "sha256": "d22132b5eeb2ee269e376da927f51ca853ab799cf76b82f03cd67eb194d4d1fc"
+    }
+  ],
+  "phase": "phase5",
+  "row_counts": {
+    "area_rows": 3600,
+    "metric_rows": 14400,
+    "robustness_table_rows": 90900,
+    "severity_rows": 5760,
+    "system_delta_rows": 100800,
+    "threshold_rows": 5760
+  },
+  "run_modes": [
+    "exploratory"
+  ],
+  "schema_version": "1.0"
+}

@@ -1325,6 +1325,296 @@ Next required action:
 
 - Begin Phase 5 from `WorkPlan.md`: analysis, corruption atlas, failure map, and robustness report.
 
+### Phase 5 - Analysis, Corruption Atlas, Failure Map, and Robustness Report
+
+Date:
+
+- 2026-06-21 23:08:13 +05:00
+
+Files created or changed:
+
+- `.gitignore`
+- `configs/reports/robustness_report.yaml`
+- `src/mavs_ch10b/reporting/__init__.py`
+- `src/mavs_ch10b/reporting/tables.py`
+- `src/mavs_ch10b/reporting/figures.py`
+- `src/mavs_ch10b/reporting/corruption_atlas.py`
+- `src/mavs_ch10b/reporting/failure_map.py`
+- `src/mavs_ch10b/reporting/robustness_report.py`
+- `src/mavs_ch10b/reporting/repro_manifest.py`
+- `scripts/build_corruption_atlas.py`
+- `scripts/build_failure_map.py`
+- `scripts/build_robustness_report.py`
+- `results/reports/.gitkeep`
+- `results/reports/robustness_report.md`
+- `results/reports/corruption_atlas.md`
+- `results/reports/failure_map.md`
+- `results/reports/robustness_tables.csv`
+- `results/reports/robustness_system_deltas.csv`
+- `results/reports/robustness_reproducibility_manifest.json`
+- `results/figures/governance_severity_distribution.png`
+- `results/figures/threshold_distribution.png`
+- `results/figures/unsafe_acceptance_by_corruption.png`
+- `results/figures/robustness_area_by_system.png`
+- `results/figures/rejection_rate_by_corruption.png`
+- `results/figures/failure_rate_heatmap.png`
+- `tests/test_report_inputs_complete.py`
+- `tests/test_report_claims_reference_artifacts.py`
+- `tests/test_corruption_atlas_complete.py`
+- `tests/test_failure_map_complete.py`
+- `Path.md`
+
+Code produced:
+
+- Added `mavs_ch10b.reporting.tables` for Phase 5 CSV loading, report table writing, long-form robustness table construction, locked-vs-audit area consistency, expanded governance system deltas, and summary statistics.
+- Added `mavs_ch10b.reporting.figures` for top-level Phase 5 figures: governance severity distribution, threshold distribution, unsafe acceptance by corruption family, robustness area by system, rejection rate by corruption level, and technical failure heatmap.
+- Added `mavs_ch10b.reporting.corruption_atlas` to render one markdown section per required corruption family with implementation definition, parameters, target space, expected failure mode, observed degradation, best/worst systems, and linked artifacts.
+- Added `mavs_ch10b.reporting.failure_map` to identify Pure MAVS-GC failure, Veto MAVS failure, over-rejection, under-rejection, surviving unsafe acceptance, most damaging corruptions, and failure mechanism classes.
+- Added `mavs_ch10b.reporting.robustness_report` to build the final robustness report, claim-support ledger, report tables, figures, Corruption Atlas, Failure Map, and manifest orchestration.
+- Added `mavs_ch10b.reporting.repro_manifest` to build and validate the Phase 5 reproducibility manifest and claim-to-artifact hash support.
+- Added standalone scripts for Corruption Atlas, Failure Map, and Robustness Report generation.
+- Added Phase 5 tests for required output existence, row counts, deltas, claim support, artifact hashes, Corruption Atlas completeness, and Failure Map completeness.
+- Updated `.gitignore` so report markdown/CSV/JSON outputs and top-level Phase 5 figures are tracked while transient console logs remain ignored.
+
+Commands run:
+
+- `python -m compileall -q src\mavs_ch10b\reporting scripts\build_corruption_atlas.py scripts\build_failure_map.py scripts\build_robustness_report.py`
+- `python scripts\build_corruption_atlas.py *> results\reports\phase5_corruption_atlas_console.log`
+- `python scripts\build_failure_map.py *> results\reports\phase5_failure_map_console.log`
+- `python scripts\build_robustness_report.py *> results\reports\phase5_robustness_report_console.log`
+- `python -m pytest -q -p no:cacheprovider`
+- Independent Phase 5 validation script checking required files, row counts, manifest hashes, claim artifacts, report sections, atlas family coverage, failure map family coverage, console.log comment coverage, absence of training tokens, and absence of `.joblib` outputs under `results/`.
+- `rg -n "Phase 5 console\.log|console\.log\(" src\mavs_ch10b\reporting scripts\build_corruption_atlas.py scripts\build_failure_map.py scripts\build_robustness_report.py`
+- `Get-FileHash -Algorithm SHA256` for Phase 5 source, test, report, table, manifest, and figure artifacts.
+
+Datasets touched:
+
+- `adult_income`
+- `bank_marketing`
+- `breast_cancer_wisconsin`
+- `credit_card_fraud`
+
+Models imported, trained, or evaluated:
+
+- No model was trained, tuned, selected, or checkpointed in Phase 5.
+- Phase 5 analyzed existing Phase 4 metric outputs for:
+  - `single_model`
+  - `mean_ensemble`
+  - `static_weighted_ensemble`
+  - `veto_mavs`
+  - `pure_mavs_gc`
+- Phase 5 did not load or mutate Chapter 10A checkpoints.
+
+Corruption families touched:
+
+- `adversarial_confidence_inflation`
+- `confidence_distortion`
+- `distribution_shift`
+- `feature_noise`
+- `label_noise`
+- `missing_features`
+- `random_feature_deletion`
+- `specialist_failure`
+- `synthetic_sensor_failure`
+
+Benchmark/test outputs:
+
+- Compile check: `COMPILE_PASS`
+- Full test suite: `41 passed in 6.65s`
+- Independent Phase 5 validation: `PASS`
+- Required files validated by independent stress validator: `25`
+- Phase 5 console logs validated with preceding comments: `34`
+- Robustness table rows: `90900`
+  - Metric rows expanded to long form: `86400`
+  - Robustness area rows included: `3600`
+  - Locked-vs-audit area consistency rows included: `900`
+- Robustness system delta rows: `100800`
+  - Includes Veto MAVS vs Single/Mean/Static baselines.
+  - Includes Pure MAVS-GC vs Single/Mean/Static/Veto baselines.
+- Reproducibility manifest claim count: `8`
+- Reproducibility manifest output count: `11`
+- Top-level Phase 5 figures generated: `6`
+- `.joblib` files under `results/`: `0`
+
+Phase 5 result summary:
+
+- The Robustness Report answers the Chapter 10B question with a qualified answer: Pure MAVS-GC often fails more safely by suppressing unsafe acceptance, but this is coupled to increased rejection and can become severe over-rejection.
+- The report does not claim universal robustness superiority.
+- Veto MAVS is reported as a governance control that is decision-identical to Mean Ensemble in the current artifacts; it is not treated as improved robustness evidence.
+- Specialist failure is identified as the most damaging corruption family by mean accuracy.
+- Governance severity and threshold behavior are reported as trace-derived evidence, not as proof of safety by itself.
+- All claims are mapped to concrete artifacts and hashes in `results/reports/robustness_reproducibility_manifest.json`.
+
+Stress validation evidence:
+
+- `results/reports/robustness_tables.csv` has `90900` rows and contains metric, robustness-area, and locked-vs-audit consistency evidence.
+- `results/reports/robustness_system_deltas.csv` has `100800` rows and contains Pure MAVS-GC versus Veto MAVS deltas.
+- The manifest has `8` claim-support entries.
+- Every claim ID appears in `results/reports/robustness_report.md`.
+- Every claim artifact exists and matches the manifest hash.
+- Every manifest input and output exists and matches the manifest hash.
+- `results/reports/corruption_atlas.md` contains all `9` required corruption families and every required section.
+- `results/reports/failure_map.md` contains required sections for Pure MAVS-GC failure, Veto MAVS failure, over-rejection, under-rejection, surviving unsafe acceptance, damaging corruptions, and failure mechanism classification.
+- The validator checked that no Phase 5 reporting code contains `.fit(`, `fit_transform(`, `joblib.dump(`, `GridSearchCV`, or `RandomizedSearchCV`.
+
+Artifact hashes:
+
+- `configs/reports/robustness_report.yaml`: `2f638e607f4d49621f4c52a168b14f853b97a6716aab0c1ba00b75045b7f9aaf`
+- `src/mavs_ch10b/reporting/__init__.py`: `1e9f27a6ee561fe2dbed13a97200697e866440c873894539f6bba9ab47b654dd`
+- `src/mavs_ch10b/reporting/tables.py`: `1883902c44456f8e8ab1ec5ae41366be536669ec023d66977eeec3f0d5f04732`
+- `src/mavs_ch10b/reporting/figures.py`: `3e63b52e692fea6d118e56ec4dba4a7561998238ca699d353c74cb66eaa3ef8c`
+- `src/mavs_ch10b/reporting/corruption_atlas.py`: `5e1490ba7624849fb5c2de812c91f6bc52b24b47b48ad41f51e4b782756d0ada`
+- `src/mavs_ch10b/reporting/failure_map.py`: `1734d69181c1c1eebca5f9257462672499d464fe070ac5645d789bd9c20e3f1f`
+- `src/mavs_ch10b/reporting/robustness_report.py`: `64bb549463e553b596567cdb1be2dea7e3183a0ef07846399e1ba4b1b3e00f5b`
+- `src/mavs_ch10b/reporting/repro_manifest.py`: `beacaa47423caa4b214b0c5e5803524aef145f5ed7ddc9a8dcfb76aee6838fd4`
+- `scripts/build_corruption_atlas.py`: `6d832d093cfa2acbb5a419bb56dc5a7f68266995544c07c3c663381ccfd427a0`
+- `scripts/build_failure_map.py`: `8f8d402828d263e3d4203944c85facf4ac43e253e28773e1cb8e25865ae75127`
+- `scripts/build_robustness_report.py`: `2f69aab2ca07b3911231a8392a7bcd72c08f5d08e87dc94b26ed10fd8ddeaba8`
+- `tests/test_report_inputs_complete.py`: `be5345eec739d5714eda875184f8a1db949c26a93a81ffb9111756557d98b563`
+- `tests/test_report_claims_reference_artifacts.py`: `21b15a8c5ab912811dbccdc265c5f0562439e70255ba17e27d47b55111427a5d`
+- `tests/test_corruption_atlas_complete.py`: `20b8d35a76cde2b707911edb75c9805d88b363fdd85eed34d656d10dbebc9773`
+- `tests/test_failure_map_complete.py`: `d356b8e24f10318d463d48c1200ea52072e1a0b4e1edf274a9fa0880f0c73b97`
+- `results/reports/robustness_report.md`: `ad36a8c4053e4b6abff3e4149568c5b7bba4e8b0d7c144283a515a55581a8dc7`
+- `results/reports/corruption_atlas.md`: `ec0866dad532ab513509d08b437c68e29a1394cb05b158e0fb6f88a41e480bcb`
+- `results/reports/failure_map.md`: `69d562a6be1cfbc8db03a0e691bd10457a505724f49b17e99dfe329c45a341a3`
+- `results/reports/robustness_tables.csv`: `bb73c806c7b72099c5817c5fb35a57240b6efd14d93efedd2f2cb5b8a6c28cdc`
+- `results/reports/robustness_system_deltas.csv`: `16c55fe4ebe2fbe3725c3b046ec48256c37f878211c5759b1c8ceacc8509c388`
+- `results/reports/robustness_reproducibility_manifest.json`: `ec0d3ac3c2330e1a19293a2ab6c453a420c472de09964a4d0848f49e8c35cae7`
+- `results/figures/governance_severity_distribution.png`: `b41fe3ee079f4a983b1f4b1a440e26cce7470a9b8c45e46b8b90a833cb848975`
+- `results/figures/threshold_distribution.png`: `438908ed9cfb9fdaa9c7b2dd8091d9eedc4ee9d043b8026dbe639a5499a8f84e`
+- `results/figures/unsafe_acceptance_by_corruption.png`: `3fb02385f81474e7f0febfcb41be36442d4efcceba6b7daa6342f4874c3ef7b4`
+- `results/figures/robustness_area_by_system.png`: `f67ef92292f53168df0c3084c5fb2d00fac944bd3e50c78eff677dc63231f5d3`
+- `results/figures/rejection_rate_by_corruption.png`: `1214a0aec294267d8439dab2e3d445db7238a458d3e7baa8d896d67293f4139e`
+- `results/figures/failure_rate_heatmap.png`: `d22132b5eeb2ee269e376da927f51ca853ab799cf76b82f03cd67eb194d4d1fc`
+
+Phase 5 console.log line and comment inventory:
+
+- `scripts/build_failure_map.py`
+  - Comment line `19`: `# Phase 5 console.log: records Failure Map script dispatch.`
+  - Code line `20`: `console.log("phase5.script.failure_map_dispatch", repo_root=str(repo_root))`
+  - Comment line `23`: `# Phase 5 console.log: records Failure Map script completion.`
+  - Code line `24`: `console.log("phase5.script.failure_map_complete", path=str(path))`
+- `scripts/build_corruption_atlas.py`
+  - Comment line `19`: `# Phase 5 console.log: records Corruption Atlas script dispatch.`
+  - Code line `20`: `console.log("phase5.script.corruption_atlas_dispatch", repo_root=str(repo_root))`
+  - Comment line `22`: `# Phase 5 console.log: records Corruption Atlas script completion.`
+  - Code line `23`: `console.log("phase5.script.corruption_atlas_complete", path=str(path))`
+- `scripts/build_robustness_report.py`
+  - Comment line `20`: `# Phase 5 console.log: records Robustness Report script dispatch.`
+  - Code line `21`: `console.log("phase5.script.robustness_report_dispatch", repo_root=str(repo_root), config=str(config_path))`
+  - Comment line `23`: `# Phase 5 console.log: records Robustness Report script completion.`
+  - Code line `24`: `console.log("phase5.script.robustness_report_complete", report_path=str(result["report_path"]), manifest_path=str(result["manifest_path"]))`
+- `src/mavs_ch10b/reporting/figures.py`
+  - Comment line `28`: `# Phase 5 console.log: records completion of all report figure generation.`
+  - Code line `29`: `console.log("phase5.figures.figure_set_built", figures=len(figures))`
+  - Comment line `34`: `# Phase 5 console.log: records governance distribution figure build dispatch.`
+  - Code line `35`: `console.log("phase5.figures.governance_distribution_start", path=str(path), metric=metric)`
+  - Comment line `50`: `# Phase 5 console.log: records metric-by-family figure build dispatch.`
+  - Code line `51`: `console.log("phase5.figures.metric_by_family_start", path=str(path), metric=metric)`
+  - Comment line `66`: `# Phase 5 console.log: records robustness-area figure build dispatch.`
+  - Code line `67`: `console.log("phase5.figures.area_by_system_start", path=str(path))`
+  - Comment line `83`: `# Phase 5 console.log: records rejection-rate figure build dispatch.`
+  - Code line `84`: `console.log("phase5.figures.rejection_by_level_start", path=str(path))`
+  - Comment line `98`: `# Phase 5 console.log: records technical-failure heatmap build dispatch.`
+  - Code line `99`: `console.log("phase5.figures.failure_heatmap_start", path=str(path))`
+  - Comment line `122`: `# Phase 5 console.log: records report figure artifact persistence.`
+  - Code line `123`: `console.log("phase5.figures.figure_written", path=str(path), sha256=record["sha256"])`
+- `src/mavs_ch10b/reporting/failure_map.py`
+  - Comment line `92`: `# Phase 5 console.log: records Failure Map markdown persistence.`
+  - Code line `93`: `console.log("phase5.failure_map.written", path=str(output_path), sha256=hash_file(output_path), damaging_family=str(family_damage.iloc[0]["corruption_family"]))`
+- `src/mavs_ch10b/reporting/corruption_atlas.py`
+  - Comment line `45`: `# Phase 5 console.log: records corruption config loading for the Corruption Atlas.`
+  - Code line `46`: `console.log("phase5.corruption_atlas.config_loaded", path=str(path), corruption_family=payload["corruption_family"])`
+  - Comment line `64`: `# Phase 5 console.log: records one Corruption Atlas family section construction.`
+  - Code line `65`: `console.log("phase5.corruption_atlas.family_section_built", corruption_family=family)`
+  - Comment line `68`: `# Phase 5 console.log: records Corruption Atlas markdown persistence.`
+  - Code line `69`: `console.log("phase5.corruption_atlas.written", path=str(output_path), sha256=hash_file(output_path), families=len(configs))`
+- `src/mavs_ch10b/reporting/robustness_report.py`
+  - Comment line `28`: `# Phase 5 console.log: records Robustness Report configuration loading.`
+  - Code line `29`: `console.log("phase5.robustness_report.config_loaded", path=str(config_path), title=config["title"])`
+  - Comment line `73`: `# Phase 5 console.log: records Robustness Report build completion.`
+  - Code line `74`: `console.log("phase5.robustness_report.complete", report_path=str(report_path), manifest_path=str(manifest_path), claims=len(claim_support))`
+  - Comment line `136`: `# Phase 5 console.log: records claim-support ledger construction.`
+  - Code line `137`: `console.log("phase5.robustness_report.claim_support_built", claims=len(claims))`
+  - Comment line `224`: `# Phase 5 console.log: records Robustness Report markdown persistence.`
+  - Code line `225`: `console.log("phase5.robustness_report.written", path=str(output_path), sha256=hash_file(output_path), claims=len(claim_support))`
+- `src/mavs_ch10b/reporting/tables.py`
+  - Comment line `49`: `# Phase 5 console.log: records CSV input loading for report table construction.`
+  - Code line `50`: `console.log("phase5.tables.csv_loaded", path=str(path), rows=int(frame.shape[0]))`
+  - Comment line `57`: `# Phase 5 console.log: records CSV report artifact persistence.`
+  - Code line `58`: `console.log("phase5.tables.csv_written", path=str(path), rows=int(frame.shape[0]), sha256=hash_file(path))`
+  - Comment line `66`: `# Phase 5 console.log: records combined metric row loading across locked and audit splits.`
+  - Code line `67`: `console.log("phase5.tables.metric_rows_loaded", rows=int(frame.shape[0]), splits=sorted(frame["split_label"].unique().tolist()))`
+  - Comment line `73`: `# Phase 5 console.log: records robustness area row loading for report construction.`
+  - Code line `74`: `console.log("phase5.tables.area_rows_loaded", rows=int(frame.shape[0]))`
+  - Comment line `83`: `# Phase 5 console.log: records governance distribution loading for report construction.`
+  - Code line `84`: `console.log("phase5.tables.governance_distribution_loaded", name=name, rows=int(frame.shape[0]))`
+  - Comment line `156`: `# Phase 5 console.log: records long-form robustness table construction.`
+  - Code line `157`: `console.log("phase5.tables.robustness_table_built", rows=int(combined.shape[0]), metric_rows=len(metric_records), area_rows=int(area_frame.shape[0]), consistency_rows=int(consistency_frame.shape[0]))`
+  - Comment line `186`: `# Phase 5 console.log: records locked-vs-audit consistency table construction.`
+  - Code line `187`: `console.log("phase5.tables.locked_audit_consistency_built", rows=int(merged.shape[0]))`
+  - Comment line `228`: `# Phase 5 console.log: records expanded governance system delta table construction.`
+  - Code line `229`: `console.log("phase5.tables.system_delta_table_built", rows=int(frame.shape[0]), comparisons=sum(len(value) for value in comparisons.values()))`
+  - Comment line `294`: `# Phase 5 console.log: records report summary statistic construction.`
+  - Code line `295`: `console.log("phase5.tables.summary_statistics_built", metric_rows=summary["metric_rows"], area_rows=summary["area_rows"], system_delta_rows=summary["system_delta_rows"])`
+- `src/mavs_ch10b/reporting/repro_manifest.py`
+  - Comment line `43`: `# Phase 5 console.log: records reproducibility manifest construction.`
+  - Code line `44`: `console.log("phase5.repro_manifest.built", inputs=len(inputs), outputs=len(outputs), claims=len(claim_support))`
+  - Comment line `51`: `# Phase 5 console.log: records reproducibility manifest persistence.`
+  - Code line `52`: `console.log("phase5.repro_manifest.written", path=str(path), sha256=hash_file(path), claims=len(manifest["claim_support"]))`
+  - Comment line `66`: `# Phase 5 console.log: records claim-to-artifact validation.`
+  - Code line `67`: `console.log("phase5.repro_manifest.claim_support_validated", claims=len(claims))`
+  - Comment line `84`: `# Phase 5 console.log: records report input artifact manifest construction.`
+  - Code line `85`: `console.log("phase5.repro_manifest.input_artifacts_built", inputs=len(records))`
+
+WorkPlan compliance:
+
+- Followed Phase 5 scope by analyzing the robustness results and answering:
+  - whether governance creates graceful degradation,
+  - whether governance suppresses unsafe acceptance,
+  - when MAVS fails.
+- Created the required reports:
+  - `results/reports/robustness_report.md`
+  - `results/reports/corruption_atlas.md`
+  - `results/reports/failure_map.md`
+- Created the required tables:
+  - `results/reports/robustness_tables.csv`
+  - `results/reports/robustness_system_deltas.csv`
+- Created the required reproducibility manifest:
+  - `results/reports/robustness_reproducibility_manifest.json`
+- Created the required figures:
+  - `results/figures/governance_severity_distribution.png`
+  - `results/figures/threshold_distribution.png`
+  - `results/figures/unsafe_acceptance_by_corruption.png`
+  - `results/figures/robustness_area_by_system.png`
+- Also created `results/figures/rejection_rate_by_corruption.png` and `results/figures/failure_rate_heatmap.png` to satisfy the WorkPlan Code to Produce figure requirements for rejection behavior and failure-rate heatmaps.
+- Corruption Atlas covers every required corruption family and includes all required subsections.
+- Failure Map identifies Pure MAVS-GC failures, Veto MAVS failures, over-rejection, under-rejection, surviving unsafe acceptance, damaging corruption families, and mechanism classes.
+- Every report claim is mapped to benchmark artifacts through the manifest claim ledger.
+- Locked and audit evidence remain separate in the long-form tables and are compared through explicit locked-vs-audit consistency rows.
+- The report identifies that the current stress runs are `exploratory`, not final.
+
+Deviations:
+
+- Added two extra figures beyond the Phase 5 file list: `rejection_rate_by_corruption.png` and `failure_rate_heatmap.png`. These are not deviations from the analytical scope; they implement explicit Code to Produce requirements that were not included in the minimal Files and Directories list.
+- The report states a qualified exploratory answer rather than a final release claim because Phase 3 full stress runs are marked `exploratory`. Phase 6 is responsible for final-mode release readiness.
+
+Failed runs or reruns:
+
+- No Phase 5 command failed.
+- `scripts/build_robustness_report.py` was rerun after a Failure Map display refinement. The refinement added `corruption_seed` to over-rejection, under-rejection, and surviving unsafe acceptance tables so repeated seed-level evidence is explicitly distinguishable.
+
+Risks or limitations:
+
+- Report conclusions are constrained to the four Chapter 10A datasets, configured corruption grid, and Phase 3 exploratory stress outputs.
+- Veto MAVS is decision-identical to Mean Ensemble in the generated artifacts; the report preserves this as negative/neutral evidence.
+- Pure MAVS-GC suppresses unsafe acceptance but increases rejection; the report treats this as a safety tradeoff, not a free robustness improvement.
+- Phase 5 does not perform final release verification; that remains Phase 6.
+
+Next required action:
+
+- Begin Phase 6 from `WorkPlan.md`: verification, reproduction, and release readiness.
+
 ## Update Template for Future Work
 
 Use this template for every material implementation update:
