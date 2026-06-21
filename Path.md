@@ -1825,3 +1825,48 @@ Final refresh requirement after this evidence entry:
 
 - Rerun `python scripts/reproduce_all.py --run-mode final` so the final inventory hashes this completed Phase 6 evidence block.
 - Rerun `pytest` so artifact inventory tests, final-run guard tests, and smoke tests all pass against the final `Path.md` state.
+
+### Phase 6 - README Release Documentation Correction
+
+Date: 2026-06-22
+
+Files created or changed:
+
+- Updated `README.md`.
+- Updated `Path.md` with this documentation correction record.
+
+Code produced:
+
+- No executable code was changed in this correction.
+
+Documentation produced:
+
+- Replaced the Phase 1-only README with a current repository overview.
+- Added current Phase 6 status:
+  - verification report path,
+  - artifact inventory path,
+  - verification status,
+  - artifact count,
+  - test-suite status.
+- Added the exact prepared-checkout verification command:
+  - `python scripts/reproduce_all.py --run-mode final`
+- Added the full rebuild command:
+  - `python scripts/reproduce_all.py --run-mode final --execution-mode full`
+- Added phase-by-phase output locations for Phases 1 through 6.
+- Added the explicit qualification that archived Phase 3 full stress runs remain `exploratory`.
+- Added the no-retraining policy and documentation map.
+
+Console log statements added with comments:
+
+- None. This correction only updates documentation and does not add executable instrumentation.
+
+WorkPlan compliance:
+
+- Follows Phase 6 release-readiness scope by making the repository entrypoint document the implemented reproduction and verification commands.
+- Preserves the anti-overfitting qualification by documenting that exploratory Phase 3 archives are verified for integrity but not relabeled as final release stress evidence.
+
+Required refresh after this entry:
+
+- Rerun `python scripts/reproduce_all.py --run-mode final` so `results/reports/artifact_inventory.json` hashes the updated `README.md` and `Path.md`.
+- Rerun `pytest`.
+- Commit and push the README correction.

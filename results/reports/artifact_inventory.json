@@ -134,18 +134,18 @@
       "sha256": "a8e0411f2abd5a39e51db7cc20b45565d534d09da326e4dc7533a4d1e4d2042d"
     },
     {
-      "bytes": 127407,
+      "bytes": 129089,
       "category": "documentation",
-      "modified_at_utc": "2026-06-21T18:50:20.555419+00:00",
+      "modified_at_utc": "2026-06-21T19:58:49.366711+00:00",
       "path": "Path.md",
-      "sha256": "ab465a662d05e1eedaf4013d03bce3e1a77ee21d8a7f68a085e8a557eb153b3a"
+      "sha256": "482b7a9fc0804fb70f469c2dbd40207a75dbd87703c91fd44ad39035386ac430"
     },
     {
-      "bytes": 1668,
+      "bytes": 4754,
       "category": "documentation",
-      "modified_at_utc": "2026-06-20T17:25:06.195807+00:00",
+      "modified_at_utc": "2026-06-21T19:58:36.045030+00:00",
       "path": "README.md",
-      "sha256": "512b752a88aa093af2122c25069475403082045413a412c9cdc0564ea7d084ae"
+      "sha256": "c62eb23f37c186343e07fb9fc5d8789613d2269853e971ca7c2beba6cf2d9dd1"
     },
     {
       "bytes": 39708,
@@ -3664,8 +3664,8 @@
     "sklearn": "1.7.1",
     "yaml": "6.0.2"
   },
-  "generated_at_utc": "2026-06-21T18:51:06.595568+00:00",
-  "git_commit": "e736d0f5b102b8bb0e8dd3036f7ed987fc11b0ad",
+  "generated_at_utc": "2026-06-21T19:59:20.943509+00:00",
+  "git_commit": "e4e0002ba3405c30b4f689cd99714cb308f64614",
   "phase": "phase6",
   "schema_version": "1.0",
   "self_referential_reports_excluded": [
@@ -3673,5 +3673,5 @@
     "results/reports/verification_report.md"
   ],
   "total_artifacts": 520,
-  "total_bytes": 182489417
+  "total_bytes": 182494185
 }
